@@ -1,0 +1,31 @@
+https://stackoverflow.com/questions/67552020/how-to-fix-error-failed-to-compile-node-modules-react-leaflet-core-esm-pat
+
+Open your package.json file and edit your browserslist as follows.
+
+ "browserslist": {
+   "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+},
+
+
+to 
+
+"browserslist": [
+   ">0.2%",
+  "not dead",
+  "not op_mini all"
+],
+
+Once you've done this, Delete node_modeules/.cache directory.
+
+Then try npm install
+
+and npm start
