@@ -1,22 +1,12 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef, useCallback, useMemo } from 'react';
 import L from 'leaflet';
-import { MapContainer, TileLayer, Marker, Popup, useMapEvents, useMap, useMemo, useCallback,  } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, useMapEvents, useMap, Circle, LayerGroup, CircleMarker} from 'react-leaflet';
 import PropTypes from 'prop-types';
 // material ui components
 import clsx from 'clsx';
 import { alpha, makeStyles, useTheme } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
-import Box from '@material-ui/core/Box'
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import List from '@material-ui/core/List';
-import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
 import InputBase from '@material-ui/core/InputBase';
 import { Card, CardContent, Container, Fab, Input, Paper, Tab, Tabs, TextField } from '@material-ui/core';
 // CSS
@@ -39,7 +29,7 @@ import { CgSandClock } from 'react-icons/cg'
 import { RiPinDistanceFill } from 'react-icons/ri'
 
 
-const center = [51.505, -0.09]
+const center = [36.456636, 15.46875]
 const zoom = 13
 
 const drawerWidth = 410;
@@ -170,12 +160,55 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+function DraggableMarker() {
+  const [draggable, setDraggable] = useState(true)
+  const [position, setPosition] = useState(center)
+  // The type of MarkerRef is React_useRef because we want the same object 
+  // of the MarkerRef after each render. Having new objects and pointers to 
+  // somewhere new in the memory after each render is the problem of using 
+  // UseState functions instead of UseRef.
+  const markerRef = useRef(null)
+  const eventHandlers = useMemo(
+    () => ({
+      dragend: () => {
+        const marker = markerRef.current
+        if (marker != null) {
+          setPosition(marker.getLatLng())
+        }
+      },
+    }),
+    [],
+  )
+  const toggleDraggable = useCallback(() => {
+    setDraggable((d) => !d)
+  }, [])
+
+  return (
+    <Marker
+      draggable={draggable}
+      eventHandlers={eventHandlers}
+      position={position}
+      ref={markerRef}>
+      <Popup minWidth={90}>
+        <span onClick={toggleDraggable}>
+          {markerRef.current !== null 
+            ? `location : ${markerRef.current.getLatLng()}`
+            : <b>Drag to your desired place</b>
+          }
+        </span>
+      </Popup>
+    </Marker>
+  )
+}
+
+
 export default function Map() {
   const classes = useStyles();
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
-  
-  const position = [51.505, -0.09] 
+  // const location = useRef(center)
+  const [position, setPosition] = useState(null)
+  const [locateButton, setLocateButton] = useState(false)
   
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -185,123 +218,178 @@ export default function Map() {
     setOpen(false);
   };
 
+  function LocateView(){
+    const map = useMapEvents({
+      click() {
+        map.locate()
+      },
+      locationfound(e) {
+        setPosition(e.latlng)
+        map.flyTo(e.latlng, map.getMaxZoom() - 1)
+      },
+      locationerror(e) {
+        console.log("locaiton error")
+      }
+    });
+
+    const outterCircleOptions = {borderColor: "whiظ"}
+
+    return position === null ? null : (
+      <LayerGroup>
+        <CircleMarker 
+          center={position}  
+          radius={14} 
+          stroke={false}
+          pathOptions={outterCircleOptions}
+        />
+        <CircleMarker
+          center={position}
+          // pathOptions={fillRedOptions}
+          radius={9}
+          stroke={false}
+          color="white"
+          fillOpacity={1}
+        />
+        <CircleMarker
+          center={position}
+          // pathOptions={fillRedOptions}
+          radius={7}
+          stroke={false}
+          color="blue"
+          fillOpacity={0.6}
+        />
+      </LayerGroup>
+    )
+  } // end of LocationView funciton
+
     
-    return (
-      <div>
-        <div className="topBar">
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="end"
-            onClick={handleDrawerOpen}
-            className={clsx(open && classes.hide) + classes.menuButton}
-          >
-            <MenuIcon 
-              color="action"
-            />
-          </IconButton>
-          <div className="search-container">
-            <InputBase 
-              placeholder="جستجو در نقشه"
-              inputProps={{ 'aria-label': 'search' }}
-              className= {classes.searchInput}
-            />
-          </div>
-          <SearchIcon 
-            className="search-icon"
+  return (
+    <div>
+      <div className="topBar">
+        <IconButton
+          color="inherit"
+          aria-label="open drawer"
+          edge="end"
+          onClick={handleDrawerOpen}
+          className={clsx(open && classes.hide) + classes.menuButton}
+        >
+          <MenuIcon 
+            color="action"
+          />
+        </IconButton>
+        <div className="search-container">
+          <InputBase 
+            placeholder="جستجو در نقشه"
+            inputProps={{ 'aria-label': 'search' }}
+            className= {classes.searchInput}
           />
         </div>
-
-          {/* =================  map contents area ==============================*/}
-        <MapContainer center={position} zoom={13} scrollWheelZoom={true}>
-          <TileLayer
-            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          <Marker position={position}>
-            <Popup>
-              A pretty CSS3 popup. <br /> Easily customizable.
-            </Popup>
-          </Marker>
-        </MapContainer>
-          {/* =================  my location button ==============================*/}
-
-        <Fab
-          aria-label="current location"
-          className={classes.currentLocation}
-        >
-          <MdMyLocation 
-            className={classes.currentLocationIcon}
-            />
-        </Fab>
-
-          {/* ==================  Drawer   ==========================*/}
-        <Drawer
-          className={classes.drawer}
-          variant="persistent"
-          anchor="right"
-          open={open}
-          classes={{
-            paper: classes.drawerPaper,
-          }}
-        >
-          <div className={classes.drawerHeader}>
-            <IconButton onClick={handleDrawerClose}>
-              {theme.direction === 'rtl' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
-            </IconButton>
-            <div className="transportationType-container">
-              <IconButton className={classes.transporationTypeButton}>
-                <FaWalking />
-              </IconButton>
-              <IconButton className={classes.transporationTypeButton}>
-                <FaCar />
-              </IconButton>
-              <IconButton className={classes.transporationTypeButton}>
-                <FaTruck />
-              </IconButton>
-              <IconButton className={classes.transporationTypeButton}>
-                <FaBiking />
-              </IconButton>
-              <IconButton className={classes.transporationTypeButton}>
-                <FaWheelchair />
-              </IconButton>
-            </div>
-          </div>
-          
-          {/* =============== Drawer body ====================== */}
-          <Container className={classes.drawerBody}>
-            <Card
-            color="green"
-            >
-              <CardContent>
-                <div className="originInputContainer">
-                  <IoLocationSharp className="originIcon" />
-                  <input 
-                    className="originInput"
-                    placeholder="موقعیت شما"
-                    type="search"
-                  />
-                </div>
-                <div className="originInputContainer">
-                  <CgSandClock className="timeIcon" />
-                  <input 
-                    className="originInput"
-                    placeholder="فاصله زمانی"
-                    type="search"
-                  />
-                </div>
-                <div className="originInputContainer">
-                  <RiPinDistanceFill className="timeIcon" />
-                  <input 
-                    className="originInput"
-                    placeholder="مسافت بر حسب متر"
-                    type="search"
-                  />
-                </div>
-              </CardContent>
-            </Card> 
-          </Container>
-        </Drawer>
+        <SearchIcon 
+          className="search-icon"
+        />
       </div>
-    )
+
+        {/* =================  map contents area ==============================*/}
+      <MapContainer 
+      center={center} 
+      zoom={3} 
+      scrollWheelZoom={true}
+      minZoom={3}
+      >
+        <TileLayer
+          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        <Marker position={center}>
+          <Popup>
+            A pretty CSS3 popup. <br /> Easily customizable.
+          </Popup>
+        </Marker>
+
+        <LocateView />
+        <DraggableMarker />
+      </MapContainer>
+        {/* =================  my location button ==============================*/}
+
+      <Fab
+        aria-label="current location"
+        className={classes.currentLocation}
+        onClick={() => {
+          setLocateButton(true)
+        }}
+      >
+        <MdMyLocation 
+          className={classes.currentLocationIcon}
+          />
+      </Fab>
+
+        {/* ==================  Drawer   ==========================*/}
+      <Drawer
+        className={classes.drawer}
+        variant="persistent"
+        anchor="right"
+        open={open}
+        classes={{
+          paper: classes.drawerPaper,
+        }}
+      >
+        <div className={classes.drawerHeader}>
+          <IconButton onClick={handleDrawerClose}>
+            {theme.direction === 'rtl' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
+          </IconButton>
+          <div className="transportationType-container">
+            <IconButton className={classes.transporationTypeButton}>
+              <FaWalking />
+            </IconButton>
+            <IconButton className={classes.transporationTypeButton}>
+              <FaCar />
+            </IconButton>
+            <IconButton className={classes.transporationTypeButton}>
+              <FaTruck />
+            </IconButton>
+            <IconButton className={classes.transporationTypeButton}>
+              <FaBiking />
+            </IconButton>
+            <IconButton className={classes.transporationTypeButton}>
+              <FaWheelchair />
+            </IconButton>
+          </div>
+        </div>
+        
+        {/* =============== Drawer body ====================== */}
+        <Container className={classes.drawerBody}>
+          <Card
+          color="green"
+          >
+            <CardContent>
+              <div className="originInputContainer">
+                <IoLocationSharp className="originIcon" />
+                <input 
+                  className="originInput"
+                  placeholder="موقعیت شما"
+                  type="search"
+                />
+              </div>
+              <div className="originInputContainer">
+                <CgSandClock className="timeIcon" />
+                <input 
+                  className="originInput"
+                  placeholder="فاصله زمانی"
+                  type="search"
+                />
+              </div>
+              <div className="originInputContainer">
+                <RiPinDistanceFill className="timeIcon" />
+                <input 
+                  className="originInput"
+                  placeholder="مسافت بر حسب متر"
+                  type="search"
+                />
+              </div>
+            </CardContent>
+          </Card> 
+        </Container>
+      </Drawer>
+    </div>
+  )
 }

@@ -1,0 +1,15 @@
+{
+  "name": "website-frontend-2",
+  "version": "1.0.0",
+  "description": "This projects is using raw leaflet.js library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kasra Korminejad",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "leaflet": "^1.7.1"
+  }
+}
