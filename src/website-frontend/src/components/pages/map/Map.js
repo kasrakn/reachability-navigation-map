@@ -1,14 +1,17 @@
 import React from 'react';
 import { useEffect, useState, useRef, useCallback, useMemo } from 'react';
 import L from 'leaflet';
-import { MapContainer, TileLayer, Marker, Popup, useMapEvents, useMap, Circle, LayerGroup, CircleMarker} from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, useMapEvents, useMap } from 'react-leaflet';
+import { Circle, LayerGroup, CircleMarker, Pane, Polygon, Polyline } from 'react-leaflet'
 import PropTypes from 'prop-types';
+// React router
+import { Link } from 'react-router-dom'
 // material ui components
 import clsx from 'clsx';
 import { alpha, makeStyles, useTheme } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import InputBase from '@material-ui/core/InputBase';
-import { Card, CardContent, Container, Fab, Input, Paper, Tab, Tabs, TextField } from '@material-ui/core';
+import { Button, Card, CardContent, CircularProgress, Container, Fab, Input, Paper, Tab, Tabs, TextField } from '@material-ui/core';
 // CSS
 import './map.css'
 // import 'leaflet/dist/leaflet.css'
@@ -25,7 +28,7 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import { FaWalking, FaWheelchair, FaTruck, FaCar, FaBiking } from 'react-icons/fa'
 import { GrLocationPin } from 'react-icons/gr'
 import { IoLocationSharp } from 'react-icons/io5'
-import { CgSandClock } from 'react-icons/cg'
+import { CgChevronDoubleRightO, CgSandClock } from 'react-icons/cg'
 import { RiPinDistanceFill } from 'react-icons/ri'
 
 
@@ -158,111 +161,180 @@ const useStyles = makeStyles((theme) => ({
     minWidth: 0,
     letterSpacing: 0
   },
+  submitButton: {
+    width: "100%"
+  }
 }));
 
-function DraggableMarker() {
-  const [draggable, setDraggable] = useState(true)
-  const [position, setPosition] = useState(center)
-  // The type of MarkerRef is React_useRef because we want the same object 
-  // of the MarkerRef after each render. Having new objects and pointers to 
-  // somewhere new in the memory after each render is the problem of using 
-  // UseState functions instead of UseRef.
+
+
+
+
+export default function Map() {
+  // ===================================================================================
+function LocationMarker() {
+  // const [draggable, setDraggable] = useState(true)
   const markerRef = useRef(null)
+  const map = useMap()
+
+  // const icon = L.icon({
+  //   iconUrl: ""
+  // });
+
+  // Marker event handler
   const eventHandlers = useMemo(
     () => ({
-      dragend: () => {
+      click: () => {
         const marker = markerRef.current
         if (marker != null) {
-          setPosition(marker.getLatLng())
+          setOriginChangable(!originChangable)
+          
+          if (originChangable === false) {
+            setOriginPosition(marker.getLatLng())
+          }
         }
       },
     }),
     [],
-  )
+  );
+
+  // Onlick handler
   const toggleDraggable = useCallback(() => {
-    setDraggable((d) => !d)
+    // setDraggable((d) => !d)
   }, [])
 
   return (
     <Marker
-      draggable={draggable}
+      // draggable={draggable}
       eventHandlers={eventHandlers}
-      position={position}
+      position={originPosition}
       ref={markerRef}>
+
       <Popup minWidth={90}>
         <span onClick={toggleDraggable}>
           {markerRef.current !== null 
             ? `location : ${markerRef.current.getLatLng()}`
-            : <b>Drag to your desired place</b>
+            : <b>Set this marker to your desired place</b>
           }
         </span>
       </Popup>
     </Marker>
   )
 }
+// ===================================================================================
 
 
-export default function Map() {
+function LocateView(){
+  const map = useMapEvents({
+    load() {
+      map.locate()
+    },
+    locationfound(e) {
+      setPosition(e.latlng)
+      map.flyTo(e.latlng, map.getMaxZoom() - 1)
+    },
+    locationerror(e) {
+      console.log("locaiton error")
+    },
+    move(e) {
+      if (originChangable === true) {
+        setOriginPosition(map.getCenter())
+      }
+    }
+  });
+
+  return position === null ? null : (
+    <LayerGroup>
+      <CircleMarker 
+        center={position}  
+        radius={14} 
+        stroke={false}
+      />
+      <CircleMarker
+        center={position}
+        // pathOptions={fillRedOptions}
+        radius={8.5}
+        stroke={false}
+        color="white"
+        fillOpacity={1}
+      />
+      <CircleMarker
+        center={position}
+        // pathOptions={fillRedOptions}
+        radius={7}
+        stroke={false}
+        color="blue"
+        fillOpacity={0.6}
+      />
+    </LayerGroup>
+  )
+} // ----------- end of LocationView funciton
+
   const classes = useStyles();
   const theme = useTheme();
+
+  const [map, setMap] = useState(null)
   const [open, setOpen] = React.useState(false);
-  // const location = useRef(center)
-  const [position, setPosition] = useState(null)
   const [locateButton, setLocateButton] = useState(false)
+
+  const [loading, setLoading] = useState(false)
+  const [timeInput, setTimeInput] = useState('')
+  const [distanceInput, setDistanceInput] = useState('')
+
+  const [position, setPosition] = useState(null)
+  const [originPosition, setOriginPosition] = useState(center)
+  const [originChangable, setOriginChangable] = useState(true)
+  const [transportation, setTransportation] = useState('driving-car')
+  
+  const [isochrone, setIsochrone] = useState(null)
+  const [isochroneCoords, setIsochroneCoords] = useState([])
   
   const handleDrawerOpen = () => {
     setOpen(true);
   };
-
+  
   const handleDrawerClose = () => {
     setOpen(false);
   };
 
-  function LocateView(){
-    const map = useMapEvents({
-      click() {
-        map.locate()
+  const fetchIsochrone = async() => {
+    const data = {
+      "locations": [[originPosition.lng.toString(), originPosition.lat.toString()]],
+      "range_type": "time",
+      "range": [timeInput]
+    }
+
+    // this two methods can be combined together
+    const response = await fetch(`https://api.openrouteservice.org/v2/isochrones/${transportation}`, {
+      method: "POST",
+      headers: {
+        'Accept': 'application/json, application/geo+json, application/gpx+xml, img/png; charset=utf-8',
+        'Authorization': '5b3ce3597851110001cf6248ef4f468a3bbe4724ae286a8e3d9f1497',
+        'Content-Type': 'application/json; charset=utf-8'
       },
-      locationfound(e) {
-        setPosition(e.latlng)
-        map.flyTo(e.latlng, map.getMaxZoom() - 1)
-      },
-      locationerror(e) {
-        console.log("locaiton error")
-      }
+      body: JSON.stringify(data)
     });
-
-    const outterCircleOptions = {borderColor: "whiظ"}
-
-    return position === null ? null : (
-      <LayerGroup>
-        <CircleMarker 
-          center={position}  
-          radius={14} 
-          stroke={false}
-          pathOptions={outterCircleOptions}
-        />
-        <CircleMarker
-          center={position}
-          // pathOptions={fillRedOptions}
-          radius={9}
-          stroke={false}
-          color="white"
-          fillOpacity={1}
-        />
-        <CircleMarker
-          center={position}
-          // pathOptions={fillRedOptions}
-          radius={7}
-          stroke={false}
-          color="blue"
-          fillOpacity={0.6}
-        />
-      </LayerGroup>
-    )
-  } // end of LocationView funciton
-
     
+    const items = await response.json();
+    setIsochrone(items);
+    const reversed = items.features[0].geometry.coordinates[0].map(coord => coord.reverse());
+    setIsochroneCoords(reversed)
+  }
+  
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setLoading(true);
+    fetchIsochrone()
+    setLoading(false)
+  }
+
+  useEffect(() => {
+    if (map !== null) {
+      map.locate({setView: true, maxZoom: map.getMaxZoom() - 1})
+    }
+  }, [map])
+
+
   return (
     <div>
       <div className="topBar">
@@ -291,23 +363,30 @@ export default function Map() {
 
         {/* =================  map contents area ==============================*/}
       <MapContainer 
+      id="map-container"
       center={center} 
       zoom={3} 
       scrollWheelZoom={true}
       minZoom={3}
+      whenCreated={setMap}
+      whenReady={() => {
+      }}
       >
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker position={center}>
-          <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
-          </Popup>
-        </Marker>
-
         <LocateView />
-        <DraggableMarker />
+        <LocationMarker />
+        <Polygon
+        positions={isochroneCoords}
+        interactive={false}
+        color="blue"
+        // pathOptions={{
+        //   color: "blue",
+        //   // opacity: "50%"
+        // }}
+        />
       </MapContainer>
         {/* =================  my location button ==============================*/}
 
@@ -315,7 +394,8 @@ export default function Map() {
         aria-label="current location"
         className={classes.currentLocation}
         onClick={() => {
-          setLocateButton(true)
+          // map.locate({setView: true, maxZoom: 16})
+          map.flyTo(position, map.getMaxZoom() - 1)
         }}
       >
         <MdMyLocation 
@@ -362,29 +442,61 @@ export default function Map() {
           color="green"
           >
             <CardContent>
-              <div className="originInputContainer">
-                <IoLocationSharp className="originIcon" />
-                <input 
-                  className="originInput"
-                  placeholder="موقعیت شما"
-                  type="search"
-                />
-              </div>
-              <div className="originInputContainer">
-                <CgSandClock className="timeIcon" />
-                <input 
-                  className="originInput"
-                  placeholder="فاصله زمانی"
-                  type="search"
-                />
-              </div>
-              <div className="originInputContainer">
-                <RiPinDistanceFill className="timeIcon" />
-                <input 
-                  className="originInput"
-                  placeholder="مسافت بر حسب متر"
-                  type="search"
-                />
+              <form
+                onSubmit={handleSubmit}
+              >
+                <div className="originInputContainer">
+                  <IoLocationSharp className="originIcon" />
+                  <input 
+                    className="originInput"
+                    placeholder="موقعیت شما"
+                    type="search"
+                    defaultValue={originPosition.lat === undefined
+                        ? ''
+                        : `${originPosition.lat.toFixed(5)}, ${originPosition.lng.toFixed(5)}`
+                    }
+                    // onChange={(e) => {setLocationMarkerPosition(e.target.value)}}
+                    style={{direction: "ltr"}}
+                  />
+                </div>
+                <div className="originInputContainer">
+                  <CgSandClock className="timeIcon" />
+                  <input 
+                    className="originInput"
+                    placeholder="فاصله زمانی"
+                    type="number"
+                    min={1}
+                    max={59}
+                    pattern="^[0-9]{0-2}"
+                    onChange={(e) => {
+                      setTimeInput(e.target.value)
+                    }}
+                  />
+                </div>
+                <div className="originInputContainer">
+                  <RiPinDistanceFill className="timeIcon" />
+                  <input 
+                    className="originInput"
+                    placeholder="مسافت بر حسب متر"
+                    type="search"
+                    onChange={(e) => {
+                      setDistanceInput(e.target.value)
+                    }}
+                  />
+                </div>
+                <div className="originInputContainer">
+                  <Button
+                    variant="contained" 
+                    color="primary"
+                    type="submit"
+                    className={classes.submitButton}
+                  >
+                    محاسبه
+                  </Button>
+                </div>
+              </form>
+              <div className="loadingBar">
+                {loading && <CircularProgress />}
               </div>
             </CardContent>
           </Card> 
