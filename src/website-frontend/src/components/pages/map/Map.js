@@ -2,33 +2,30 @@ import React from 'react';
 import { useEffect, useState, useRef, useCallback, useMemo } from 'react';
 import L from 'leaflet';
 import { MapContainer, TileLayer, Marker, Popup, useMapEvents, useMap } from 'react-leaflet';
-import { Circle, LayerGroup, CircleMarker, Pane, Polygon, Polyline } from 'react-leaflet'
-import PropTypes from 'prop-types';
+import { LayerGroup, CircleMarker, Polygon } from 'react-leaflet'
+// import PropTypes from 'prop-types';
 // React router
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 // material ui components
 import clsx from 'clsx';
 import { alpha, makeStyles, useTheme } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import InputBase from '@material-ui/core/InputBase';
-import { Button, Card, CardContent, CircularProgress, Container, Fab, Input, Paper, Tab, Tabs, TextField } from '@material-ui/core';
+import { Button, Card, CardContent, CircularProgress, Container, Fab, Snackbar} from '@material-ui/core';
+import MuiAlert from '@material-ui/lab/Alert';
 // CSS
 import './map.css'
 // import 'leaflet/dist/leaflet.css'
 // icons
-import { BiCurrentLocation } from 'react-icons/bi'
 import SearchIcon from '@material-ui/icons/Search';
 import { MdMyLocation } from 'react-icons/md'
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import { FaWalking, FaWheelchair, FaTruck, FaCar, FaBiking } from 'react-icons/fa'
-import { GrLocationPin } from 'react-icons/gr'
 import { IoLocationSharp } from 'react-icons/io5'
-import { CgChevronDoubleRightO, CgSandClock } from 'react-icons/cg'
+import { CgSandClock } from 'react-icons/cg'
 import { RiPinDistanceFill } from 'react-icons/ri'
 
 
@@ -163,6 +160,22 @@ const useStyles = makeStyles((theme) => ({
   },
   submitButton: {
     width: "100%"
+  },
+  snackAlert: {
+    width: '100%',
+    '& > * + *': {
+      marginTop: theme.spacing(2),
+      marginLeft: theme.spacing(2)
+    },
+    zIndex: "1300"
+  }, 
+  alertText: {
+    width: "100%",
+    margin: "0 15px",
+    alignItems: "center",
+    justifyContent: "center",
+    // marginRight: "15px"
+    // marginRight: "15px"
   }
 }));
 
@@ -226,7 +239,7 @@ function LocationMarker() {
 
 function LocateView(){
   const map = useMapEvents({
-    load() {
+    click() {
       map.locate()
     },
     locationfound(e) {
@@ -234,7 +247,7 @@ function LocateView(){
       map.flyTo(e.latlng, map.getMaxZoom() - 1)
     },
     locationerror(e) {
-      console.log("locaiton error")
+      
     },
     move(e) {
       if (originChangable === true) {
@@ -275,6 +288,7 @@ function LocateView(){
 
   const [map, setMap] = useState(null)
   const [open, setOpen] = React.useState(false);
+  const [alertOpen, setAlertOpen] = React.useState(false );
   const [locateButton, setLocateButton] = useState(false)
 
   const [loading, setLoading] = useState(false)
@@ -328,9 +342,23 @@ function LocateView(){
     setLoading(false)
   }
 
+  const handleAlertClose = (e, reason) => {
+    if (reason === 'clickaway') {
+      return ;
+    }
+    setAlertOpen(false)
+  }
+
   useEffect(() => {
     if (map !== null) {
       map.locate({setView: true, maxZoom: map.getMaxZoom() - 1})
+      map.on('locationfound', (e) => {
+        setPosition(e.latlng)
+        map.flyTo(e.latlng)
+      })
+      map.on('locationerror', (e) => {
+        setAlertOpen(true)
+      })
     }
   }, [map])
 
@@ -387,6 +415,19 @@ function LocateView(){
         //   // opacity: "50%"
         // }}
         />
+        <div className="snackAlert">
+          <Snackbar 
+            open={alertOpen} 
+            autoHideDuration={20000} 
+            onClose={handleAlertClose} 
+            >
+            <MuiAlert elevation={6} variant="filled" severity="error" onClose={handleAlertClose}>
+              <div className={classes.alertText}>
+              به منظور استفاده بهتر از امکانات سایت، به مرورگر خود دسترسی موقعیت مکانی بدهید
+              </div>
+            </MuiAlert>
+          </Snackbar>
+        </div>
       </MapContainer>
         {/* =================  my location button ==============================*/}
 
@@ -395,7 +436,12 @@ function LocateView(){
         className={classes.currentLocation}
         onClick={() => {
           // map.locate({setView: true, maxZoom: 16})
-          map.flyTo(position, map.getMaxZoom() - 1)
+          if (position !== null) {
+            map.flyTo(position, map.getMaxZoom() - 1)
+          } else {
+            map.locate()
+          }
+          
         }}
       >
         <MdMyLocation 
@@ -418,19 +464,75 @@ function LocateView(){
             {theme.direction === 'rtl' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
           </IconButton>
           <div className="transportationType-container">
-            <IconButton className={classes.transporationTypeButton}>
-              <FaWalking />
-            </IconButton>
-            <IconButton className={classes.transporationTypeButton}>
+            <IconButton 
+              className={classes.transporationTypeButton}
+              
+              onClick={() => {
+                setTransportation('driving-car')
+                
+              }}
+              color={
+                transportation === 'driving-car'
+                  ? 'primary'
+                  : 'default'
+              }
+              >
               <FaCar />
             </IconButton>
-            <IconButton className={classes.transporationTypeButton}>
+            <IconButton 
+              className={classes.transporationTypeButton}
+              onClick={() => {
+                setTransportation('driving-hgv')
+                
+              }}
+              color={
+                transportation === 'driving-hgv'
+                  ? 'primary'
+                  : 'default'
+              }
+              >
               <FaTruck />
             </IconButton>
-            <IconButton className={classes.transporationTypeButton}>
+            <IconButton 
+              className={classes.transporationTypeButton}
+              onClick={() => {
+                setTransportation('cycling-regular')
+                
+              }}
+              color={
+                transportation === 'cycling-regular'
+                  ? 'primary'
+                  : 'default'
+              }
+              >
               <FaBiking />
             </IconButton>
-            <IconButton className={classes.transporationTypeButton}>
+            <IconButton 
+              className={classes.transporationTypeButton}
+              onClick={() => {
+                setTransportation('foot-walking')
+                
+              }}
+              color={
+                transportation === 'foot-walking'
+                  ? 'primary'
+                  : 'default'
+              }
+              >
+              <FaWalking />
+            </IconButton>
+            <IconButton 
+              className={classes.transporationTypeButton}
+              onClick={() => {
+                setTransportation('wheelchair')
+                
+              }}
+              color={
+                transportation === 'wheelchair'
+                  ? 'primary'
+                  : 'default'
+              }
+              >
               <FaWheelchair />
             </IconButton>
           </div>
@@ -465,9 +567,9 @@ function LocateView(){
                     className="originInput"
                     placeholder="فاصله زمانی"
                     type="number"
-                    min={1}
-                    max={59}
-                    pattern="^[0-9]{0-2}"
+                    // min={1}
+                    // max={59}
+                    // pattern="^[0-9]{0-2}"
                     onChange={(e) => {
                       setTimeInput(e.target.value)
                     }}
