@@ -24,12 +24,25 @@ import {
   CardContent,
   CircularProgress,
   Container,
+  Divider,
   Fab,
+  List,
+  ListItem,
+  ListSubheader,
   Snackbar,
+  Checkbox
 } from "@material-ui/core";
+import Avatar from '@material-ui/core/Avatar'
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import Collapse from '@material-ui/core/Collapse';
+import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import MuiAlert from "@material-ui/lab/Alert";
+import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction'
 // CSS
 import "./map.css";
+// colors
+import { deepOrange } from "@material-ui/core/colors";
 // import 'leaflet/dist/leaflet.css'
 // icons
 import SearchIcon from "@material-ui/icons/Search";
@@ -47,7 +60,11 @@ import {
 } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 import { CgSandClock } from "react-icons/cg";
-import { RiPinDistanceFill } from "react-icons/ri";
+import { RiPinDistanceFill, RiGasStationFill } from "react-icons/ri";
+import { ExpandLess, ExpandMore } from "@material-ui/icons";
+import { GiHealthNormal } from 'react-icons/gi'
+import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
+import RestaurantIcon from '@material-ui/icons/Restaurant';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -173,6 +190,10 @@ const useStyles = makeStyles((theme) => ({
   },
   submitButton: {
     width: "100%",
+    backgroundColor: "#007bff",
+    '&:hover': {
+      backgroundColor : "#2D69D9"
+    }
   },
   snackAlert: {
     width: "100%",
@@ -187,9 +208,22 @@ const useStyles = makeStyles((theme) => ({
     margin: "0 15px",
     alignItems: "center",
     justifyContent: "center",
-    // marginRight: "15px"
-    // marginRight: "15px"
   },
+  poiList: {
+    width: '100%',
+    maxWidth: 360,
+    backgroundColor: theme.palette.background.paper,
+  },
+  poiListItem: {
+    textAlign: "right"
+  },
+  nested: {
+    paddingRight: theme.spacing(5),
+    textAlign: "right"
+  },
+  listSecondaryAction: {
+
+  }
 }));
 
 const center = [36.456636, 15.46875];
@@ -296,7 +330,9 @@ export default function Map() {
   const [map, setMap] = useState(null);
   const [open, setOpen] = React.useState(false);
   const [alertOpen, setAlertOpen] = React.useState(false);
+  const [poiAlertOpen, setPoiAlertOpen] = useState(false)
   const [locateButton, setLocateButton] = useState(false);
+  const [nestedOpen, setNestedOpen] = React.useState(true);
 
   const [loading, setLoading] = useState(false);
   const [timeInput, setTimeInput] = useState("");
@@ -363,6 +399,10 @@ export default function Map() {
       return;
     }
     setAlertOpen(false);
+  };
+
+  const handleListItemClick = () => {
+    setNestedOpen(!nestedOpen);
   };
 
   useEffect(() => {
@@ -519,22 +559,13 @@ export default function Map() {
             >
               <FaWalking />
             </IconButton>
-            <IconButton
-              className={classes.transporationTypeButton}
-              onClick={() => {
-                setTransportation("wheelchair");
-              }}
-              color={transportation === "wheelchair" ? "primary" : "default"}
-            >
-              <FaWheelchair />
-            </IconButton>
           </div>
         </div>
 
         {/* =============== Drawer body ====================== */}
         <Container className={classes.drawerBody}>
-          <Card color="green">
-            <CardContent>
+          {/* <Card color="green">
+            <CardContent> */}
               <form onSubmit={handleSubmit}>
                 <div className="originInputContainer">
                   <IoLocationSharp className="originIcon" />
@@ -592,10 +623,87 @@ export default function Map() {
               <div className="loadingBar">
                 {loading && <CircularProgress />}
               </div>
-            </CardContent>
-          </Card>
+            {/* </CardContent>
+          </Card> */}
         </Container>
+        <Divider />
+        <List
+          component="nav"
+          aria-labelledby="nested-list-subheader"
+          subheader={
+            <ListSubheader component="div" id="nested-list-subheader">
+              Nested List Items
+            </ListSubheader>
+          }
+          className={classes.poiList}
+        >
+          <ListItem button className={classes.poiListItem}>
+            <ListItemAvatar>
+              <Avatar>
+                <RestaurantIcon/>
+              </Avatar>
+            </ListItemAvatar>
+            <ListItemText className={classes.listText} primary="Sent mail" />
+          </ListItem>
+          <ListItem button className={classes.poiListItem}>
+            <ListItemAvatar>
+              <Avatar>
+                <AccountBalanceIcon />
+              </Avatar>
+            </ListItemAvatar>
+            <ListItemText className={classes.listText} primary="Drafts" />
+          </ListItem>
+          <ListItem button className={classes.poiListItem} onClick={handleListItemClick}>
+            <ListItemAvatar>
+              <Avatar sx={{ bgcolor: deepOrange[500] }}>
+                <RiGasStationFill/>
+              </Avatar>
+            </ListItemAvatar>
+            <ListItemText className={classes.listText} primary="Inbox" />
+            {nestedOpen ? <ExpandLess /> : <ExpandMore />}
+          </ListItem>
+          <Collapse in={nestedOpen} timeout="auto" unmountOnExit >
+            <List component="div" disablePadding>
+              <ListItem button className={classes.nested}>
+                <ListItemAvatar>
+                  <Avatar
+                    
+                  >
+                    <GiHealthNormal />
+                  </Avatar>
+                </ListItemAvatar>
+                <ListItemText className={classes.listText} primary="مطب"  />
+                {/* <ListItemSecondaryAction 
+                  className={classes.listSecondaryAction}
+                > */}
+                  <Checkbox
+                    edge="start"
+                    // onChange={handleToggle(value)}
+                    // checked={checked.indexOf(value) !== -1}
+                    // inputProps={{ 'aria-labelledby': labelId }}
+                  />
+                {/* </ListItemSecondaryAction> */}
+              </ListItem>
+            </List>
+          </Collapse>
+        </List>
       </Drawer>
+      <Snackbar
+            open={poiAlertOpen}
+            autoHideDuration={20000}
+            onClose={handleAlertClose}
+          >
+            <MuiAlert
+              elevation={6}
+              variant="filled"
+              severity="warning"
+              onClose={handleAlertClose}
+            >
+              <div className={classes.alertText}>
+                محدوده جغرافیایی مورد نظر را انتخاب کنید
+              </div>
+            </MuiAlert>
+          </Snackbar>
     </div>
   );
 }
