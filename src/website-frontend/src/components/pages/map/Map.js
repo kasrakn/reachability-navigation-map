@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import { useEffect, useState, useRef, useCallback, useMemo } from "react";
 import L from "leaflet";
 import {
@@ -30,7 +31,11 @@ import {
   ListItem,
   ListSubheader,
   Snackbar,
-  Checkbox
+  Checkbox,
+  Tab,
+  Box,
+  Tabs,
+  Paper
 } from "@material-ui/core";
 import Avatar from '@material-ui/core/Avatar'
 import ListItemIcon from '@material-ui/core/ListItemIcon';
@@ -42,7 +47,7 @@ import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction'
 // CSS
 import "./map.css";
 // colors
-import { deepOrange } from "@material-ui/core/colors";
+import { deepOrange, green } from "@material-ui/core/colors";
 // import 'leaflet/dist/leaflet.css'
 // icons
 import SearchIcon from "@material-ui/icons/Search";
@@ -51,6 +56,7 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
+import AddIcon from '@material-ui/icons/Add';
 import {
   FaWalking,
   FaWheelchair,
@@ -65,6 +71,8 @@ import { ExpandLess, ExpandMore } from "@material-ui/icons";
 import { GiHealthNormal } from 'react-icons/gi'
 import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
 import RestaurantIcon from '@material-ui/icons/Restaurant';
+import { ImLocation } from 'react-icons/im'
+import DeleteIcon from '@material-ui/icons/Delete';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -190,9 +198,9 @@ const useStyles = makeStyles((theme) => ({
   },
   submitButton: {
     width: "100%",
-    backgroundColor: "#007bff",
+    backgroundColor: green[600],
     '&:hover': {
-      backgroundColor : "#2D69D9"
+      backgroundColor : green[400]
     }
   },
   snackAlert: {
@@ -211,18 +219,20 @@ const useStyles = makeStyles((theme) => ({
   },
   poiList: {
     width: '100%',
-    maxWidth: 360,
     backgroundColor: theme.palette.background.paper,
   },
   poiListItem: {
     textAlign: "right"
   },
-  nested: {
-    paddingRight: theme.spacing(5),
-    textAlign: "right"
+  listCheckbox: {
+    marginLeft: theme.spacing(1),
   },
-  listSecondaryAction: {
-
+  tabCointainer: {
+    top: "50px"
+  }, 
+  markersListText: {
+    textAlign: "right",
+    marginRight: "-10px"
   }
 }));
 
@@ -235,15 +245,28 @@ export default function Map() {
   function LocationMarker() {
     // const [draggable, setDraggable] = useState(true)
     const markerRef = useRef(null);
-    const map = useMap();
     
-    // const icon = L.icon({
-      //   iconUrl: ""
-      // });
+    const icon = L.icon({
+      iconUrl: "markers/icon/pin.png",
+      iconSize: [35, 65],
+      iconAnchor: [18, 64],
+      shadowUrl: 'markers/shadows/saye.png',
+      shadowSize: [18, 18],
+      shadowAnchor: [9, 11]
+    });
+
+    const clickedIcon = L.icon({
+      iconUrl: "markers/icon/clickedPin.png",
+      iconSize: [35, 65],
+      iconAnchor: [18, 64],
+      shadowUrl: 'markers/shadows/saye.png',
+      shadowSize: [18, 18],
+      shadowAnchor: [9, 11]
+    })
       
       // Marker event handler
       const eventHandlers = useMemo(
-      () => ({
+      (e) => ({
         click: () => {
           const marker = markerRef.current;
           if (marker != null) {
@@ -264,40 +287,43 @@ export default function Map() {
     }, []);
 
     return (
-      <Marker
-        // draggable={draggable}
-        eventHandlers={eventHandlers}
-        position={originPosition}
-        ref={markerRef}
-      >
-        <Popup minWidth={90}>
-          <span onClick={toggleDraggable}>
-            {markerRef.current !== null ? (
-              `location : ${markerRef.current.getLatLng()}`
-            ) : (
-              <b>Set this marker to your desired place</b>
-            )}
-          </span>
-        </Popup>
-      </Marker>
+      originPosition.map(marker => (
+        <Marker
+          // draggable={draggable}
+          eventHandlers={eventHandlers}
+          position={marker.latlng}
+          ref={markerRef}
+          icon={icon}
+        >
+        {console.log("the fucking markerRef:  ", markerRef)}
+          <Popup minWidth={90}>
+            <span onClick={toggleDraggable}>
+              {markerRef.current !== null ? (
+                `location : ${markerRef.current.getLatLng()}`
+              ) : (
+                <b>Set this marker to your desired place</b>
+              )}
+            </span>
+          </Popup>
+        </Marker>
+      ))
     );
   }
   // ===================================================================================
 
   function LocateView() {
     const map = useMapEvents({
-      click() {
-        map.locate();
-      },
-      locationfound(e) {
-        setPosition(e.latlng);
-        map.flyTo(e.latlng, map.getMaxZoom() - 1);
-      },
-      locationerror(e) {},
       move(e) {
-        if (originChangable === true) {
-          setOriginPosition(map.getCenter());
+        let newArray = []
+        newArray.push(...originPosition)
+
+
+        for (let i = 0; i < originPosition.length; i++){
+          if (newArray[i].changable){
+            newArray[i].latlng = map.getCenter()
+          }
         }
+        setOriginPosition(newArray)
       },
     });
 
@@ -324,13 +350,20 @@ export default function Map() {
     );
   } // ----------- end of LocationView funciton
 
+
   const classes = useStyles();
   const theme = useTheme();
 
   const [map, setMap] = useState(null);
   const [open, setOpen] = React.useState(false);
+  
   const [alertOpen, setAlertOpen] = React.useState(false);
-  const [poiAlertOpen, setPoiAlertOpen] = useState(false)
+  const [alertMessage, setAlertMessage] = React.useState("");
+  const [alertSeverity, setAlertSeverity] = useState("warning")
+
+  const [tabValue, setTabValue] = useState(0)
+
+  // const [poiAlertOpen, setPoiAlertOpen] = useState(false)
   const [locateButton, setLocateButton] = useState(false);
   const [nestedOpen, setNestedOpen] = React.useState(true);
 
@@ -339,12 +372,22 @@ export default function Map() {
   const [distanceInput, setDistanceInput] = useState("");
 
   const [position, setPosition] = useState(null);
-  const [originPosition, setOriginPosition] = useState(center);
-  const [originChangable, setOriginChangable] = useState(true);
   const [transportation, setTransportation] = useState("driving-car");
+
+  const [originPosition, setOriginPosition] = useState([{
+    latlng: center,
+    changable: true,
+    geocode: ""
+  }]);
+
+  const [originChangable, setOriginChangable] = useState([true]);
 
   const [isochrone, setIsochrone] = useState(null);
   const [isochroneCoords, setIsochroneCoords] = useState([]);
+
+  //Debugging
+  const [checked, setChecked] = React.useState([1]);
+  // ----------------------------------------------------------------
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -354,14 +397,22 @@ export default function Map() {
     setOpen(false);
   };
 
-  const fetchIsochrone = async () => {
+  const alertUser = (message, severity) => {
+    setAlertMessage(message);
+    setAlertSeverity(severity);
+    setAlertOpen(true)
+  }
+
+  const fetchIsochrone = async (type) => {
+    console.log("time value: ", timeInput)
     const data = {
-      locations: [
-        [originPosition.lng.toString(), originPosition.lat.toString()],
-      ],
-      range_type: "time",
-      range: [timeInput],
-    };
+      locations: [],
+      range_type: type,
+      range: [type === "time" ? timeInput : distanceInput]
+    }
+    originPosition.forEach(marker => {
+      data.locations.push([marker.lng.toString(), marker.lat.toString()])
+    })
 
     // this two methods can be combined together
     const response = await fetch(
@@ -384,13 +435,23 @@ export default function Map() {
     const reversed = items.features[0].geometry.coordinates[0].map((coord) =>
       coord.reverse()
     );
+    console.log("coords: ", reversed  )
     setIsochroneCoords(reversed);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    fetchIsochrone();
+
+    if (distanceInput === "" && timeInput !== ""){
+      fetchIsochrone("time");
+    } else if (timeInput === "" && distanceInput !== ""){
+      fetchIsochrone("distance");
+    } else if (timeInput !== "" && distanceInput !== ""){
+      alertUser("فقط یکی از مقادیر فاصله و زمان را می‌توان انتخاب کرد.", "error")
+    } else {
+      alertUser("مقداری مشخص نشده است.", "warning")
+    }
     setLoading(false);
   };
 
@@ -405,6 +466,31 @@ export default function Map() {
     setNestedOpen(!nestedOpen);
   };
 
+
+  // const handleToggle = (value) => () => {
+  //   const currentIndex = checked.indexOf(value);
+  //   const newChecked = [...checked];
+
+  //   if (currentIndex === -1) {
+  //     newChecked.push(value);
+  //   } else {
+  //     newChecked.splice(currentIndex, 1);
+  //   }
+
+  //   setChecked(newChecked);
+  // };
+
+  const handleTabChange = (event, newValue) => {
+      setTabValue(newValue)
+  }
+  
+  function a11yProps(index) {
+      return {
+          id: `full-width-tab-${index}`,
+          'aria-controls': `full-width-tabpanel-${index}`,
+      };
+  }
+
   useEffect(() => {
     if (map !== null) {
       map.locate({ setView: true, maxZoom: map.getMaxZoom() - 1 });
@@ -413,7 +499,7 @@ export default function Map() {
         map.flyTo(e.latlng);
       });
       map.on("locationerror", (e) => {
-        setAlertOpen(true);
+        alertUser("به منظور استفاده بهتر از امکانات سایت، به مرورگر خود دسترسی موقعیت مکانی بدهید", "error")
       });
     }
   }, [map]);
@@ -460,30 +546,11 @@ export default function Map() {
           positions={isochroneCoords}
           interactive={false}
           color="blue"
-          // pathOptions={{
-          //   color: "blue",
-          //   // opacity: "50%"
-          // }}
+          pathOptions={{
+            color: "#e91e63",
+            // opacity: "50%"
+          }}
         />
-        <div className="snackAlert">
-          <Snackbar
-            open={alertOpen}
-            autoHideDuration={20000}
-            onClose={handleAlertClose}
-          >
-            <MuiAlert
-              elevation={6}
-              variant="filled"
-              severity="error"
-              onClose={handleAlertClose}
-            >
-              <div className={classes.alertText}>
-                به منظور استفاده بهتر از امکانات سایت، به مرورگر خود دسترسی
-                موقعیت مکانی بدهید
-              </div>
-            </MuiAlert>
-          </Snackbar>
-        </div>
       </MapContainer>
       {/* =================  my location button ==============================*/}
 
@@ -564,75 +631,159 @@ export default function Map() {
 
         {/* =============== Drawer body ====================== */}
         <Container className={classes.drawerBody}>
-          {/* <Card color="green">
-            <CardContent> */}
-              <form onSubmit={handleSubmit}>
-                <div className="originInputContainer">
-                  <IoLocationSharp className="originIcon" />
-                  <input
-                    className="originInput"
-                    placeholder="موقعیت شما"
-                    type="search"
-                    defaultValue={
-                      originPosition.lat === undefined
-                        ? ""
-                        : `${originPosition.lat.toFixed(
-                            5
-                          )}, ${originPosition.lng.toFixed(5)}`
-                    }
-                    // onChange={(e) => {setLocationMarkerPosition(e.target.value)}}
-                    style={{ direction: "ltr" }}
-                  />
-                </div>
-                <div className="originInputContainer">
-                  <CgSandClock className="timeIcon" />
-                  <input
-                    className="originInput"
-                    placeholder="فاصله زمانی"
-                    type="number"
-                    // min={1}
-                    // max={59}
-                    // pattern="^[0-9]{0-2}"
-                    onChange={(e) => {
-                      setTimeInput(e.target.value);
-                    }}
-                  />
-                </div>
-                <div className="originInputContainer">
-                  <RiPinDistanceFill className="timeIcon" />
-                  <input
-                    className="originInput"
-                    placeholder="مسافت بر حسب متر"
-                    type="search"
-                    onChange={(e) => {
-                      setDistanceInput(e.target.value);
-                    }}
-                  />
-                </div>
-                <div className="originInputContainer">
-                  <Button
-                    variant="contained"
-                    color="primary"
-                    type="submit"
-                    className={classes.submitButton}
-                  >
-                    محاسبه
-                  </Button>
-                </div>
-              </form>
-              <div className="loadingBar">
-                {loading && <CircularProgress />}
+          <form onSubmit={handleSubmit}>
+            {/* <div className="originInputContainer">
+              <IoLocationSharp className="originIcon" />
+              <input
+                className="originInput"
+                placeholder="موقعیت شما"
+                value={
+                  originPosition.lat === undefined
+                    ? ""
+                    : `${originPosition.lat.toFixed(
+                        5
+                      )}, ${originPosition.lng.toFixed(5)}`
+                }
+                // onChange={(e) => {setLocationMarkerPosition(e.target.value)}}
+                style={{ direction: "ltr" }}
+              />
+            </div> */}
+            <div className="tab">
+              <Tabs
+                value={tabValue}
+                onChange={handleTabChange}
+                variant="fullWidth"
+                indicatorColor="primary"
+                textColor="primary"
+                aria-label="icon label tabs example"
+              >
+                <Tab label=" برحسب فاصله زمانی" {...a11yProps(0)} />
+                <Tab label="برحسب مسافت" {...a11yProps(1)} />
+              </Tabs>
+              <div className="tabpanel">
+                {tabValue !== 0
+                  ? ''
+                  : (
+                    <div className="originInputContainer">
+                      <CgSandClock className="timeIcon" />
+                      <input
+                        className="originInput"
+                        placeholder="فاصله زمانی"
+                        type="number"
+                        // min={1}
+                        // max={59}
+                        // pattern="^[0-9]{0-2}"
+                        onChange={(e) => {
+                          setTimeInput(e.target.value);
+                        }}
+                      />
+                    </div>
+                  )
+                }
               </div>
-            {/* </CardContent>
-          </Card> */}
+              <div>
+                {tabValue !== 1
+                  ? ''
+                  : (
+                    <div className="originInputContainer">
+                      <RiPinDistanceFill className="timeIcon" />
+                      <input
+                        className="originInput"
+                        placeholder="مسافت بر حسب متر"
+                        type="number"
+                        onChange={(e) => {
+                          setDistanceInput(e.target.value);
+                        }}
+                      />
+                    </div>
+                  )
+                }
+              </div>
+            </div>
+            <div className="originInputContainer">
+              <Button
+                variant="contained"
+                color="primary"
+                type="submit"
+                className={classes.submitButton}
+              >
+                محاسبه
+              </Button>
+            </div>
+          </form>
+
+          <div className="selectedPoints">
+            <div className="selectedPointHeader">
+              <div 
+                className="selectedPointTitle"
+                hidden={originPosition.length === 0}
+                >
+                نقاط انتخاب شده
+              </div>
+              <IconButton className="selectedPointAdd">
+                <AddIcon 
+                  onClick={() => {
+                    let newArray = []
+                    newArray.push(...originPosition)
+                    newArray.push({
+                      latlng: map.getCenter(),
+                      geocode: "",
+                      changable: true
+                    })
+                    setOriginPosition(newArray)
+                  }}
+                />
+              </IconButton>
+            </div>
+            <List>
+              {
+                originPosition.length === 0
+                  ? ''
+                  : (
+                    originPosition.map((marker, ind) => (
+                      <ListItem alignItems="flex-start">
+                        <ListItemIcon>
+                          <ImLocation />
+                        </ListItemIcon>
+                        <ListItemText
+                          primary={
+                            marker.latlng.lat === undefined || marker.latlng.lng === undefined
+                            ? ''
+                            : `lat: ${marker.latlng.lat.toFixed(5)}, lng: ${marker.latlng.lng.toFixed(5)}`
+                          }
+                          secondary={marker.geocode}
+                          className={classes.markersListText}
+                        />
+                        <IconButton
+                          color="default"
+                          onChange={() => {
+                            let newArray = []
+                            for (let i = 0; i < originPosition.length; i++) {
+                              if (i !== ind){
+                                newArray[newArray.length] = originPosition[i]
+                              }
+                            }
+                            setOriginPosition(newArray)
+                          }}
+                        >
+                           <DeleteIcon 
+                            fontSize="small"
+                            />
+                        </IconButton>
+                      </ListItem>
+                    ))
+                  )
+              }
+            </List>
+          </div>
         </Container>
-        <Divider />
+        <Divider /> 
         <List
           component="nav"
           aria-labelledby="nested-list-subheader"
           subheader={
             <ListSubheader component="div" id="nested-list-subheader">
-              Nested List Items
+              مکان های نقشه
             </ListSubheader>
           }
           className={classes.poiList}
@@ -643,7 +794,14 @@ export default function Map() {
                 <RestaurantIcon/>
               </Avatar>
             </ListItemAvatar>
-            <ListItemText className={classes.listText} primary="Sent mail" />
+            <ListItemText className={classes.listText} primary="رستوران" />
+            <Checkbox
+              className={classes.listCheckbox}
+              edge="start"
+              // onChange={handleToggle(value)}
+              // checked={checked.indexOf(value) !== -1}
+              // inputProps={{ 'aria-labelledby': labelId }}
+            />
           </ListItem>
           <ListItem button className={classes.poiListItem}>
             <ListItemAvatar>
@@ -651,7 +809,14 @@ export default function Map() {
                 <AccountBalanceIcon />
               </Avatar>
             </ListItemAvatar>
-            <ListItemText className={classes.listText} primary="Drafts" />
+            <ListItemText className={classes.listText} primary="بانک" />
+            <Checkbox
+              className={classes.listCheckbox}
+              edge="start"
+              // onChange={handleToggle(value)}
+              // checked={checked.indexOf(value) !== -1}
+              // inputProps={{ 'aria-labelledby': labelId }}
+            />
           </ListItem>
           <ListItem button className={classes.poiListItem} onClick={handleListItemClick}>
             <ListItemAvatar>
@@ -659,51 +824,34 @@ export default function Map() {
                 <RiGasStationFill/>
               </Avatar>
             </ListItemAvatar>
-            <ListItemText className={classes.listText} primary="Inbox" />
-            {nestedOpen ? <ExpandLess /> : <ExpandMore />}
+            <ListItemText className={classes.listText} primary="امکانات شهری" />
+            <Checkbox
+              className={classes.listCheckbox}
+              edge="start"
+              // onChange={handleToggle(value)}
+              // checked={checked.indexOf(value) !== -1}
+              // inputProps={{ 'aria-labelledby': labelId }}
+            />
+            {/* {nestedOpen ? <ExpandLess /> : <ExpandMore />} */}
           </ListItem>
-          <Collapse in={nestedOpen} timeout="auto" unmountOnExit >
-            <List component="div" disablePadding>
-              <ListItem button className={classes.nested}>
-                <ListItemAvatar>
-                  <Avatar
-                    
-                  >
-                    <GiHealthNormal />
-                  </Avatar>
-                </ListItemAvatar>
-                <ListItemText className={classes.listText} primary="مطب"  />
-                {/* <ListItemSecondaryAction 
-                  className={classes.listSecondaryAction}
-                > */}
-                  <Checkbox
-                    edge="start"
-                    // onChange={handleToggle(value)}
-                    // checked={checked.indexOf(value) !== -1}
-                    // inputProps={{ 'aria-labelledby': labelId }}
-                  />
-                {/* </ListItemSecondaryAction> */}
-              </ListItem>
-            </List>
-          </Collapse>
         </List>
       </Drawer>
       <Snackbar
-            open={poiAlertOpen}
-            autoHideDuration={20000}
-            onClose={handleAlertClose}
-          >
-            <MuiAlert
-              elevation={6}
-              variant="filled"
-              severity="warning"
-              onClose={handleAlertClose}
-            >
-              <div className={classes.alertText}>
-                محدوده جغرافیایی مورد نظر را انتخاب کنید
-              </div>
-            </MuiAlert>
-          </Snackbar>
+        open={alertOpen}
+        autoHideDuration={20000}
+        onClose={handleAlertClose}
+      >
+        <MuiAlert
+          elevation={6}
+          variant="filled"
+          severity={alertSeverity}
+          onClose={handleAlertClose}
+        >
+          <div className={classes.alertText}>
+            {alertMessage}
+          </div>
+        </MuiAlert>
+      </Snackbar>
     </div>
   );
 }
