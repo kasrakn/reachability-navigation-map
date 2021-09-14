@@ -105,3 +105,28 @@
 .selectedPointAdd {
     align-self: flex-end;
 }
+
+.contextmenu {
+    text-align: center;
+}
+
+
+/* leaflet-contextmenu overriding */
+.leaflet-contextmenu {
+    border-radius: 8px;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.leaflet-contextmenu a.leaflet-contextmenu-item {
+    line-height: 30px;
+}
+
+.leaflet-contextmenu-icon  {
+    float: right;
+    margin:4px 8px 0 0;
+    width: 20px;
+    height: 20px;  
+}

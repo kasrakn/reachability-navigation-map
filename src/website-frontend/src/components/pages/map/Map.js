@@ -1,5 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
+import "leaflet-contextmenu"
+import "leaflet-contextmenu/dist/leaflet.contextmenu.css";
 import { useEffect, useState, useRef, useCallback, useMemo } from "react";
 import L from "leaflet";
 import {
@@ -19,6 +21,7 @@ import clsx from "clsx";
 import { alpha, makeStyles, useTheme } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import InputBase from "@material-ui/core/InputBase";
+import MenuList from '@material-ui/core/MenuList';
 import {
   Button,
   Card,
@@ -36,7 +39,9 @@ import {
   Box,
   Tabs,
   Paper,
-  colors
+  colors,
+  MenuItem,
+  Typography
 } from "@material-ui/core";
 import Avatar from '@material-ui/core/Avatar'
 import ListItemIcon from '@material-ui/core/ListItemIcon';
@@ -47,34 +52,30 @@ import MuiAlert from "@material-ui/lab/Alert";
 import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction'
 // CSS
 import "./map.css";
+import "../../../../node_modules/leaflet-contextmenu/dist/leaflet.contextmenu.css"
 // colors
 import { getColor } from "./colors";
 // import 'leaflet/dist/leaflet.css'
 // icons
 import SearchIcon from "@material-ui/icons/Search";
-import { MdMyLocation } from "react-icons/md";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
-import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
-import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import AddIcon from '@material-ui/icons/Add';
-import {
-  FaWalking,
-  FaWheelchair,
-  FaTruck,
-  FaCar,
-  FaBiking,
-} from "react-icons/fa";
+
+import AddLocationIcon from '@material-ui/icons/AddLocation';
 import { IoLocationSharp } from "react-icons/io5";
-import { CgSandClock } from "react-icons/cg";
-import { RiPinDistanceFill, RiGasStationFill } from "react-icons/ri";
+import { RiGasStationFill } from "react-icons/ri";
 import { ExpandLess, ExpandMore } from "@material-ui/icons";
 import { GiHealthNormal } from 'react-icons/gi'
 import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
 import RestaurantIcon from '@material-ui/icons/Restaurant';
 import { ImLocation } from 'react-icons/im'
 import DeleteIcon from '@material-ui/icons/Delete';
-
+// components
+import Destination from "./Destination";
+import Transporations from "./Transporations";
+import TabInputs from "./TabInputs";
+import CurrentLocation from './CurrentLocation'
 
 const useStyles = makeStyles((theme) => ({
   hide: {
@@ -87,14 +88,6 @@ const useStyles = makeStyles((theme) => ({
   drawerPaper: {
     width: drawerWidth,
     boxShadow: "-3px 0 20px rgba(0, 0, 0, 0.3)",
-  },
-  drawerHeader: {
-    display: "flex",
-    alignItems: "center",
-    padding: theme.spacing(0, 1),
-    // necessary for content to be below app bar
-    ...theme.mixins.toolbar,
-    justifyContent: "flex-start",
   },
   drawerBody: {
     marginTop: "10px",
@@ -164,21 +157,6 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "12px",
     alignItems: "center",
   },
-  currentLocation: {
-    zIndex: 1200,
-    position: "fixed",
-    bottom: "28px",
-    left: "12px",
-    marginRight: "12px",
-    backgroundColor: "white",
-  },
-  currentLocationIcon: {
-    fontSize: "20px",
-    color: "rgba(0, 0, 0, 0.7)",
-  },
-  transporationTypeButton: {
-    margin: "0 5px",
-  },
   tabsContainer: {
     flexGrow: 1,
     backgroundColor: theme.palette.background.paper,
@@ -196,13 +174,6 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "0px",
     minWidth: 0,
     letterSpacing: 0,
-  },
-  submitButton: {
-    width: "100%",
-    backgroundColor: colors.green[600],
-    '&:hover': {
-      backgroundColor : colors.green[400]
-    }
   },
   snackAlert: {
     width: "100%",
@@ -240,7 +211,6 @@ const useStyles = makeStyles((theme) => ({
 const API_KEY = "5b3ce3597851110001cf6248ef4f468a3bbe4724ae286a8e3d9f1497"
 const center = [36.456636, 15.46875];
 const drawerWidth = 410;
-let markerCount = 1
 
 export default function Map() {
   // ===================================================================================
@@ -255,33 +225,24 @@ export default function Map() {
       shadowSize: [18, 18],
       shadowAnchor: [9, 11]
     });
-
-    const clickedIcon = L.icon({
-      iconUrl: "markers/icon/clickedPin.png",
-      iconSize: [35, 65],
-      iconAnchor: [18, 64],
-      shadowUrl: 'markers/shadows/saye.png',
-      shadowSize: [18, 18],
-      shadowAnchor: [9, 11]
-    })
       
       // Marker event handler
-      const eventHandlers = useMemo(
-      (e) => ({
-        dragend: () => {
-          const marker = markerRef.current;
+    //   const eventHandlers = useMemo(
+    //   (e) => ({
+    //     dragend: () => {
+    //       const marker = markerRef.current;
 
-          if (marker != null) {
-            setOriginChangable(!originChangable);
+    //       if (marker != null) {
+    //         setOriginChangable(!originChangable);
 
-            // if (originChangable === false) {
-            //   setOriginPosition(marker.getLatLng());
-            // }
-          }
-        },
-      }),
-      []
-    );
+    //         // if (originChangable === false) {
+    //         //   setOriginPosition(marker.getLatLng());
+    //         // }
+    //       }
+    //     },
+    //   }),
+    //   []
+    // );
 
     // Onlick handler
     const toggleDraggable = useCallback(() => {
@@ -361,8 +322,6 @@ export default function Map() {
       </LayerGroup>
     );
   } // ----------- end of LocationView funciton
-
-
   const classes = useStyles();
   const theme = useTheme();
 
@@ -373,10 +332,8 @@ export default function Map() {
   const [alertMessage, setAlertMessage] = React.useState("");
   const [alertSeverity, setAlertSeverity] = useState("warning")
 
-  const [tabValue, setTabValue] = useState(0)
 
   // const [poiAlertOpen, setPoiAlertOpen] = useState(false)
-  const [locateButton, setLocateButton] = useState(false);
   const [nestedOpen, setNestedOpen] = React.useState(true);
 
   const [loading, setLoading] = useState(false);
@@ -386,61 +343,24 @@ export default function Map() {
   const [position, setPosition] = useState(null);
   const [transportation, setTransportation] = useState("driving-car");
 
+  
+  const [markerCount, setMarkerCount] = useState(1)
   const [originPosition, setOriginPosition] = useState([{
     id: 1,
     latlng: center,
     changable: true,
     geocode: ""
   }]);
-
-  const [originChangable, setOriginChangable] = useState([true]);
-
+  
+  const [destination, setDestination] = useState(null)
+  
   const [isochrone, setIsochrone] = useState(null);
   const [isochroneCoords, setIsochroneCoords] = useState([]);
   const [currentGeocode, setCurrentGeocode] = useState("");
-  const [selectedColors, setSelectedColors] = useState([])
 
   //Debugging
   const [checked, setChecked] = React.useState([1]);
   // ----------------------------------------------------------------
-
-
-  const fetchIsochrone = async (type) => {
-    const data = {
-      locations: [],
-      range_type: type,
-      range: [type === "time" ? timeInput : distanceInput]
-    }
-    originPosition.forEach(marker => {
-      data.locations.push([marker.latlng.lng.toString(), marker.latlng.lat.toString()])
-    })
-
-    // this two methods can be combined together
-    const response = await fetch(
-      `https://api.openrouteservice.org/v2/isochrones/${transportation}`,
-      {
-        method: "POST",
-        headers: {
-          Accept:
-            "application/json, application/geo+json, application/gpx+xml, img/png; charset=utf-8",
-          Authorization: API_KEY,
-          "Content-Type": "application/json; charset=utf-8",
-        },
-        body: JSON.stringify(data),
-      }
-    );
-
-    const items = await response.json();
-    setIsochrone(items);
-    let polygonCoords = []
-    
-    items.features.forEach(feature => {
-      polygonCoords.push(feature.geometry.coordinates[0].map((coord) => coord.reverse()))
-      
-    })
-    setIsochroneCoords(polygonCoords);
-  };
-
 
   const fetchReverseGeocode = async (lat, lng) => {
     const size = 1;
@@ -465,35 +385,12 @@ export default function Map() {
     setOpen(true);
   };
 
-  const handleDrawerClose = () => {
-    setOpen(false);
-  };
-
   const alertUser = (message, severity) => {
     setAlertMessage(message);
     setAlertSeverity(severity);
     setAlertOpen(true)
   }
 
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
-    if (originPosition.length !== 0) {
-      if (distanceInput === "" && timeInput !== ""){
-        fetchIsochrone("time");
-      } else if (timeInput === "" && distanceInput !== ""){
-        fetchIsochrone("distance");
-      } else if (timeInput !== "" && distanceInput !== ""){
-        alertUser("فقط یکی از مقادیر فاصله و زمان را می‌توان انتخاب کرد.", "error")
-      } else {
-        alertUser("مقداری مشخص نشده است.", "warning")
-      }
-      setLoading(false);
-    } else {
-      alertUser("هیچ نقظه ای مشخص نشده است", "warning")
-    }
-  };
 
   const handleAlertClose = (e, reason) => {
     if (reason === "clickaway") {
@@ -505,6 +402,23 @@ export default function Map() {
   const handleListItemClick = () => {
     setNestedOpen(!nestedOpen);
   };
+
+  const handleAddMarker = (e) => {
+    let newArray = []
+    const latlng = map.getCenter()
+    console.log("current geocode:  ", currentGeocode)
+
+    fetchReverseGeocode(latlng.lat.toString(), latlng.lng.toString())
+    newArray.push(...originPosition)
+    newArray.push({
+      id: markerCount + 1,
+      latlng: latlng,
+      geocode: currentGeocode,
+      changable: true
+    })
+    setMarkerCount(markerCount + 1)
+    setOriginPosition(newArray)
+  }
 
 
   // const handleToggle = (value) => () => {
@@ -520,16 +434,7 @@ export default function Map() {
   //   setChecked(newChecked);
   // };
 
-  const handleTabChange = (event, newValue) => {
-      setTabValue(newValue)
-  }
   
-  function a11yProps(index) {
-      return {
-          id: `full-width-tab-${index}`,
-          'aria-controls': `full-width-tabpanel-${index}`,
-      };
-  }
 
   useEffect(() => {
     if (map !== null) {
@@ -538,6 +443,7 @@ export default function Map() {
         setPosition(e.latlng);
         map.flyTo(e.latlng);
       });
+      
       map.on("locationerror", (e) => {
         alertUser("به منظور استفاده بهتر از امکانات سایت، به مرورگر خود دسترسی موقعیت مکانی بدهید", "error")
       });
@@ -574,13 +480,28 @@ export default function Map() {
         scrollWheelZoom={true}
         minZoom={3}
         whenCreated={setMap}
-        whenReady={() => {}}
+        contextmenu={true}
+        contextmenuWidth={150}
+        contextmenuItems={[
+          {
+            text: 'مسیریابی به اینجا',
+            icon: "markers/icon/direction.svg",
+            callback: (e) => {
+              const newObj = {
+                latlng: e.latlng,
+                draggable: true
+              }
+              setDestination(newObj)
+            }
+          }
+        ]}
       >
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <LocateView />
+        <Destination dest={destination} setDest={setDestination}/>
         <LocationMarker />
         {isochroneCoords.map((coord, ind) => (
           <Polygon
@@ -594,22 +515,7 @@ export default function Map() {
         ))}
       </MapContainer>
       {/* =================  my location button ==============================*/}
-
-      <Fab
-        aria-label="current location"
-        className={classes.currentLocation}
-        onClick={() => {
-          // map.locate({setView: true, maxZoom: 16})
-          if (position !== null) {
-            map.flyTo(position, map.getMaxZoom() - 1);
-          } else {
-            map.locate();
-          }
-        }}
-      >
-        <MdMyLocation className={classes.currentLocationIcon} />
-      </Fab>
-
+      <CurrentLocation map={map} position={position}/>
       {/* ==================  Drawer   ==========================*/}
       <Drawer
         className={classes.drawer}
@@ -620,125 +526,22 @@ export default function Map() {
           paper: classes.drawerPaper,
         }}
       >
-        <div className={classes.drawerHeader}>
-          <IconButton onClick={handleDrawerClose}>
-            {theme.direction === "rtl" ? (
-              <ChevronLeftIcon />
-            ) : (
-              <ChevronRightIcon />
-            )}
-          </IconButton>
-          <div className="transportationType-container">
-            <IconButton
-              className={classes.transporationTypeButton}
-              onClick={() => {
-                setTransportation("driving-car");
-              }}
-              color={transportation === "driving-car" ? "primary" : "default"}
-            >
-              <FaCar />
-            </IconButton>
-            <IconButton
-              className={classes.transporationTypeButton}
-              onClick={() => {
-                setTransportation("driving-hgv");
-              }}
-              color={transportation === "driving-hgv" ? "primary" : "default"}
-            >
-              <FaTruck />
-            </IconButton>
-            <IconButton
-              className={classes.transporationTypeButton}
-              onClick={() => {
-                setTransportation("cycling-regular");
-              }}
-              color={
-                transportation === "cycling-regular" ? "primary" : "default"
-              }
-            >
-              <FaBiking />
-            </IconButton>
-            <IconButton
-              className={classes.transporationTypeButton}
-              onClick={() => {
-                setTransportation("foot-walking");
-              }}
-              color={transportation === "foot-walking" ? "primary" : "default"}
-            >
-              <FaWalking />
-            </IconButton>
-          </div>
-        </div>
-
+        <Transporations setOpen={setOpen} transportation={transportation} setTransportation={setTransportation}/>
         {/* =============== Drawer body ====================== */}
         <Container className={classes.drawerBody}>
-          <form onSubmit={handleSubmit}>
-            <div className="tab">
-              <Tabs
-                value={tabValue}
-                onChange={handleTabChange}
-                variant="fullWidth"
-                indicatorColor="primary"
-                textColor="primary"
-                aria-label="icon label tabs example"
-              >
-                <Tab label=" برحسب فاصله زمانی" {...a11yProps(0)} />
-                <Tab label="برحسب مسافت" {...a11yProps(1)} />
-              </Tabs>
-              <div className="tabpanel">
-                {tabValue !== 0
-                  ? ''
-                  : (
-                    <div className="originInputContainer">
-                      <CgSandClock className="timeIcon" />
-                      <input
-                        className="originInput"
-                        placeholder="فاصله زمانی"
-                        type="number"
-                        // min={1}
-                        // max={59}
-                        // pattern="^[0-9]{0-2}"
-                        onChange={(e) => {
-                          setTimeInput(e.target.value);
-                          setDistanceInput("")
-                        }}
-                      />
-                    </div>
-                  )
-                }
-              </div>
-              <div>
-                {tabValue !== 1
-                  ? ''
-                  : (
-                    <div className="originInputContainer">
-                      <RiPinDistanceFill className="timeIcon" />
-                      <input
-                        className="originInput"
-                        placeholder="مسافت بر حسب متر"
-                        type="number"
-                        onChange={(e) => {
-                          setDistanceInput(e.target.value);
-                          setTimeInput("")
-                        }}
-                      />
-                    </div>
-                  )
-                }
-              </div>
-            </div>
-            <div className="originInputContainer">
-              <Button
-                variant="contained"
-                color="primary"
-                type="submit"
-                className={classes.submitButton}
-              >
-                محاسبه
-              </Button>
-            </div>
-          </form>
-
+          <TabInputs 
+            API_KEY={API_KEY}
+            timeInput={timeInput}
+            setTimeInput={setTimeInput}
+            distanceInput={distanceInput}
+            setDistanceInput={setDistanceInput}
+            originPosition={originPosition}
+            setLoading={setLoading}
+            alertUser={alertUser}
+            setIsochroneCoords={setIsochroneCoords}
+            setIsochrone={setIsochrone}
+            transportation={transportation}
+          />
           <div className="selectedPoints">
             <div className="selectedPointHeader">
               <div 
@@ -748,20 +551,7 @@ export default function Map() {
               </div>
               <IconButton 
                 className="selectedPointAdd"
-                onClick={() => {
-                    let newArray = []
-                    const latlng = map.getCenter()
-                    console.log("current geocode:  ", currentGeocode)
-                    fetchReverseGeocode(latlng.lat.toString(), latlng.lng.toString())
-                    newArray.push(...originPosition)
-                    newArray.push({
-                      id: markerCount + 1,
-                      latlng: latlng,
-                      geocode: currentGeocode,
-                      changable: true
-                    })
-                    setOriginPosition(newArray)
-                  }}
+                onClick={handleAddMarker}
               >
                 <AddIcon />
               </IconButton>
