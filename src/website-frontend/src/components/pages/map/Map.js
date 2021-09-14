@@ -10,7 +10,7 @@ import {
   useMapEvents,
   useMap,
 } from "react-leaflet";
-import { LayerGroup, CircleMarker, Polygon } from "react-leaflet";
+import { LayerGroup, CircleMarker, Polygon, Polyline } from "react-leaflet";
 // import PropTypes from 'prop-types';
 // React router
 // import { Link } from 'react-router-dom'
@@ -35,7 +35,8 @@ import {
   Tab,
   Box,
   Tabs,
-  Paper
+  Paper,
+  colors
 } from "@material-ui/core";
 import Avatar from '@material-ui/core/Avatar'
 import ListItemIcon from '@material-ui/core/ListItemIcon';
@@ -47,7 +48,7 @@ import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction'
 // CSS
 import "./map.css";
 // colors
-import { deepOrange, green } from "@material-ui/core/colors";
+import { getColor } from "./colors";
 // import 'leaflet/dist/leaflet.css'
 // icons
 import SearchIcon from "@material-ui/icons/Search";
@@ -198,9 +199,9 @@ const useStyles = makeStyles((theme) => ({
   },
   submitButton: {
     width: "100%",
-    backgroundColor: green[600],
+    backgroundColor: colors.green[600],
     '&:hover': {
-      backgroundColor : green[400]
+      backgroundColor : colors.green[400]
     }
   },
   snackAlert: {
@@ -236,14 +237,14 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
+const API_KEY = "5b3ce3597851110001cf6248ef4f468a3bbe4724ae286a8e3d9f1497"
 const center = [36.456636, 15.46875];
 const drawerWidth = 410;
-
+let markerCount = 1
 
 export default function Map() {
   // ===================================================================================
   function LocationMarker() {
-    // const [draggable, setDraggable] = useState(true)
     const markerRef = useRef(null);
     
     const icon = L.icon({
@@ -267,14 +268,15 @@ export default function Map() {
       // Marker event handler
       const eventHandlers = useMemo(
       (e) => ({
-        click: () => {
+        dragend: () => {
           const marker = markerRef.current;
+
           if (marker != null) {
             setOriginChangable(!originChangable);
 
-            if (originChangable === false) {
-              setOriginPosition(marker.getLatLng());
-            }
+            // if (originChangable === false) {
+            //   setOriginPosition(marker.getLatLng());
+            // }
           }
         },
       }),
@@ -287,15 +289,22 @@ export default function Map() {
     }, []);
 
     return (
-      originPosition.map(marker => (
+      originPosition.map((marker, ind) => (
         <Marker
-          // draggable={draggable}
-          eventHandlers={eventHandlers}
+          draggable={true}
           position={marker.latlng}
           ref={markerRef}
           icon={icon}
+          key={ind}
+          eventHandlers={{
+            dragend: (e) => {
+              marker.latlng = e.target.getLatLng()
+              let newArray = []
+              newArray.push(...originPosition)
+              setOriginPosition(newArray)
+            }
+          }}
         >
-        {console.log("the fucking markerRef:  ", markerRef)}
           <Popup minWidth={90}>
             <span onClick={toggleDraggable}>
               {markerRef.current !== null ? (
@@ -313,14 +322,17 @@ export default function Map() {
 
   function LocateView() {
     const map = useMapEvents({
-      move(e) {
+      viewreset	(e) {
         let newArray = []
         newArray.push(...originPosition)
 
-
         for (let i = 0; i < originPosition.length; i++){
           if (newArray[i].changable){
-            newArray[i].latlng = map.getCenter()
+            const latlng = map.getCenter();
+            newArray[i].latlng = latlng;
+            fetchReverseGeocode(latlng.lat.toString(), latlng.lng.toString())
+            newArray[i].geocode = currentGeocode;
+            setCurrentGeocode("")
           }
         }
         setOriginPosition(newArray)
@@ -375,6 +387,7 @@ export default function Map() {
   const [transportation, setTransportation] = useState("driving-car");
 
   const [originPosition, setOriginPosition] = useState([{
+    id: 1,
     latlng: center,
     changable: true,
     geocode: ""
@@ -384,11 +397,70 @@ export default function Map() {
 
   const [isochrone, setIsochrone] = useState(null);
   const [isochroneCoords, setIsochroneCoords] = useState([]);
+  const [currentGeocode, setCurrentGeocode] = useState("");
+  const [selectedColors, setSelectedColors] = useState([])
 
   //Debugging
   const [checked, setChecked] = React.useState([1]);
   // ----------------------------------------------------------------
 
+
+  const fetchIsochrone = async (type) => {
+    const data = {
+      locations: [],
+      range_type: type,
+      range: [type === "time" ? timeInput : distanceInput]
+    }
+    originPosition.forEach(marker => {
+      data.locations.push([marker.latlng.lng.toString(), marker.latlng.lat.toString()])
+    })
+
+    // this two methods can be combined together
+    const response = await fetch(
+      `https://api.openrouteservice.org/v2/isochrones/${transportation}`,
+      {
+        method: "POST",
+        headers: {
+          Accept:
+            "application/json, application/geo+json, application/gpx+xml, img/png; charset=utf-8",
+          Authorization: API_KEY,
+          "Content-Type": "application/json; charset=utf-8",
+        },
+        body: JSON.stringify(data),
+      }
+    );
+
+    const items = await response.json();
+    setIsochrone(items);
+    let polygonCoords = []
+    
+    items.features.forEach(feature => {
+      polygonCoords.push(feature.geometry.coordinates[0].map((coord) => coord.reverse()))
+      
+    })
+    setIsochroneCoords(polygonCoords);
+  };
+
+
+  const fetchReverseGeocode = async (lat, lng) => {
+    const size = 1;
+    const response = await fetch(
+        `https://api.openrouteservice.org/geocode/reverse?api_key=${API_KEY}&point.lon=${lng}&point.lat=${lat}&size=${size}`
+      ,
+      {
+        method: "GET",
+        headers: {
+          'Accept': 'application/json, application/geo+json, application/gpx+xml, img/png; charset=utf-8'
+        }
+      }
+    );
+
+    const items = await response.json();
+    setCurrentGeocode(items.features[0].properties.label.trim())
+  }
+
+
+  // ---------- ----------------------
   const handleDrawerOpen = () => {
     setOpen(true);
   };
@@ -403,56 +475,24 @@ export default function Map() {
     setAlertOpen(true)
   }
 
-  const fetchIsochrone = async (type) => {
-    console.log("time value: ", timeInput)
-    const data = {
-      locations: [],
-      range_type: type,
-      range: [type === "time" ? timeInput : distanceInput]
-    }
-    originPosition.forEach(marker => {
-      data.locations.push([marker.lng.toString(), marker.lat.toString()])
-    })
-
-    // this two methods can be combined together
-    const response = await fetch(
-      `https://api.openrouteservice.org/v2/isochrones/${transportation}`,
-      {
-        method: "POST",
-        headers: {
-          Accept:
-            "application/json, application/geo+json, application/gpx+xml, img/png; charset=utf-8",
-          Authorization:
-            "5b3ce3597851110001cf6248ef4f468a3bbe4724ae286a8e3d9f1497",
-          "Content-Type": "application/json; charset=utf-8",
-        },
-        body: JSON.stringify(data),
-      }
-    );
-
-    const items = await response.json();
-    setIsochrone(items);
-    const reversed = items.features[0].geometry.coordinates[0].map((coord) =>
-      coord.reverse()
-    );
-    console.log("coords: ", reversed  )
-    setIsochroneCoords(reversed);
-  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
-    if (distanceInput === "" && timeInput !== ""){
-      fetchIsochrone("time");
-    } else if (timeInput === "" && distanceInput !== ""){
-      fetchIsochrone("distance");
-    } else if (timeInput !== "" && distanceInput !== ""){
-      alertUser("فقط یکی از مقادیر فاصله و زمان را می‌توان انتخاب کرد.", "error")
+    if (originPosition.length !== 0) {
+      if (distanceInput === "" && timeInput !== ""){
+        fetchIsochrone("time");
+      } else if (timeInput === "" && distanceInput !== ""){
+        fetchIsochrone("distance");
+      } else if (timeInput !== "" && distanceInput !== ""){
+        alertUser("فقط یکی از مقادیر فاصله و زمان را می‌توان انتخاب کرد.", "error")
+      } else {
+        alertUser("مقداری مشخص نشده است.", "warning")
+      }
+      setLoading(false);
     } else {
-      alertUser("مقداری مشخص نشده است.", "warning")
+      alertUser("هیچ نقظه ای مشخص نشده است", "warning")
     }
-    setLoading(false);
   };
 
   const handleAlertClose = (e, reason) => {
@@ -542,15 +582,16 @@ export default function Map() {
         />
         <LocateView />
         <LocationMarker />
-        <Polygon
-          positions={isochroneCoords}
-          interactive={false}
-          color="blue"
-          pathOptions={{
-            color: "#e91e63",
-            // opacity: "50%"
-          }}
-        />
+        {isochroneCoords.map((coord, ind) => (
+          <Polygon
+            key={ind}
+            positions={coord}
+            interactive={false}
+            pathOptions={{
+              color: getColor(ind % 20)[800]
+            }}
+          />
+        ))}
       </MapContainer>
       {/* =================  my location button ==============================*/}
 
@@ -632,22 +673,6 @@ export default function Map() {
         {/* =============== Drawer body ====================== */}
         <Container className={classes.drawerBody}>
           <form onSubmit={handleSubmit}>
-            {/* <div className="originInputContainer">
-              <IoLocationSharp className="originIcon" />
-              <input
-                className="originInput"
-                placeholder="موقعیت شما"
-                value={
-                  originPosition.lat === undefined
-                    ? ""
-                    : `${originPosition.lat.toFixed(
-                        5
-                      )}, ${originPosition.lng.toFixed(5)}`
-                }
-                // onChange={(e) => {setLocationMarkerPosition(e.target.value)}}
-                style={{ direction: "ltr" }}
-              />
-            </div> */}
             <div className="tab">
               <Tabs
                 value={tabValue}
@@ -675,6 +700,7 @@ export default function Map() {
                         // pattern="^[0-9]{0-2}"
                         onChange={(e) => {
                           setTimeInput(e.target.value);
+                          setDistanceInput("")
                         }}
                       />
                     </div>
@@ -693,6 +719,7 @@ export default function Map() {
                         type="number"
                         onChange={(e) => {
                           setDistanceInput(e.target.value);
+                          setTimeInput("")
                         }}
                       />
                     </div>
@@ -716,23 +743,27 @@ export default function Map() {
             <div className="selectedPointHeader">
               <div 
                 className="selectedPointTitle"
-                hidden={originPosition.length === 0}
                 >
                 نقاط انتخاب شده
               </div>
-              <IconButton className="selectedPointAdd">
-                <AddIcon 
-                  onClick={() => {
+              <IconButton 
+                className="selectedPointAdd"
+                onClick={() => {
                     let newArray = []
+                    const latlng = map.getCenter()
+                    console.log("current geocode:  ", currentGeocode)
+                    fetchReverseGeocode(latlng.lat.toString(), latlng.lng.toString())
                     newArray.push(...originPosition)
                     newArray.push({
-                      latlng: map.getCenter(),
-                      geocode: "",
+                      id: markerCount + 1,
+                      latlng: latlng,
+                      geocode: currentGeocode,
                       changable: true
                     })
                     setOriginPosition(newArray)
                   }}
-                />
+              >
+                <AddIcon />
               </IconButton>
             </div>
             <List>
@@ -741,7 +772,10 @@ export default function Map() {
                   ? ''
                   : (
                     originPosition.map((marker, ind) => (
-                      <ListItem alignItems="flex-start">
+                      <ListItem 
+                        alignItems="flex-start"
+                        key={ind}
+                      >
                         <ListItemIcon>
                           <ImLocation />
                         </ListItemIcon>
@@ -756,14 +790,11 @@ export default function Map() {
                         />
                         <IconButton
                           color="default"
-                          onChange={() => {
-                            let newArray = []
-                            for (let i = 0; i < originPosition.length; i++) {
-                              if (i !== ind){
-                                newArray[newArray.length] = originPosition[i]
-                              }
-                            }
+                          onClick={() => {
+                            const newArray = originPosition.filter(m => m.id !== marker.id)
                             setOriginPosition(newArray)
+                            let newIsochronCoords = isochroneCoords.splice(ind, 1)
+                            setIsochroneCoords(newIsochronCoords)
                           }}
                         >
                            <DeleteIcon 
@@ -820,7 +851,7 @@ export default function Map() {
           </ListItem>
           <ListItem button className={classes.poiListItem} onClick={handleListItemClick}>
             <ListItemAvatar>
-              <Avatar sx={{ bgcolor: deepOrange[500] }}>
+              <Avatar sx={{ bgcolor: colors.deepOrange[500] }}>
                 <RiGasStationFill/>
               </Avatar>
             </ListItemAvatar>
