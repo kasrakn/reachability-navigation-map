@@ -10,9 +10,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/" exact component={ Home } />
-          <Route path="/map" component={ Map } />
-          <Route path="/g" component={ GoogleMaps } />
+          <Route path="/" exact component={ Map } />
         </Switch>
       </Router>
     </div>

@@ -22,26 +22,22 @@ import { alpha, makeStyles, useTheme } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import InputBase from "@material-ui/core/InputBase";
 import MenuList from '@material-ui/core/MenuList';
+import { withStyles } from '@material-ui/core/styles';
 import {
   Button,
-  Card,
-  CardContent,
   CircularProgress,
   Container,
   Divider,
-  Fab,
   List,
   ListItem,
   ListSubheader,
   Snackbar,
   Checkbox,
-  Tab,
-  Box,
-  Tabs,
-  Paper,
   colors,
-  MenuItem,
-  Typography
+  AccordionSummary,
+  Accordion,
+  AccordionDetails,
+  AccordionActions
 } from "@material-ui/core";
 import Avatar from '@material-ui/core/Avatar'
 import ListItemIcon from '@material-ui/core/ListItemIcon';
@@ -49,7 +45,9 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Collapse from '@material-ui/core/Collapse';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import MuiAlert from "@material-ui/lab/Alert";
-import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction'
+import MuiAccordion from '@material-ui/core/Accordion';
+import MuiAccordionSummary from '@material-ui/core/AccordionSummary';
+import MuiAccordionDetails from '@material-ui/core/AccordionDetails';
 // CSS
 import "./map.css";
 import "../../../../node_modules/leaflet-contextmenu/dist/leaflet.contextmenu.css"
@@ -60,22 +58,22 @@ import { getColor } from "./colors";
 import SearchIcon from "@material-ui/icons/Search";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
-import AddIcon from '@material-ui/icons/Add';
 
-import AddLocationIcon from '@material-ui/icons/AddLocation';
 import { IoLocationSharp } from "react-icons/io5";
 import { RiGasStationFill } from "react-icons/ri";
-import { ExpandLess, ExpandMore } from "@material-ui/icons";
+import { Block, ExpandLess, ExpandMore } from "@material-ui/icons";
 import { GiHealthNormal } from 'react-icons/gi'
 import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
 import RestaurantIcon from '@material-ui/icons/Restaurant';
-import { ImLocation } from 'react-icons/im'
-import DeleteIcon from '@material-ui/icons/Delete';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 // components
 import Destination from "./Destination";
 import Transporations from "./Transporations";
 import TabInputs from "./TabInputs";
 import CurrentLocation from './CurrentLocation'
+import IsochroneAccordion from './IsochroneAccordion'
+import Direction from "./Direction";
+
 
 const useStyles = makeStyles((theme) => ({
   hide: {
@@ -201,16 +199,55 @@ const useStyles = makeStyles((theme) => ({
   },
   tabCointainer: {
     top: "50px"
-  }, 
-  markersListText: {
-    textAlign: "right",
-    marginRight: "-10px"
   }
 }));
 
 const API_KEY = "5b3ce3597851110001cf6248ef4f468a3bbe4724ae286a8e3d9f1497"
 const center = [36.456636, 15.46875];
 const drawerWidth = 410;
+
+
+const AccordionStyled = withStyles({
+  root: {
+    borderTop: '1px solid rgba(0, 0, 0, .12)',
+    borderRadius: 0,
+    boxShadow: 'none',
+    '&:not(:last-child)': {
+      borderBottom: 0,
+    },
+    '&:before': {
+      display: 'none',
+    },
+    '&$expanded': {
+      margin: '0',
+    },
+  },
+  expanded: {},
+})(MuiAccordion);
+
+const AccordionSummaryStyled = withStyles({
+  root: {
+    marginBottom: -1,
+    minHeight: 56,
+    '&$expanded': {
+      minHeight: 56,
+    },
+  },
+  content: {
+    '&$expanded': {
+      margin: '12px 0',
+    },
+    color: "rgba(0, 0, 0, 0.54)"
+  },
+  expanded: {},
+})(MuiAccordionSummary);
+
+
+const AccordionDetailsStyled = withStyles((theme) => ({
+  root: {
+    padding: theme.spacing(2),
+  },
+}))(MuiAccordionDetails);
 
 export default function Map() {
   // ===================================================================================
@@ -265,6 +302,17 @@ export default function Map() {
               setOriginPosition(newArray)
             }
           }}
+          contextmenu={true}
+          contextmenuWidth={150}
+          contextmenuItems={
+            {
+              text:"انتخاب به عنوان مبدا",
+              icon: "add_location.svg",
+              callback: (e) => {
+                
+              }
+            }
+          }
         >
           <Popup minWidth={90}>
             <span onClick={toggleDraggable}>
@@ -327,6 +375,7 @@ export default function Map() {
 
   const [map, setMap] = useState(null);
   const [open, setOpen] = React.useState(false);
+  const [expandedAccordion, setExpandedAccordion] = React.useState('panel1');
   
   const [alertOpen, setAlertOpen] = React.useState(false);
   const [alertMessage, setAlertMessage] = React.useState("");
@@ -353,13 +402,16 @@ export default function Map() {
   }]);
   
   const [destination, setDestination] = useState(null)
+  const [origin, setOrigin] = useState(null)
   
   const [isochrone, setIsochrone] = useState(null);
   const [isochroneCoords, setIsochroneCoords] = useState([]);
   const [currentGeocode, setCurrentGeocode] = useState("");
-
+  const [directionCoords, setDirectionCoords] = useState([])
   //Debugging
   const [checked, setChecked] = React.useState([1]);
+
+  
   // ----------------------------------------------------------------
 
   const fetchReverseGeocode = async (lat, lng) => {
@@ -378,9 +430,9 @@ export default function Map() {
     const items = await response.json();
     setCurrentGeocode(items.features[0].properties.label.trim())
   }
-
-
+  
   // ---------- ----------------------
+
   const handleDrawerOpen = () => {
     setOpen(true);
   };
@@ -403,23 +455,9 @@ export default function Map() {
     setNestedOpen(!nestedOpen);
   };
 
-  const handleAddMarker = (e) => {
-    let newArray = []
-    const latlng = map.getCenter()
-    console.log("current geocode:  ", currentGeocode)
-
-    fetchReverseGeocode(latlng.lat.toString(), latlng.lng.toString())
-    newArray.push(...originPosition)
-    newArray.push({
-      id: markerCount + 1,
-      latlng: latlng,
-      geocode: currentGeocode,
-      changable: true
-    })
-    setMarkerCount(markerCount + 1)
-    setOriginPosition(newArray)
-  }
-
+  const handleChange = (panel) => (event, newExpanded) => {
+    setExpandedAccordion(newExpanded ? panel : false);
+  };
 
   // const handleToggle = (value) => () => {
   //   const currentIndex = checked.indexOf(value);
@@ -448,7 +486,13 @@ export default function Map() {
         alertUser("به منظور استفاده بهتر از امکانات سایت، به مرورگر خود دسترسی موقعیت مکانی بدهید", "error")
       });
     }
-  }, [map]);
+
+    if (originPosition.length === 1) {
+      setOrigin(originPosition[0])
+    } else {
+      setOrigin(null)
+    }
+  }, [map, originPosition]);
 
   return (
     <div>
@@ -513,6 +557,15 @@ export default function Map() {
             }}
           />
         ))}
+
+        <Polyline
+          positions={directionCoords}
+          interactive={false}
+          pathOptions={{
+            color: colors.blue[500],
+            // width: 100
+          }}
+        />
       </MapContainer>
       {/* =================  my location button ==============================*/}
       <CurrentLocation map={map} position={position}/>
@@ -528,76 +581,60 @@ export default function Map() {
       >
         <Transporations setOpen={setOpen} transportation={transportation} setTransportation={setTransportation}/>
         {/* =============== Drawer body ====================== */}
-        <Container className={classes.drawerBody}>
-          <TabInputs 
-            API_KEY={API_KEY}
-            timeInput={timeInput}
-            setTimeInput={setTimeInput}
-            distanceInput={distanceInput}
-            setDistanceInput={setDistanceInput}
-            originPosition={originPosition}
-            setLoading={setLoading}
-            alertUser={alertUser}
-            setIsochroneCoords={setIsochroneCoords}
-            setIsochrone={setIsochrone}
-            transportation={transportation}
-          />
-          <div className="selectedPoints">
-            <div className="selectedPointHeader">
-              <div 
-                className="selectedPointTitle"
-                >
-                نقاط انتخاب شده
-              </div>
-              <IconButton 
-                className="selectedPointAdd"
-                onClick={handleAddMarker}
-              >
-                <AddIcon />
-              </IconButton>
-            </div>
-            <List>
-              {
-                originPosition.length === 0
-                  ? ''
-                  : (
-                    originPosition.map((marker, ind) => (
-                      <ListItem 
-                        alignItems="flex-start"
-                        key={ind}
-                      >
-                        <ListItemIcon>
-                          <ImLocation />
-                        </ListItemIcon>
-                        <ListItemText
-                          primary={
-                            marker.latlng.lat === undefined || marker.latlng.lng === undefined
-                            ? ''
-                            : `lat: ${marker.latlng.lat.toFixed(5)}, lng: ${marker.latlng.lng.toFixed(5)}`
-                          }
-                          secondary={marker.geocode}
-                          className={classes.markersListText}
-                        />
-                        <IconButton
-                          color="default"
-                          onClick={() => {
-                            const newArray = originPosition.filter(m => m.id !== marker.id)
-                            setOriginPosition(newArray)
-                            let newIsochronCoords = isochroneCoords.splice(ind, 1)
-                            setIsochroneCoords(newIsochronCoords)
-                          }}
-                        >
-                           <DeleteIcon 
-                            fontSize="small"
-                            />
-                        </IconButton>
-                      </ListItem>
-                    ))
-                  )
-              }
-            </List>
-          </div>
-        </Container>
+          <AccordionStyled square expanded={expandedAccordion === 'panel1'} onChange={handleChange('panel1')}>
+            <AccordionSummaryStyled
+              expandIcon={<ExpandMoreIcon />}
+            >
+            ایزوکرون
+            </AccordionSummaryStyled>
+            <AccordionDetailsStyled>
+              <Container className={classes.drawerBody} style={{display: "block"}}>
+                <TabInputs 
+                  API_KEY={API_KEY}
+                  timeInput={timeInput}
+                  setTimeInput={setTimeInput}
+                  distanceInput={distanceInput}
+                  setDistanceInput={setDistanceInput}
+                  originPosition={originPosition}
+                  setLoading={setLoading}
+                  alertUser={alertUser}
+                  setIsochroneCoords={setIsochroneCoords}
+                  setIsochrone={setIsochrone}
+                  transportation={transportation}
+                />
+                <IsochroneAccordion
+                  map={map} 
+                  currentGeocode={currentGeocode}  
+                  markerCount={markerCount} 
+                  setMarkerCount={setMarkerCount} 
+                  originPosition={originPosition} 
+                  setOriginPosition={setOriginPosition} 
+                  isochroneCoords={isochroneCoords}
+                  setIsochroneCoords={setIsochroneCoords} 
+                  fetchReverseGeocode={fetchReverseGeocode}
+                />
+              </Container>
+            </AccordionDetailsStyled>
+          </AccordionStyled>
+          <AccordionStyled square expanded={expandedAccordion === 'panel2'} onChange={handleChange('panel2')}>
+            <AccordionSummaryStyled
+              expandIcon={<ExpandMoreIcon />}
+            >
+            مسیریابی
+            </AccordionSummaryStyled>
+            <AccordionDetailsStyled>
+              <Direction 
+                API_KEY={API_KEY}
+                origin={origin}
+                destination={destination}
+                directionCoords={directionCoords}
+                setDirectionCoords={setDirectionCoords}
+                setLoading={setLoading}
+                alertUser={alertUser}
+              />
+            </AccordionDetailsStyled>
+          </AccordionStyled>
+        
         <Divider /> 
         <List
           component="nav"
