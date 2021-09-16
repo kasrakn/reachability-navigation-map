@@ -147,3 +147,9 @@
 .directionElementText {
     margin-right: 30px;
 }
+
+
+.directionLine {
+    stroke-width: 7;
+    opacity: 0.8;
+}
