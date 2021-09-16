@@ -1,0 +1,214 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-09-16T04:57:43Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/650315340",
+        "amenity": "hospital",
+        "name": "بیمارستان حضرت زینب",
+        "name:en": "Hazrat-e Zeinab Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5995532,
+          36.2816457
+        ]
+      },
+      "id": "node/650315340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/651567794",
+        "amenity": "hospital",
+        "name": "بیمارستان سینا",
+        "name:en": "Sina Hospital",
+        "wikidata": "Q574872"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5997421,
+          36.28148
+        ]
+      },
+      "id": "node/651567794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3076107089",
+        "addr:city": "Mashhad",
+        "addr:housenumber": "19",
+        "addr:street": "خیابان شهید محمد علی حنایی",
+        "amenity": "hospital",
+        "description": "24-hour Ale Muhammad Medical polyclinic and Emergency services Our polyclinic offers vast range of medical services to our respected and valued patients.",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;internal;dentist;radiology;urology;surgery;cardiology;blood_check",
+        "level": "-2,_-1,_0",
+        "name": "درمانگاه شبانه روزی آل محمد ص",
+        "name:ar": "مستشفي آل محمد ص",
+        "name:en": "Ale Muhammad Clinic",
+        "name:fa": "درمانگاه شبانه روزی آل محمد ص",
+        "opening_hours": "24/7",
+        "phone": "+985131999",
+        "website": "http://almohamad.com",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6147915,
+          36.2757053
+        ]
+      },
+      "id": "node/3076107089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4028882255",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "بیمارستان ام البنین",
+        "name:en": "omalbanine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6187583,
+          36.3009161
+        ]
+      },
+      "id": "node/4028882255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4586898096",
+        "addr:street": "امام رضا ۶۱",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "بیمارستان علوی",
+        "name:en": "Alavi Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5941222,
+          36.2642545
+        ]
+      },
+      "id": "node/4586898096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6799464187",
+        "amenity": "hospital",
+        "name": "بيمارستان ٢٢بهمن",
+        "name:en": "22th bahman hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6604775,
+          36.299438
+        ]
+      },
+      "id": "node/6799464187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6883981685",
+        "amenity": "hospital",
+        "name": "بیمارستان امام حسین(ع)",
+        "name:en": "emam hoseyn hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6457774,
+          36.2994487
+        ]
+      },
+      "id": "node/6883981685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6883981785",
+        "amenity": "hospital",
+        "name": "بیمارستان امام حسین (ع)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6457036,
+          36.2993786
+        ]
+      },
+      "id": "node/6883981785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6883981885",
+        "amenity": "hospital",
+        "name": "بیمارستان امام حسین (ع)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6457135,
+          36.2993826
+        ]
+      },
+      "id": "node/6883981885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8173021717",
+        "amenity": "hospital",
+        "name:ar": "فحص كورونا مشهد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5934038,
+          36.2889673
+        ]
+      },
+      "id": "node/8173021717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8769123394",
+        "addr:city": "مشهد",
+        "addr:housenumber": "26",
+        "addr:street": "قائم ۱۷",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "laboratory;covid19",
+        "name": "آزمایشگاه پاتولوژی صبا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5807857,
+          36.2986068
+        ]
+      },
+      "id": "node/8769123394"
+    }
+  ]
+}

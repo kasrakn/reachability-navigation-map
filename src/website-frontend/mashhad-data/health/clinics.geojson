@@ -1,0 +1,1280 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-09-16T05:00:46Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1750032594",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "درمانگاه امام حسین",
+        "name:en": "Imam Hosein clinic",
+        "opening_hours": "24/7",
+        "phone": "+98 511 8591200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5997033,
+          36.2688786
+        ]
+      },
+      "id": "node/1750032594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1750032621",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "درمانگاه سبحان",
+        "name:en": "Sobhan clinic",
+        "opening_hours": "24/7",
+        "phone": "+98 511 8428026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5661493,
+          36.2974899
+        ]
+      },
+      "id": "node/1750032621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3745190491",
+        "amenity": "clinic",
+        "name": "مرکز روانشناختی و مشاوره خانواده ناحیه ۲ مشهد",
+        "phone": "05138599699"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6051916,
+          36.2803094
+        ]
+      },
+      "id": "node/3745190491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3847629098",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "درمانگاه شاهد",
+        "name:en": "Shahed clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5685848,
+          36.2848041
+        ]
+      },
+      "id": "node/3847629098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3847639151",
+        "amenity": "clinic",
+        "healthcare": "physiotherapist",
+        "name": "فیزیوتراپی ایثارگران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5683944,
+          36.2847327
+        ]
+      },
+      "id": "node/3847639151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3847639152",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "مرکز خدمات جامع سلامت امام خمینی",
+        "source": "map.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5888189,
+          36.2693922
+        ]
+      },
+      "id": "node/3847639152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3874325135",
+        "amenity": "clinic",
+        "name": "بخش مسمومین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5907924,
+          36.2879859
+        ]
+      },
+      "id": "node/3874325135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3880668630",
+        "amenity": "clinic",
+        "healthcare": "centre",
+        "name": "مرکز سم شناسی پزشکی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5907471,
+          36.2879915
+        ]
+      },
+      "id": "node/3880668630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3884563152",
+        "amenity": "clinic",
+        "name": "مجتمع تخصصی پزشکان کیمیا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5925539,
+          36.2896795
+        ]
+      },
+      "id": "node/3884563152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3884566786",
+        "amenity": "clinic",
+        "name": "مجتمع تخصصی پزشکان ابن سینا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5926175,
+          36.2896064
+        ]
+      },
+      "id": "node/3884566786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903707404",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "درمانگاه تخصصی و فوق تخصصی امام زمان عج",
+        "name:en": "Imam Zaman Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6304373,
+          36.2806553
+        ]
+      },
+      "id": "node/3903707404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4063610639",
+        "amenity": "clinic",
+        "name": "کلینیک شبانه روزی اطفال آریان",
+        "opening_hours": "24/7",
+        "phone": "05138460120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5780215,
+          36.2873666
+        ]
+      },
+      "id": "node/4063610639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4080480401",
+        "amenity": "clinic",
+        "healthcare": "centre",
+        "name": "درمانگاه المنتظر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5758356,
+          36.3143674
+        ]
+      },
+      "id": "node/4080480401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4189153856",
+        "amenity": "clinic",
+        "name": "مجتمع پزشکان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5926841,
+          36.2895028
+        ]
+      },
+      "id": "node/4189153856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4218812190",
+        "addr:street": "میدان بسیج",
+        "amenity": "clinic",
+        "description": "مرکز مشاوره و برنامه ریزی تحصیلی - مهندس عربی",
+        "description:en": "Plan for students with Mr Arabi",
+        "email": "sepehr.Arabi@gmail.com",
+        "healthcare": "clinic",
+        "internet_access": "wlan",
+        "opening_hours": "Sa-Th 09:00-20:00",
+        "phone": "09153107953"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6029491,
+          36.2737079
+        ]
+      },
+      "id": "node/4218812190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4224193290",
+        "amenity": "clinic",
+        "name": "درمانگاه شرکت نفت",
+        "name:en": "NIOC Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5745848,
+          36.3100119
+        ]
+      },
+      "id": "node/4224193290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4244964889",
+        "addr:street": "طبرسی",
+        "amenity": "clinic",
+        "internet_access": "wlan",
+        "name": "درمانگاه و خیریه اصغریه",
+        "name:en": "Asghari Hospital and Health Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6474779,
+          36.308625
+        ]
+      },
+      "id": "node/4244964889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4347364057",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "درمانگاه شبانه روزی",
+        "name:en": "Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6143103,
+          36.2615643
+        ]
+      },
+      "id": "node/4347364057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4447719191",
+        "amenity": "clinic",
+        "name": "درمانگاه شبانه روزی آریا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5478778,
+          36.2850952
+        ]
+      },
+      "id": "node/4447719191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4461872090",
+        "addr:housenumber": "05137331732",
+        "addr:street": "عبدالمطلب",
+        "amenity": "clinic",
+        "description": "کلینیک کامیابی - درمان اعتیاد",
+        "name": "دکتر اکرمی نژاد",
+        "name:en": "کلینیک درمان اعتیاد کامیابی",
+        "opening_hours": "Mo-Th, Sa, Su 15:30-20:30",
+        "phone": "05137331732"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6081119,
+          36.3173641
+        ]
+      },
+      "id": "node/4461872090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4491181792",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "مرکز سنجش تراکم استخوان دگزا",
+        "name:en": "Dexa Bone Densitometry",
+        "phone": "+98 51 3841 1062"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5876268,
+          36.2924785
+        ]
+      },
+      "id": "node/4491181792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4492196790",
+        "addr:housenumber": "10.1",
+        "addr:postcode": "91837943",
+        "addr:street": "خیابان کفایی",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "مطب دکتر رضا رجبیان و مرکزسنجش تراکم استخوان دگزا",
+        "name:en": "Dr Rajabian Dexa Bone Center",
+        "opening_hours": "Sa-Th 15:30-19:30",
+        "phone": "009838411062",
+        "website": "http://humayounrajabian.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.587791,
+          36.2924384
+        ]
+      },
+      "id": "node/4492196790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4514798591",
+        "addr:housenumber": "10.1",
+        "addr:postcode": "91837943",
+        "addr:street": "Kafaee St.",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "مطب دکتر رجبیان و مرکز سنجش تراکم استخوان",
+        "website": "http://humayounrajabian.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5876151,
+          36.2921934
+        ]
+      },
+      "id": "node/4514798591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4555365697",
+        "addr:street": "رسالت ۴۰",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "درمانگاه شبانه روزی روح الله",
+        "name:en": "Rooh-O-Allah clinic",
+        "opening_hours": "24/7",
+        "phone": "+98 51 3271 0008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6371668,
+          36.3125104
+        ]
+      },
+      "id": "node/4555365697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4558075698",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "درمانگاه پارس"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6265616,
+          36.3388733
+        ]
+      },
+      "id": "node/4558075698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4681501989",
+        "addr:street": "امام رضا ۱۰",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "کلینیک داندانپزشکى امام رضا ع",
+        "name:ar": "مركز الإمام الرضا ع لطب الأسنان",
+        "name:en": "Imam Reza Dentistry",
+        "opening_hours": "Sa-Th 07:00-11:00",
+        "phone": "+989396306771"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.609244,
+          36.2799447
+        ]
+      },
+      "id": "node/4681501989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4684812190",
+        "amenity": "clinic",
+        "name": "مرکز جراحی محدود ارمغان تندرستی",
+        "phone": "+98 51 3844 9894"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5645298,
+          36.2905501
+        ]
+      },
+      "id": "node/4684812190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4851592022",
+        "addr:housenumber": "10",
+        "addr:postcode": "91837943",
+        "addr:street": "خیابان کفایی",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "مطب دکتر رضا رجبیان",
+        "name:en": "Dr. Reza Rajabian",
+        "opening_hours": "Sa-Th 16:00-19:00",
+        "phone": "05138411062",
+        "website": "http://humayounrajabian.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5874731,
+          36.2921147
+        ]
+      },
+      "id": "node/4851592022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4873393122",
+        "addr:housenumber": "194",
+        "addr:street": "خیابان ابن سینا",
+        "amenity": "clinic",
+        "email": "echo@echo-clinic.ir",
+        "healthcare": "clinic",
+        "name": "کلینیک شنوایی و تعادل اکو",
+        "name:en": "ECO audiological clinic",
+        "operator": "هادی بهزاد",
+        "phone": "+985138417160",
+        "website": "http://www.echo-clinic.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5853695,
+          36.2989411
+        ]
+      },
+      "id": "node/4873393122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4989760122",
+        "amenity": "clinic",
+        "name": "درمانگاه شبانه روزی صحت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5414785,
+          36.288631
+        ]
+      },
+      "id": "node/4989760122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5031826825",
+        "amenity": "clinic",
+        "name": "مرکز دیالیز سبز درمان",
+        "name:en": "Green clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5769494,
+          36.303049
+        ]
+      },
+      "id": "node/5031826825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5031844921",
+        "amenity": "clinic",
+        "name": "کلینیک دیالیز سبز درمان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5769726,
+          36.3030143
+        ]
+      },
+      "id": "node/5031844921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5156591973",
+        "addr:city": "مشهد",
+        "addr:housenumber": "351",
+        "addr:street": "بولوار فردوسی",
+        "amenity": "clinic",
+        "description": "Retina clinic, Dr Nasser Shoeibi, Dr Mehdi Ghasemi",
+        "healthcare": "clinic",
+        "name": "کلینیک چشم پزشکی،شبکیه دکتر ناصر شعیبی، دکتر مهدی قاسمی",
+        "name:en": "Dr Nasser Shoeibi, Dr Mehdi Ghasemi",
+        "phone": "+98 51 3608 5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5467983,
+          36.3259457
+        ]
+      },
+      "id": "node/5156591973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5227169322",
+        "amenity": "clinic",
+        "name": "شرکت طوس تجهیز",
+        "name:en": "toos tajhiz co",
+        "opening_hours": "Sa-Th 09:00-14:00",
+        "phone": "+985136068050"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5311301,
+          36.3285961
+        ]
+      },
+      "id": "node/5227169322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5235302081",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "درمانگاه تخصصی شفاطوس"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5795663,
+          36.2978024
+        ]
+      },
+      "id": "node/5235302081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5235302082",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "درمانگاه سناباد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5806354,
+          36.3025667
+        ]
+      },
+      "id": "node/5235302082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5268294921",
+        "addr:street": "ساختمان پزشکان مهر",
+        "amenity": "clinic",
+        "description": "تعویض مفصل زانو و لگن و درمان ازن تراپى بیمارى مفاصل و زخم دیابت",
+        "email": "rezamdbahador@gmail.com",
+        "healthcare": "clinic",
+        "healthcare:speciality": "orthopaedics",
+        "name": "دکتر رضا بهادر جراح و متخصص ارتوپدى",
+        "name:en": "dr reza bahador",
+        "opening_hours": "Mo-We, Sa 17:30-23:00",
+        "phone": "00985138472011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5791153,
+          36.2932186
+        ]
+      },
+      "id": "node/5268294921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323255086",
+        "amenity": "clinic",
+        "name": "درمانگاه تخصصی اطفال نشاط کودک",
+        "name:en": "Neshat-e koodak clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.646712,
+          36.3002961
+        ]
+      },
+      "id": "node/5323255086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350594151",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "کلینیک زنان و زایمان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5876954,
+          36.337682
+        ]
+      },
+      "id": "node/5350594151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350594936",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "palliative",
+        "name": "مرکز درمان اعتیاد پردیسان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5879012,
+          36.3376737
+        ]
+      },
+      "id": "node/5350594936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350594937",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "درمانگاه شبانه روزی گوهر سلامت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5878529,
+          36.3376746
+        ]
+      },
+      "id": "node/5350594937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350606870",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "کلینیک درمان اعتیاد مهر افروزان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5878848,
+          36.3373641
+        ]
+      },
+      "id": "node/5350606870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5534766113",
+        "addr:city": "مشهد",
+        "addr:country": "IR",
+        "addr:housenumber": "34",
+        "addr:street": "کوثر شمالی ۲",
+        "amenity": "clinic",
+        "email": "info@roobiyanclinic.com",
+        "name": "کلینیک پوست و روبیان",
+        "name:en": "Roobiyan Clinic",
+        "phone": "۹۸ ۰۹۱ ۵۵۰۳ ۰۴۱۴",
+        "website": "http://roobiyanclinic.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5251569,
+          36.3192444
+        ]
+      },
+      "id": "node/5534766113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5841796786",
+        "addr:city": "مشهد",
+        "addr:street": "بیستون",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "کلینیک ایرانا",
+        "name:ar": "مستشفی ایرانا",
+        "name:en": "Irana Clinic",
+        "name:fa": "ساختمان ایرانا",
+        "opening_hours:covid19": "open"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5632889,
+          36.3137451
+        ]
+      },
+      "id": "node/5841796786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6073655988",
+        "amenity": "clinic",
+        "name:en": "khale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.599315,
+          36.311052
+        ]
+      },
+      "id": "node/6073655988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6465994168",
+        "addr:city": "مشهد",
+        "amenity": "clinic",
+        "email": "dralisarabient@gmail.com",
+        "healthcare": "clinic",
+        "healthcare:speciality": "cosmetic_surgery",
+        "name": "Dr ali sarabi - plastic surgeon in iran",
+        "operator": "dr ali sarabi",
+        "phone": "+989158007188",
+        "website": "en.dralisarabi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5799254,
+          36.2931808
+        ]
+      },
+      "id": "node/6465994168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6534382885",
+        "amenity": "clinic",
+        "name": "عيادة جلديه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5772057,
+          36.2935618
+        ]
+      },
+      "id": "node/6534382885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6898039985",
+        "addr:street": "بازارچه سراب",
+        "amenity": "clinic",
+        "name": "مرکز درمانی ایثار",
+        "name:en": "Isar Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6056404,
+          36.2931268
+        ]
+      },
+      "id": "node/6898039985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6970613385",
+        "amenity": "clinic",
+        "name": "د. ديانا حسيني"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5792679,
+          36.2929795
+        ]
+      },
+      "id": "node/6970613385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7061234785",
+        "amenity": "clinic",
+        "name:ar": "دكتور تجويدي"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5780454,
+          36.2925048
+        ]
+      },
+      "id": "node/7061234785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7277749510",
+        "amenity": "clinic",
+        "name": "درمانگاه تخصصی پوست نگین",
+        "name:en": "Negin Skin & Hair Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5493142,
+          36.3116433
+        ]
+      },
+      "id": "node/7277749510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7350402748",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "nosejob;rhinoplasty;جراحی_بینی",
+        "name": "کلینیک زیبایی دکتر سرابی",
+        "name:en": "rhinoplasty in iran by dr sarabi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5720196,
+          36.295416
+        ]
+      },
+      "id": "node/7350402748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7363420825",
+        "amenity": "clinic",
+        "name": "درمانگاه تخصصی داخلی جهاد دانشگاهی",
+        "phone": "+98 51 3855 7970",
+        "website": "www.jdmclinic.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5963011,
+          36.285762
+        ]
+      },
+      "id": "node/7363420825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8080054610",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "درمانگاه شماره دو تامین اجتماعی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6157007,
+          36.3008715
+        ]
+      },
+      "id": "node/8080054610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8097727854",
+        "addr:city": "مشهد",
+        "addr:street": "پرستار ۳",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "شنوایی_سنجی;سرگیجه;سمعک",
+        "name": "کلینیک شنوایی سنجی و تعادل دانش",
+        "operator": "دکتر حسین نامور"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5798163,
+          36.2921289
+        ]
+      },
+      "id": "node/8097727854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8121067797",
+        "addr:city": "مشهد",
+        "addr:housenumber": "287",
+        "addr:postcode": "9193715687",
+        "addr:street": "بین مطهری شمالی ۱۱ و ۱۳",
+        "amenity": "clinic",
+        "description": "حجامت تخصصی بانوانمشاوره و درمان بیماری های زنان با طب سنتیآزمایش پاپ اسمیرمعاینه پرده بکارت و صدور گواهی سلامتگذاشتن و برداشتن آی یو دی iudتعیین جنسیت جنیندرمان ناباروریبا بهترین قیمت ها و بالاترین کیفیت",
+        "email": "safadelavar@gmail.com",
+        "fax": "+98 51 3724 9327",
+        "healthcare": "clinic",
+        "healthcare:speciality": "traditional_chinese_medicine;general;clinic",
+        "image": "https://doctor-yab.ir/img/dr_slide/mahdavikhah_3.jpg",
+        "name": "مطب مامایی صفا دلاور",
+        "operator": "صفا دلاور",
+        "operator:type": "public",
+        "phone": "+98 51 3724 9327",
+        "website": "https://www.aparat.com/search/%D8%B5%D9%81%D8%A7%20%D8%AF%D9%84%D8%A7%D9%88%D8%B1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6013536,
+          36.3111058
+        ]
+      },
+      "id": "node/8121067797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8184395417",
+        "amenity": "clinic",
+        "name:ar": "مكان شركة هادي مسهد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5837007,
+          36.2892634
+        ]
+      },
+      "id": "node/8184395417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8184454017",
+        "amenity": "clinic",
+        "name:ar": "دكتوره تجميل مشهد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5612937,
+          36.2926366
+        ]
+      },
+      "id": "node/8184454017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8230919025",
+        "addr:city": "مشهد",
+        "addr:housenumber": "21",
+        "addr:street": "چمران ۱۳",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "psychology;psychotherapist;neuropsychiatry;child_psychiatry",
+        "name": "مرکز مشاوره پردیس",
+        "name:en": "Pardis Psychology Clinic",
+        "name:fa": "مرکز مشاوره و خدمات روانشناختی پردیس",
+        "operator": "دکتر مصطفی مروارید",
+        "phone": "+985138521521",
+        "website": "http://pardisp.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5933107,
+          36.2912292
+        ]
+      },
+      "id": "node/8230919025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8772871206",
+        "amenity": "clinic",
+        "name": "مرکز بهداشت حضرت زهرا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6116957,
+          36.3007375
+        ]
+      },
+      "id": "node/8772871206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8772957731",
+        "amenity": "clinic",
+        "name": "مرکز بهداشت کارگران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.620944,
+          36.2653963
+        ]
+      },
+      "id": "node/8772957731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8772957753",
+        "amenity": "clinic",
+        "name": "مرکز بهداشت امام رضا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6417351,
+          36.3157703
+        ]
+      },
+      "id": "node/8772957753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8772995647",
+        "amenity": "clinic",
+        "name": "مرکز سلامت گلشاد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.632857,
+          36.3463489
+        ]
+      },
+      "id": "node/8772995647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8773035767",
+        "amenity": "clinic",
+        "name": "مرکز بهداشت ادویه چی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5629734,
+          36.2934178
+        ]
+      },
+      "id": "node/8773035767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8778839520",
+        "amenity": "clinic",
+        "name": "مرکز سلامت شهری انصار"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6606306,
+          36.3178688
+        ]
+      },
+      "id": "node/8778839520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8780166858",
+        "amenity": "clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5471081,
+          36.3297003
+        ]
+      },
+      "id": "node/8780166858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8786437947",
+        "amenity": "clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6417579,
+          36.2609325
+        ]
+      },
+      "id": "node/8786437947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8786478946",
+        "amenity": "clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5640972,
+          36.3172885
+        ]
+      },
+      "id": "node/8786478946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8786489716",
+        "amenity": "clinic",
+        "name": "مرکز بهداشت ساختمان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6729413,
+          36.266071
+        ]
+      },
+      "id": "node/8786489716"
+    }
+  ]
+}

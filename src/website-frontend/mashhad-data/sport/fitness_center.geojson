@@ -1,0 +1,248 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-09-16T05:43:27Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3717142635",
+        "leisure": "fitness_centre",
+        "name": "سالن بدنسازی آریا",
+        "name:en": "Arya Gym",
+        "opening_hours": "Sa-Th 8:00-12:00; 14:00-23:59",
+        "sport": "athletics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4967117,
+          36.3610992
+        ]
+      },
+      "id": "node/3717142635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4608229990",
+        "addr:street": "صدف ۶",
+        "leisure": "fitness_centre",
+        "name": "رادمان ۲",
+        "name:en": "Radman 2",
+        "opening_hours": "Sa-Th 07:30-23:30",
+        "phone": "00985138674255",
+        "website": "https://www.instagram.com/radmanclub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4938656,
+          36.3323205
+        ]
+      },
+      "id": "node/4608229990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5302994324",
+        "leisure": "fitness_centre",
+        "name": "باشگاه ورزشی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6536275,
+          36.2617742
+        ]
+      },
+      "id": "node/5302994324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5314882078",
+        "leisure": "fitness_centre",
+        "name": "سالن مانی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5645388,
+          36.3034089
+        ]
+      },
+      "id": "node/5314882078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323444360",
+        "leisure": "fitness_centre",
+        "name": "باشگاه پرورش اندام"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6381066,
+          36.3150566
+        ]
+      },
+      "id": "node/5323444360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5331005859",
+        "leisure": "fitness_centre",
+        "name": "سالن ورزشی احد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5554248,
+          36.3061104
+        ]
+      },
+      "id": "node/5331005859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5349704275",
+        "leisure": "fitness_centre",
+        "name": "Bashgah Bozorgmehr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6204824,
+          36.3200746
+        ]
+      },
+      "id": "node/5349704275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352144780",
+        "leisure": "fitness_centre",
+        "name": "باشگاه ورزشی ابدی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4877741,
+          36.3538821
+        ]
+      },
+      "id": "node/5352144780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5715211021",
+        "leisure": "fitness_centre",
+        "name": "باشگاه خاتون",
+        "name:en": "khatoon gym"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5998372,
+          36.3323567
+        ]
+      },
+      "id": "node/5715211021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6253478387",
+        "leisure": "fitness_centre",
+        "name": "باشگاه ورزشی )بانوان("
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.463879,
+          36.3324328
+        ]
+      },
+      "id": "node/6253478387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6253478593",
+        "leisure": "fitness_centre",
+        "name": "باشگاه ورزشی (بانوان)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4693913,
+          36.3309413
+        ]
+      },
+      "id": "node/6253478593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7671019488",
+        "leisure": "fitness_centre",
+        "name:en": "power house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.48431,
+          36.3305828
+        ]
+      },
+      "id": "node/7671019488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8380185431",
+        "addr:city": "شهر مشهد",
+        "addr:housenumber": "بین سجادیه 19 و 21",
+        "addr:street": "بولوار سجادیه",
+        "leisure": "fitness_centre",
+        "name": "باشگاه بدنسازی هومان",
+        "phone": "+989150262602",
+        "sport": "fitness;yoga;crossfit;bodybuilding;billiards",
+        "website": "https://www.instagram.com/hoomaan.sports.club"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4724619,
+          36.3692027
+        ]
+      },
+      "id": "node/8380185431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8763797108",
+        "leisure": "fitness_centre",
+        "name": "باشگاه پرورش اندام پارسیا",
+        "sport": "fitness;exercise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4773521,
+          36.3849254
+        ]
+      },
+      "id": "node/8763797108"
+    }
+  ]
+}

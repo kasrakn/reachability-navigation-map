@@ -1,0 +1,300 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-09-16T05:25:10Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/287022950",
+        "amenity": "college",
+        "name": "دانشکده علوم",
+        "name:en": "Faculty of Science"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5331309,
+          36.31192
+        ]
+      },
+      "id": "node/287022950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/669075128",
+        "amenity": "college",
+        "name": "گروه علوم و صنایع غذایی",
+        "name:en": "Department of Food Science & Technology"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5266973,
+          36.3054105
+        ]
+      },
+      "id": "node/669075128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1434015469",
+        "amenity": "college",
+        "building": "yes",
+        "name": "دانشگاه علمی کاربردی زندان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4903056,
+          36.341074
+        ]
+      },
+      "id": "node/1434015469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2449458793",
+        "amenity": "college",
+        "name": "مکتب نرجس"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6008362,
+          36.2821951
+        ]
+      },
+      "id": "node/2449458793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2989283897",
+        "amenity": "college",
+        "name": "مجتمع تعلیم و تربیت عباس زادگان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5714057,
+          36.2980141
+        ]
+      },
+      "id": "node/2989283897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3807113565",
+        "amenity": "college",
+        "email": "ctpl@um.ac.ir",
+        "name": "مرکز بین المللی آموزش زبان فارسی به غیرفارسی زبانان",
+        "name:en": "International Center for Teaching Persian to Non-Persian",
+        "website": "Ctpl.um.ac.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5352454,
+          36.3058115
+        ]
+      },
+      "id": "node/3807113565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5256491369",
+        "amenity": "college",
+        "name": "موسسه آموزش عالی تگنوفن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5706005,
+          36.2927118
+        ]
+      },
+      "id": "node/5256491369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5256491370",
+        "amenity": "college",
+        "name": "موسسه آموزش عالی آزادمهندسان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.568438,
+          36.2922743
+        ]
+      },
+      "id": "node/5256491370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5256491371",
+        "amenity": "college",
+        "name": "دانشکده اقتصاد",
+        "name:en": "Economy college"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5681054,
+          36.2955262
+        ]
+      },
+      "id": "node/5256491371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5256491372",
+        "amenity": "college",
+        "name": "موسسه آموزش عالی ازاد امین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5707527,
+          36.2975144
+        ]
+      },
+      "id": "node/5256491372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5256491373",
+        "amenity": "college",
+        "name": "موسسه آموزش عالی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5756747,
+          36.3030396
+        ]
+      },
+      "id": "node/5256491373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5256491375",
+        "amenity": "college",
+        "name": "انجمن پرستاری مشهد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5769248,
+          36.2938012
+        ]
+      },
+      "id": "node/5256491375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5256491376",
+        "amenity": "college",
+        "name": "موسسه آموزش عالی حکیم توس"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5798104,
+          36.2911807
+        ]
+      },
+      "id": "node/5256491376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5256491377",
+        "amenity": "college",
+        "name": "موسسه آموزش عالی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5845602,
+          36.2982614
+        ]
+      },
+      "id": "node/5256491377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5671701221",
+        "addr:street": "ورودی بزرگراه شهید کلانتری",
+        "amenity": "college",
+        "name": "پژوهشکده زلزله شناسی و فناوری های ژئوفیزیک",
+        "name:en": "Institute of Seismology and Geophysical Technologies",
+        "operator": "Ferdowsi University of Mashhad",
+        "phone": "985138804376"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5354696,
+          36.3115773
+        ]
+      },
+      "id": "node/5671701221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5999176885",
+        "addr:street": "مشهد - شاندیز",
+        "amenity": "college",
+        "name": "دانشگاه",
+        "name:en": "Shandiz university",
+        "name:fa": "موسسه آموزش عالی شاندیز",
+        "website": "http://www.shandiz.ac.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4206726,
+          36.3652531
+        ]
+      },
+      "id": "node/5999176885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7004378787",
+        "addr:housenumber": "69",
+        "addr:street": "بولوار بعثت",
+        "amenity": "college",
+        "name": "مرکز علمی کاربردی مدیریت صنعتی خراسان رضوی",
+        "opening_hours": "Sa-Th 07:30-20:00",
+        "phone": "+985138454100",
+        "website": "http://www.asteimi.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5605937,
+          36.2916319
+        ]
+      },
+      "id": "node/7004378787"
+    }
+  ]
+}

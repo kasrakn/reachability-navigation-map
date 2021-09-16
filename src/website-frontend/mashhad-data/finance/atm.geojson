@@ -1,0 +1,2172 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-09-16T05:41:28Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/991253211",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6089688,
+          36.292778
+        ]
+      },
+      "id": "node/991253211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1290359721",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4625669,
+          36.3401321
+        ]
+      },
+      "id": "node/1290359721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2278077920",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4777838,
+          36.3164784
+        ]
+      },
+      "id": "node/2278077920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2427123773",
+        "amenity": "atm",
+        "operator": "Hekmat Iranian Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5783982,
+          36.2845165
+        ]
+      },
+      "id": "node/2427123773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2631615319",
+        "amenity": "atm",
+        "name": "ای تی ام بانک شهر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4715857,
+          36.3356837
+        ]
+      },
+      "id": "node/2631615319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2758279363",
+        "amenity": "atm",
+        "operator": "تجارت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5124896,
+          36.3588741
+        ]
+      },
+      "id": "node/2758279363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2994094047",
+        "amenity": "atm",
+        "name": "بانک تجارت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6127966,
+          36.2838851
+        ]
+      },
+      "id": "node/2994094047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3807170525",
+        "amenity": "atm",
+        "brand": "بانک تجارت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5329615,
+          36.3060124
+        ]
+      },
+      "id": "node/3807170525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903707399",
+        "amenity": "atm",
+        "name": "بانک ملی ایران",
+        "operator": "بانک ملی ایران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6303489,
+          36.2800813
+        ]
+      },
+      "id": "node/3903707399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903707401",
+        "amenity": "atm",
+        "operator": "بانک صادرات ایران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6307182,
+          36.2802323
+        ]
+      },
+      "id": "node/3903707401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903707412",
+        "amenity": "atm",
+        "name": "بانک سامان",
+        "operator": "بانک سامان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.626114,
+          36.2810875
+        ]
+      },
+      "id": "node/3903707412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3936156897",
+        "amenity": "atm",
+        "name": "بانک ملت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.621677,
+          36.2830748
+        ]
+      },
+      "id": "node/3936156897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4109355590",
+        "amenity": "atm",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4716189,
+          36.3614658
+        ]
+      },
+      "id": "node/4109355590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4109806991",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4667559,
+          36.3647709
+        ]
+      },
+      "id": "node/4109806991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4114114590",
+        "amenity": "atm",
+        "name": "ملت",
+        "name:en": "Bank Mellat",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4841694,
+          36.314915
+        ]
+      },
+      "id": "node/4114114590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4114819189",
+        "amenity": "atm",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4841233,
+          36.3148929
+        ]
+      },
+      "id": "node/4114819189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4143451292",
+        "amenity": "atm",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.528379,
+          36.3277443
+        ]
+      },
+      "id": "node/4143451292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4222445575",
+        "addr:street": "گلدیس",
+        "amenity": "atm",
+        "name": "خود پرداز بانک دی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4704097,
+          36.3235956
+        ]
+      },
+      "id": "node/4222445575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4224212489",
+        "amenity": "atm",
+        "operator": "BMI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4851313,
+          36.3328939
+        ]
+      },
+      "id": "node/4224212489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4234435089",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6089261,
+          36.3168443
+        ]
+      },
+      "id": "node/4234435089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4282128191",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6439481,
+          36.2999156
+        ]
+      },
+      "id": "node/4282128191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4295644092",
+        "addr:street": "خیابان گلدیس",
+        "amenity": "atm",
+        "name": "خودپرداز بانک دی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4703951,
+          36.3236112
+        ]
+      },
+      "id": "node/4295644092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4305792886",
+        "amenity": "atm",
+        "name": "خودپرداز بانک"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4720075,
+          36.3609137
+        ]
+      },
+      "id": "node/4305792886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4347461099",
+        "amenity": "atm",
+        "name": "خودپرداز بانک صادرات",
+        "name:en": "Saderat Bank ATM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6143467,
+          36.2736953
+        ]
+      },
+      "id": "node/4347461099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4349495574",
+        "amenity": "atm",
+        "name": "خودپرداز بانک صادرات",
+        "name:en": "Saderat Bank ATM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6250741,
+          36.2711153
+        ]
+      },
+      "id": "node/4349495574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4352138591",
+        "amenity": "atm",
+        "name:en": "ENBANK",
+        "operator:en": "ENBANK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5725872,
+          36.2959348
+        ]
+      },
+      "id": "node/4352138591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4381123893",
+        "amenity": "atm",
+        "name": "خودپرداز اقتصاد نوین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4911796,
+          36.3516814
+        ]
+      },
+      "id": "node/4381123893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4392730498",
+        "amenity": "atm",
+        "name": "عابر بانک",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5188614,
+          36.3755366
+        ]
+      },
+      "id": "node/4392730498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4409041889",
+        "amenity": "atm",
+        "name": "عابر بانک",
+        "name:en": "ATM",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5765475,
+          36.3452907
+        ]
+      },
+      "id": "node/4409041889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4423569492",
+        "amenity": "atm",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5743714,
+          36.3483634
+        ]
+      },
+      "id": "node/4423569492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4423580294",
+        "amenity": "atm",
+        "opening_hours": "24/7",
+        "operator": "بانک مسکن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5751432,
+          36.3418794
+        ]
+      },
+      "id": "node/4423580294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4423606089",
+        "amenity": "atm",
+        "opening_hours": "24/7",
+        "operator": "بانک ملت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5739453,
+          36.3431751
+        ]
+      },
+      "id": "node/4423606089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4428117349",
+        "amenity": "atm",
+        "operator": "بانک شهر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.490435,
+          36.3145202
+        ]
+      },
+      "id": "node/4428117349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4434767890",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5769134,
+          36.318003
+        ]
+      },
+      "id": "node/4434767890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4466384993",
+        "amenity": "atm",
+        "opening_hours": "24/7",
+        "operator": "بانک ملی ایران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5934202,
+          36.283336
+        ]
+      },
+      "id": "node/4466384993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4466473189",
+        "amenity": "atm",
+        "opening_hours": "24/7",
+        "operator": "بانک ملت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5939344,
+          36.2827028
+        ]
+      },
+      "id": "node/4466473189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4486488892",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.560291,
+          36.3024369
+        ]
+      },
+      "id": "node/4486488892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4510292998",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5934902,
+          36.2770012
+        ]
+      },
+      "id": "node/4510292998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4537298890",
+        "amenity": "atm",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6339459,
+          36.3392256
+        ]
+      },
+      "id": "node/4537298890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4550917051",
+        "addr:street": "سجادیه ۸",
+        "amenity": "atm",
+        "name": "خودپرداز"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4661397,
+          36.3645589
+        ]
+      },
+      "id": "node/4550917051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4561854892",
+        "amenity": "atm",
+        "opening_hours": "24/7",
+        "operator": "Pasargad ATM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5142439,
+          36.3628469
+        ]
+      },
+      "id": "node/4561854892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4580986090",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4208953,
+          36.4254215
+        ]
+      },
+      "id": "node/4580986090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4581204990",
+        "amenity": "atm",
+        "operator": "جر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5933914,
+          36.2776805
+        ]
+      },
+      "id": "node/4581204990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4643857692",
+        "amenity": "atm",
+        "operator": "m"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6127763,
+          36.2902711
+        ]
+      },
+      "id": "node/4643857692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4661016289",
+        "amenity": "atm",
+        "opening_hours": "24/7",
+        "operator": "Bank shahr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5196106,
+          36.3536454
+        ]
+      },
+      "id": "node/4661016289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4686736492",
+        "amenity": "atm",
+        "operator": "Mellat bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5612595,
+          36.2944062
+        ]
+      },
+      "id": "node/4686736492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4690336101",
+        "amenity": "atm",
+        "operator": "ATM Sepah Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4810103,
+          36.3712424
+        ]
+      },
+      "id": "node/4690336101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4690336496",
+        "amenity": "atm",
+        "opening_hours": "24/7",
+        "operator": "ATM Tejarat Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4793101,
+          36.3750226
+        ]
+      },
+      "id": "node/4690336496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4737895621",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.476921,
+          36.345085
+        ]
+      },
+      "id": "node/4737895621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4768157723",
+        "amenity": "atm",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6506487,
+          36.3316982
+        ]
+      },
+      "id": "node/4768157723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4772368921",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6114738,
+          36.3140777
+        ]
+      },
+      "id": "node/4772368921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4772763822",
+        "amenity": "atm",
+        "operator": "sina bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5465188,
+          36.3516621
+        ]
+      },
+      "id": "node/4772763822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4780470626",
+        "amenity": "atm",
+        "operator": "sarmaie ATM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6315406,
+          36.3390805
+        ]
+      },
+      "id": "node/4780470626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4781456521",
+        "amenity": "atm",
+        "operator": "Aiandeh Bank ATM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5088112,
+          36.3681439
+        ]
+      },
+      "id": "node/4781456521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4782443223",
+        "amenity": "atm",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "operator": "Hekmat Bank ATM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4723113,
+          36.3761628
+        ]
+      },
+      "id": "node/4782443223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4809045226",
+        "amenity": "atm",
+        "operator": "پارسا نان گندم"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6680476,
+          36.2648467
+        ]
+      },
+      "id": "node/4809045226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4860877621",
+        "amenity": "atm",
+        "operator": "آشیونه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.539642,
+          36.2897984
+        ]
+      },
+      "id": "node/4860877621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4861699121",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5495629,
+          36.3555382
+        ]
+      },
+      "id": "node/4861699121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4866947921",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5449519,
+          36.2804247
+        ]
+      },
+      "id": "node/4866947921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4868551624",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5961434,
+          36.3260014
+        ]
+      },
+      "id": "node/4868551624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4886591821",
+        "amenity": "atm",
+        "operator": "pasargad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6751146,
+          36.2705308
+        ]
+      },
+      "id": "node/4886591821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4956505826",
+        "amenity": "atm",
+        "operator": "بانک شهر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5728683,
+          36.2979388
+        ]
+      },
+      "id": "node/4956505826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4964389267",
+        "amenity": "atm",
+        "name": "خودپرداز بانک ملی ایران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5958697,
+          36.2866666
+        ]
+      },
+      "id": "node/4964389267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4985578521",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6223106,
+          36.2942517
+        ]
+      },
+      "id": "node/4985578521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4993488123",
+        "amenity": "atm",
+        "name": "نانوایی",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5247827,
+          36.3412396
+        ]
+      },
+      "id": "node/4993488123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5104410024",
+        "amenity": "atm",
+        "operator": "بانک انصار"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.588545,
+          36.341472
+        ]
+      },
+      "id": "node/5104410024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5175366321",
+        "amenity": "atm",
+        "operator": "حاجی جما"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6593638,
+          36.2759322
+        ]
+      },
+      "id": "node/5175366321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5259148824",
+        "amenity": "atm",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5649755,
+          36.3176675
+        ]
+      },
+      "id": "node/5259148824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5315179580",
+        "amenity": "atm",
+        "operator": "عابر بانک ایرانیان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4842202,
+          36.3576178
+        ]
+      },
+      "id": "node/5315179580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5315179586",
+        "amenity": "atm",
+        "operator": "عابر بانک پارسیان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4896409,
+          36.3578241
+        ]
+      },
+      "id": "node/5315179586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350574182",
+        "amenity": "atm",
+        "operator": "خود پرداز بانک رفاه کارگران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5864794,
+          36.3376532
+        ]
+      },
+      "id": "node/5350574182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350606874",
+        "amenity": "atm",
+        "name": "خود پرداز",
+        "operator": "خود پرداز بانک وسسه ملل"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5876649,
+          36.3373854
+        ]
+      },
+      "id": "node/5350606874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5456723608",
+        "addr:street": "شهرک صنعتی طوس",
+        "amenity": "atm",
+        "name": "عابر بانک ملی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4156489,
+          36.4279312
+        ]
+      },
+      "id": "node/5456723608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5587453421",
+        "amenity": "atm",
+        "operator": "خودپرداز بانک پاسارگاد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5735939,
+          36.2757635
+        ]
+      },
+      "id": "node/5587453421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5602590721",
+        "amenity": "atm",
+        "operator": "mellat bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5707688,
+          36.302653
+        ]
+      },
+      "id": "node/5602590721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5604200526",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6125227,
+          36.258728
+        ]
+      },
+      "id": "node/5604200526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5950841162",
+        "amenity": "atm",
+        "cash_in": "yes",
+        "drive_through": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4654267,
+          36.3636717
+        ]
+      },
+      "id": "node/5950841162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6073700085",
+        "amenity": "atm",
+        "operator": "sader"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5993296,
+          36.3110517
+        ]
+      },
+      "id": "node/6073700085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166452903",
+        "amenity": "atm",
+        "operator": "بانک ملت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5366259,
+          36.3343771
+        ]
+      },
+      "id": "node/6166452903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166452904",
+        "amenity": "atm",
+        "operator": "بانک مسکن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5366129,
+          36.3343281
+        ]
+      },
+      "id": "node/6166452904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166452921",
+        "amenity": "atm",
+        "operator": "Saderat Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5372678,
+          36.3272107
+        ]
+      },
+      "id": "node/6166452921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166452922",
+        "amenity": "atm",
+        "operator": "بانک کشاورزی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5268912,
+          36.3293531
+        ]
+      },
+      "id": "node/6166452922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166452923",
+        "amenity": "atm",
+        "operator": "Ansar Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5209762,
+          36.3308585
+        ]
+      },
+      "id": "node/6166452923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166452924",
+        "amenity": "atm",
+        "operator": "Saderat Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5196184,
+          36.3309241
+        ]
+      },
+      "id": "node/6166452924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166452925",
+        "amenity": "atm",
+        "operator": "Qarz Al-Hasane Mehr Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5155653,
+          36.3322639
+        ]
+      },
+      "id": "node/6166452925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166452926",
+        "amenity": "atm",
+        "operator": "بانک اقتصاد نوین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5074538,
+          36.3347256
+        ]
+      },
+      "id": "node/6166452926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166452927",
+        "amenity": "atm",
+        "operator": "بانک سپه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5076677,
+          36.3346556
+        ]
+      },
+      "id": "node/6166452927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166452928",
+        "amenity": "atm",
+        "operator": "بانک تجارت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.508469,
+          36.334392
+        ]
+      },
+      "id": "node/6166452928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166452995",
+        "amenity": "atm",
+        "operator": "بانک سپه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5362594,
+          36.3326034
+        ]
+      },
+      "id": "node/6166452995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166452996",
+        "amenity": "atm",
+        "operator": "بانک قرض الحسنه مهر ایران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.536476,
+          36.3337828
+        ]
+      },
+      "id": "node/6166452996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166453007",
+        "amenity": "atm",
+        "operator": "بانک اقتصاد نوین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5340764,
+          36.3265944
+        ]
+      },
+      "id": "node/6166453007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166453008",
+        "amenity": "atm",
+        "operator": "بانک سپه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5339291,
+          36.3266344
+        ]
+      },
+      "id": "node/6166453008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166453090",
+        "amenity": "atm",
+        "operator": "بانک آینده"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5366354,
+          36.3344033
+        ]
+      },
+      "id": "node/6166453090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166453093",
+        "amenity": "atm",
+        "operator": "Saderat Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5404207,
+          36.32686
+        ]
+      },
+      "id": "node/6166453093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166453096",
+        "amenity": "atm",
+        "operator": "بانک ملی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5333927,
+          36.3270207
+        ]
+      },
+      "id": "node/6166453096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166453288",
+        "amenity": "atm",
+        "operator": "بانک ملی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5121853,
+          36.3333407
+        ]
+      },
+      "id": "node/6166453288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166454209",
+        "amenity": "atm",
+        "operator": "بانک ملی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5384989,
+          36.3269934
+        ]
+      },
+      "id": "node/6166454209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166454210",
+        "amenity": "atm",
+        "operator": "Kar Afarin Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5245182,
+          36.3294388
+        ]
+      },
+      "id": "node/6166454210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166454211",
+        "amenity": "atm",
+        "operator": "Mellat Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5211144,
+          36.3305606
+        ]
+      },
+      "id": "node/6166454211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166454212",
+        "amenity": "atm",
+        "operator": "Refah Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5197333,
+          36.3313087
+        ]
+      },
+      "id": "node/6166454212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166454213",
+        "amenity": "atm",
+        "operator": "Tosea Taavon Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5167441,
+          36.3320085
+        ]
+      },
+      "id": "node/6166454213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166454214",
+        "amenity": "atm",
+        "operator": "Noor Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5158468,
+          36.3321892
+        ]
+      },
+      "id": "node/6166454214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166454215",
+        "amenity": "atm",
+        "operator": "بانک قوامین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5137745,
+          36.3331483
+        ]
+      },
+      "id": "node/6166454215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166454216",
+        "amenity": "atm",
+        "operator": "بانک کشاورزی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5095104,
+          36.3340822
+        ]
+      },
+      "id": "node/6166454216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166454217",
+        "amenity": "atm",
+        "operator": "بانک شهر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5085016,
+          36.3346141
+        ]
+      },
+      "id": "node/6166454217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166454220",
+        "amenity": "atm",
+        "operator": "بانک پاسارگاد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5345303,
+          36.326682
+        ]
+      },
+      "id": "node/6166454220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166454221",
+        "amenity": "atm",
+        "operator": "بانک تجارت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5339215,
+          36.3264717
+        ]
+      },
+      "id": "node/6166454221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166454222",
+        "amenity": "atm",
+        "operator": "بانک گردشگری"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5340382,
+          36.3263877
+        ]
+      },
+      "id": "node/6166454222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166471185",
+        "amenity": "atm",
+        "operator": "بانک تجارت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5373039,
+          36.3349447
+        ]
+      },
+      "id": "node/6166471185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166474885",
+        "amenity": "atm",
+        "operator": "Sina Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5226176,
+          36.3300608
+        ]
+      },
+      "id": "node/6166474885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6188295967",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5114995,
+          36.3989245
+        ]
+      },
+      "id": "node/6188295967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6209798885",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4599477,
+          36.3720056
+        ]
+      },
+      "id": "node/6209798885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6250446385",
+        "amenity": "atm",
+        "opening_hours": "24/7",
+        "operator": "بانک آینده"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4662327,
+          36.3344796
+        ]
+      },
+      "id": "node/6250446385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6253478685",
+        "amenity": "atm",
+        "operator": "بانک شهر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4722257,
+          36.3361792
+        ]
+      },
+      "id": "node/6253478685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6260407385",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6676202,
+          36.2993087
+        ]
+      },
+      "id": "node/6260407385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6275368436",
+        "amenity": "atm",
+        "operator": "عابر بانک ملی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5842491,
+          36.2671343
+        ]
+      },
+      "id": "node/6275368436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6350257785",
+        "amenity": "atm",
+        "operator": "بانک ملت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5985682,
+          36.2852508
+        ]
+      },
+      "id": "node/6350257785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6350257786",
+        "amenity": "atm",
+        "operator": "بانک ملت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5987621,
+          36.2855476
+        ]
+      },
+      "id": "node/6350257786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6417917186",
+        "amenity": "atm",
+        "operator": "خانه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.600505,
+          36.2485719
+        ]
+      },
+      "id": "node/6417917186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6494446529",
+        "amenity": "atm",
+        "operator": "اقتصاد نوین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4712905,
+          36.3807581
+        ]
+      },
+      "id": "node/6494446529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6494482382",
+        "amenity": "atm",
+        "brand": "سپه",
+        "operator": "سپه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4709867,
+          36.3808916
+        ]
+      },
+      "id": "node/6494482382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6714498189",
+        "amenity": "atm",
+        "operator": "ااا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6145887,
+          36.3139629
+        ]
+      },
+      "id": "node/6714498189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7065776885",
+        "amenity": "atm",
+        "operator": "Bank Refah Gargaran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5607679,
+          36.3198074
+        ]
+      },
+      "id": "node/7065776885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7108812835",
+        "amenity": "atm",
+        "name": "عابر بانک"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5501464,
+          36.2773843
+        ]
+      },
+      "id": "node/7108812835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7561432885",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5120951,
+          36.3005244
+        ]
+      },
+      "id": "node/7561432885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7775015185",
+        "amenity": "atm",
+        "operator": "me"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.570544,
+          36.3285252
+        ]
+      },
+      "id": "node/7775015185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7994135532",
+        "amenity": "atm",
+        "name": "خودپرداز بانک رفاه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4545917,
+          36.4267625
+        ]
+      },
+      "id": "node/7994135532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8073445352",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5096962,
+          36.2996515
+        ]
+      },
+      "id": "node/8073445352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8372269818",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5390009,
+          36.3255606
+        ]
+      },
+      "id": "node/8372269818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8372269819",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5360136,
+          36.327307
+        ]
+      },
+      "id": "node/8372269819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8530764117",
+        "amenity": "atm",
+        "operator": "پلیس راه مشهد قوچان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5370609,
+          36.3666147
+        ]
+      },
+      "id": "node/8530764117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8898041102",
+        "amenity": "atm",
+        "currency:rial": "yes",
+        "name": "خودپرداز بانک سپه",
+        "operator": "Sepah Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6512603,
+          36.298745
+        ]
+      },
+      "id": "node/8898041102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8898041103",
+        "amenity": "atm",
+        "operator": "Sepah Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6511613,
+          36.2976617
+        ]
+      },
+      "id": "node/8898041103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8898041104",
+        "amenity": "atm",
+        "operator": "Saderat Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6531861,
+          36.2971514
+        ]
+      },
+      "id": "node/8898041104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8968983528",
+        "amenity": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6240933,
+          36.3041976
+        ]
+      },
+      "id": "node/8968983528"
+    }
+  ]
+}

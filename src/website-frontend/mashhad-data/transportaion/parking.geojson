@@ -1,0 +1,417 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-09-16T05:39:23Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/266360127",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5089446,
+          36.3103916
+        ]
+      },
+      "id": "node/266360127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/584116803",
+        "amenity": "parking",
+        "parking": "surface",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5621279,
+          36.3480738
+        ]
+      },
+      "id": "node/584116803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/658439767",
+        "amenity": "parking",
+        "capacity": "10",
+        "fee": "yes",
+        "park_ride": "yes",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5395596,
+          36.3248954
+        ]
+      },
+      "id": "node/658439767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/658439769",
+        "amenity": "parking",
+        "capacity": "10",
+        "fee": "yes",
+        "park_ride": "yes",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5614859,
+          36.3144545
+        ]
+      },
+      "id": "node/658439769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/663800791",
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "پارکینگ زیست خاور",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5855237,
+          36.2900433
+        ]
+      },
+      "id": "node/663800791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/722560971",
+        "access": "destination",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5627955,
+          36.3196948
+        ]
+      },
+      "id": "node/722560971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/776533575",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6450895,
+          36.300416
+        ]
+      },
+      "id": "node/776533575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2266718706",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4788468,
+          36.2991105
+        ]
+      },
+      "id": "node/2266718706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2462189540",
+        "amenity": "parking",
+        "name": "پارکینگ طبقاتی آسمان",
+        "name:en": "Aseman Parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6182311,
+          36.2742872
+        ]
+      },
+      "id": "node/2462189540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2756448380",
+        "amenity": "parking",
+        "capacity": "190"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5144401,
+          36.356939
+        ]
+      },
+      "id": "node/2756448380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3906902186",
+        "access": "private",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.604794,
+          36.2944334
+        ]
+      },
+      "id": "node/3906902186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3906979157",
+        "access": "private",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6049276,
+          36.293966
+        ]
+      },
+      "id": "node/3906979157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3947423591",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5643484,
+          36.3152759
+        ]
+      },
+      "id": "node/3947423591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4348224442",
+        "amenity": "parking",
+        "name": "پارکینگ مجتمع آرمان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6230757,
+          36.2836453
+        ]
+      },
+      "id": "node/4348224442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4712758194",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.599926,
+          36.2959712
+        ]
+      },
+      "id": "node/4712758194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4813657081",
+        "amenity": "parking",
+        "name": "پارکینگ طبقاتی برج آلتون",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.594164,
+          36.2942737
+        ]
+      },
+      "id": "node/4813657081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4965322323",
+        "amenity": "parking",
+        "name": "پارکینگ شهید پرتویی",
+        "name:en": "Partoei Parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4430926,
+          36.3611247
+        ]
+      },
+      "id": "node/4965322323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5199686138",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5640919,
+          36.3254066
+        ]
+      },
+      "id": "node/5199686138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5219394322",
+        "amenity": "parking",
+        "operator": "پارکینگ آبان پلازا و هایپرمی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.513856,
+          36.3203617
+        ]
+      },
+      "id": "node/5219394322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5502049962",
+        "amenity": "parking",
+        "parking": "surface",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5168909,
+          36.3787079
+        ]
+      },
+      "id": "node/5502049962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5564583616",
+        "amenity": "parking",
+        "capacity": "20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6106201,
+          36.2850931
+        ]
+      },
+      "id": "node/5564583616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6478685585",
+        "amenity": "parking",
+        "name": "پارکینگ دانشکده ادبیات"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5326216,
+          36.3074965
+        ]
+      },
+      "id": "node/6478685585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8490020234",
+        "access": "yes",
+        "amenity": "parking",
+        "parking": "surface",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.514031,
+          36.3231454
+        ]
+      },
+      "id": "node/8490020234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8490182804",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5519415,
+          36.34667
+        ]
+      },
+      "id": "node/8490182804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8490182805",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.550654,
+          36.3470286
+        ]
+      },
+      "id": "node/8490182805"
+    }
+  ]
+}

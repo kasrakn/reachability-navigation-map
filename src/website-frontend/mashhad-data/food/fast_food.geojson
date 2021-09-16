@@ -1,0 +1,2124 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-09-16T05:10:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/475070332",
+        "amenity": "fast_food",
+        "cuisine": "sandwich",
+        "name": "جاسمین",
+        "name:en": "Jasmin",
+        "phone": "0513 761 1111"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.554288,
+          36.318183
+        ]
+      },
+      "id": "node/475070332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/475070335",
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "پیتزا پیتزا",
+        "name:en": "Pizza Pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5541678,
+          36.3181346
+        ]
+      },
+      "id": "node/475070335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626927530",
+        "amenity": "fast_food",
+        "name": "گوگولی برگر",
+        "name:en": "Googooli Burger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5934926,
+          36.2888512
+        ]
+      },
+      "id": "node/626927530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/841752280",
+        "amenity": "fast_food",
+        "cuisine": "chicken",
+        "name": "مرغ بریان افشین",
+        "name:en": "Afshin Grilled Chicken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5659102,
+          36.3059599
+        ]
+      },
+      "id": "node/841752280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/841764754",
+        "amenity": "fast_food",
+        "name": "پیتزا و ساندویچ ۲ در ۱",
+        "name:en": "pizza & sandwich 2x1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5622302,
+          36.3113376
+        ]
+      },
+      "id": "node/841764754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1750033048",
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "پیتزا ویوا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5229457,
+          36.3212085
+        ]
+      },
+      "id": "node/1750033048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2266718773",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4827994,
+          36.2998675
+        ]
+      },
+      "id": "node/2266718773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2376021803",
+        "amenity": "fast_food",
+        "cuisine": "burger,_pizza_, sandwich",
+        "name": "کامبادن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4848323,
+          36.3397168
+        ]
+      },
+      "id": "node/2376021803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2509636808",
+        "addr:city": "Mashhad",
+        "addr:country": "IR",
+        "addr:housenumber": "37",
+        "addr:street": "وکیل اباد",
+        "amenity": "fast_food",
+        "name": "پیتزا ساندویچ گاجره",
+        "name:en": "Gajereh Pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4968594,
+          36.3293757
+        ]
+      },
+      "id": "node/2509636808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2996086838",
+        "amenity": "fast_food",
+        "name": "فست فود سایه",
+        "phone": "+985135212070"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4947629,
+          36.3606195
+        ]
+      },
+      "id": "node/2996086838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3607664144",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6338906,
+          36.3239759
+        ]
+      },
+      "id": "node/3607664144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3612319953",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6354219,
+          36.3234684
+        ]
+      },
+      "id": "node/3612319953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3719599196",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4348016,
+          36.3365334
+        ]
+      },
+      "id": "node/3719599196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3809554720",
+        "amenity": "fast_food",
+        "name": "یاس",
+        "name:en": "Yas Sandwich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5918259,
+          36.293261
+        ]
+      },
+      "id": "node/3809554720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3871284573",
+        "amenity": "fast_food",
+        "name": "اغذیه افریقا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5159693,
+          36.3564634
+        ]
+      },
+      "id": "node/3871284573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903707363",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6200282,
+          36.2850607
+        ]
+      },
+      "id": "node/3903707363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903707413",
+        "amenity": "fast_food",
+        "name": "اغذیه کاکتوس"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6200005,
+          36.284629
+        ]
+      },
+      "id": "node/3903707413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3951602272",
+        "addr:street": "خیابان سرخس",
+        "amenity": "fast_food",
+        "name": "اغذیه مظفر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6309148,
+          36.2799453
+        ]
+      },
+      "id": "node/3951602272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4111120489",
+        "addr:street": "بولوار جانباز",
+        "amenity": "fast_food",
+        "name": "پیترا کندز",
+        "name:en": "kondoz pizza",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5640259,
+          36.3261525
+        ]
+      },
+      "id": "node/4111120489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310417481",
+        "amenity": "fast_food",
+        "name": "مرغ بریان ملت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5405485,
+          36.3245667
+        ]
+      },
+      "id": "node/4310417481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310418950",
+        "amenity": "fast_food",
+        "name": "پر و پیمون"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5406894,
+          36.3245236
+        ]
+      },
+      "id": "node/4310418950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310418955",
+        "amenity": "fast_food",
+        "name": "کپلی برگر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5421204,
+          36.3240328
+        ]
+      },
+      "id": "node/4310418955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310436334",
+        "amenity": "fast_food",
+        "name": "پیتزا ویونا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5776517,
+          36.29501
+        ]
+      },
+      "id": "node/4310436334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310437643",
+        "addr:city": "مشهد",
+        "amenity": "fast_food",
+        "name": "مرغ سوخاری کارو",
+        "name:en": "Karo Kentucky"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5765867,
+          36.2955333
+        ]
+      },
+      "id": "node/4310437643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310438800",
+        "amenity": "fast_food",
+        "name": "پیتزا شب"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5774233,
+          36.29507
+        ]
+      },
+      "id": "node/4310438800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310474501",
+        "amenity": "fast_food",
+        "name": "اخگر برگر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5852017,
+          36.2922233
+        ]
+      },
+      "id": "node/4310474501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4337975489",
+        "addr:street": "ثمانه",
+        "amenity": "fast_food",
+        "cuisine": "italian",
+        "name": "پیتزا برگ",
+        "name:en": "Barg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.559137,
+          36.328622
+        ]
+      },
+      "id": "node/4337975489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4344306828",
+        "amenity": "fast_food",
+        "branch": "۲",
+        "description": "فقط ساندویچ‌های کالباسی دارد",
+        "name": "ساندویچ سرد صدف",
+        "name:en": "Sadaf Fast Food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5334303,
+          36.326574
+        ]
+      },
+      "id": "node/4344306828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4395074289",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5135004,
+          36.3720905
+        ]
+      },
+      "id": "node/4395074289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4408345389",
+        "addr:street": "خیابان فرهاد",
+        "amenity": "fast_food",
+        "name": "خانه پیتزا",
+        "name:en": "pizza house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5616485,
+          36.3113688
+        ]
+      },
+      "id": "node/4408345389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417552932",
+        "amenity": "fast_food",
+        "cuisine": "arabic",
+        "name": "رستوران البیک",
+        "name:en": "Albik Fast food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5669491,
+          36.2923524
+        ]
+      },
+      "id": "node/4417552932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4419128683",
+        "addr:street": "نبش خاقانی ۴",
+        "amenity": "fast_food",
+        "cuisine": "burger",
+        "name": "ساندویج پارت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5425131,
+          36.294462
+        ]
+      },
+      "id": "node/4419128683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4511484090",
+        "amenity": "fast_food",
+        "name": "چیلی چیز",
+        "name:en": "Chilli cheese"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5002961,
+          36.3252734
+        ]
+      },
+      "id": "node/4511484090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4552362890",
+        "addr:street": "شهید صارمی ۱",
+        "amenity": "fast_food",
+        "name": "آویشن سیب زمینی",
+        "name:en": "Avishan potato",
+        "opening_hours": "Mo-Su 18:00-24:00",
+        "phone": "+98 51 3882 8584"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5131971,
+          36.3049735
+        ]
+      },
+      "id": "node/4552362890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4687022713",
+        "addr:housenumber": "237",
+        "addr:street": "بولوار امامیه",
+        "amenity": "fast_food",
+        "cuisine": "burger;sandwich;breakfast;steak_house;pasta;diner;chicken;kebab;barbecue",
+        "email": "lavij@gmail.com",
+        "internet_access": "wlan",
+        "name": "ساندویچ لاویج",
+        "name:en": "Lavij sandwich",
+        "opening_hours": "Mo-Su 07:30-23:59",
+        "phone": "05136620951"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5191169,
+          36.3561111
+        ]
+      },
+      "id": "node/4687022713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4811377621",
+        "addr:street": "مطهری ۵۱",
+        "amenity": "fast_food",
+        "cuisine": "sandwich;hotdog;burger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6146177,
+          36.3206451
+        ]
+      },
+      "id": "node/4811377621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4866947821",
+        "amenity": "fast_food",
+        "name": "جلیز و ولیز",
+        "name:en": "Jilizoviliz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5430478,
+          36.2800913
+        ]
+      },
+      "id": "node/4866947821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4868551622",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5945876,
+          36.3271077
+        ]
+      },
+      "id": "node/4868551622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4872974221",
+        "addr:street": "طوس ۶۴",
+        "amenity": "fast_food",
+        "cuisine": "pizza;ice_cream;diner;chicken;cake",
+        "name": "فست فود و ابمیوه درخشان",
+        "name:en": "Fast food DERAKHSHAN",
+        "opening_hours": "Mo-Su 09:00-12:00",
+        "phone": "05136587533"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5426223,
+          36.3756136
+        ]
+      },
+      "id": "node/4872974221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4872988121",
+        "addr:street": "راهنمایی ۵",
+        "amenity": "fast_food",
+        "cuisine": "international",
+        "name": "هایدا",
+        "name:en": "Haida fastfood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5699277,
+          36.3000204
+        ]
+      },
+      "id": "node/4872988121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4915018705",
+        "addr:city": "مشهد",
+        "addr:street": "رضوی ۱۹",
+        "amenity": "fast_food",
+        "cuisine": "regional",
+        "delivery": "yes",
+        "description": "شب شنبه تعطیل است.",
+        "drive_through": "yes",
+        "name": "آشپزخانه طباطبایی",
+        "name:en": "Tabatabaei Take away food",
+        "opening_hours": "Mo-Su 11:00-24:00",
+        "outdoor_seating": "no",
+        "phone": "05138790258",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5373067,
+          36.2998301
+        ]
+      },
+      "id": "node/4915018705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4993487721",
+        "addr:housenumber": "287",
+        "addr:street": "سید رضی ۵۵",
+        "amenity": "fast_food",
+        "name": "پیتزا آویژه",
+        "name:en": "Avizhe Pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5239012,
+          36.3420586
+        ]
+      },
+      "id": "node/4993487721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4993488121",
+        "addr:street": "سید رضی ۵۵",
+        "amenity": "fast_food",
+        "name": "پیتزا آویژه",
+        "name:en": "Avizhe Pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5235905,
+          36.3414239
+        ]
+      },
+      "id": "node/4993488121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4993490124",
+        "amenity": "fast_food",
+        "name": "ساندویچ",
+        "name:en": "Sandwich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5372406,
+          36.3367567
+        ]
+      },
+      "id": "node/4993490124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5006304722",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6210247,
+          36.2781278
+        ]
+      },
+      "id": "node/5006304722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5008645022",
+        "amenity": "fast_food",
+        "name": "شبهای لبنان",
+        "name:en": "Lebanon Nights"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6131112,
+          36.2960741
+        ]
+      },
+      "id": "node/5008645022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5105096824",
+        "addr:street": "ایة بیت الله بهجت",
+        "amenity": "fast_food",
+        "name": "رستورانت لیالی لبنان",
+        "name:ar": "مطعم ليالي لبنان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.612599,
+          36.2956706
+        ]
+      },
+      "id": "node/5105096824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5143656468",
+        "amenity": "fast_food",
+        "cuisine": "arab;pizza;fast_food",
+        "name": "رستوران لیالی لبنان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5240206,
+          36.3208885
+        ]
+      },
+      "id": "node/5143656468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5157339671",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "pizza;burger",
+        "name": "فست فود دهکده"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5018597,
+          36.3529717
+        ]
+      },
+      "id": "node/5157339671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5163197406",
+        "amenity": "fast_food",
+        "building": "yes",
+        "name": "فست فود"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4980875,
+          36.3523128
+        ]
+      },
+      "id": "node/5163197406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5179821922",
+        "addr:city": "مشهد",
+        "amenity": "fast_food",
+        "name": "پیتزا پونک",
+        "name:en": "pitza poonak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5632852,
+          36.3287532
+        ]
+      },
+      "id": "node/5179821922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5209960522",
+        "addr:street": "جهاد",
+        "amenity": "fast_food",
+        "name": "فست فود",
+        "name:en": "Fast food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.597538,
+          36.2797371
+        ]
+      },
+      "id": "node/5209960522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5231187622",
+        "amenity": "fast_food",
+        "name": "غذایه قابلی خمسه",
+        "name:en": "Ghazaye ghabli khamse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.674993,
+          36.2953815
+        ]
+      },
+      "id": "node/5231187622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5235302088",
+        "amenity": "fast_food",
+        "name": "پیزا پیزا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5767308,
+          36.3017363
+        ]
+      },
+      "id": "node/5235302088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5262333104",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5888936,
+          36.2996573
+        ]
+      },
+      "id": "node/5262333104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306944283",
+        "amenity": "fast_food",
+        "name": "فست فود آویشن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5902314,
+          36.301869
+        ]
+      },
+      "id": "node/5306944283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306944284",
+        "amenity": "fast_food",
+        "name": "فست فود آگنج"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5909825,
+          36.301668
+        ]
+      },
+      "id": "node/5306944284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5311800705",
+        "amenity": "fast_food",
+        "name": "فستفود"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5134973,
+          36.3670382
+        ]
+      },
+      "id": "node/5311800705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5313304740",
+        "amenity": "fast_food",
+        "name": "بشقاب داغ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.559057,
+          36.2904841
+        ]
+      },
+      "id": "node/5313304740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5313304741",
+        "amenity": "fast_food",
+        "name": "پیتزا ونک"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.559071,
+          36.2906949
+        ]
+      },
+      "id": "node/5313304741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5313304743",
+        "amenity": "fast_food",
+        "name": "گریل هوس",
+        "name:en": "Grill House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5646859,
+          36.2916472
+        ]
+      },
+      "id": "node/5313304743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5313843030",
+        "amenity": "fast_food",
+        "cuisine": "sandwich",
+        "name": "فلافل"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4791484,
+          36.3579435
+        ]
+      },
+      "id": "node/5313843030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5313843034",
+        "amenity": "fast_food",
+        "name": "فست فود ماندگار",
+        "name:en": "Mandegar Fast food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4901222,
+          36.3576739
+        ]
+      },
+      "id": "node/5313843034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5313843036",
+        "amenity": "fast_food",
+        "name": "کیان برگر",
+        "name:en": "Kian Burger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4930673,
+          36.3596482
+        ]
+      },
+      "id": "node/5313843036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5314463061",
+        "amenity": "fast_food",
+        "name": "ساندویچ صدف",
+        "name:en": "Sadaf Sandwich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4960163,
+          36.3360181
+        ]
+      },
+      "id": "node/5314463061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5314471806",
+        "amenity": "fast_food",
+        "name": "ساندویچ سون"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4964812,
+          36.3364071
+        ]
+      },
+      "id": "node/5314471806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5314541223",
+        "amenity": "fast_food",
+        "name": "پیتزا بزرگی",
+        "name:en": "Bozorgi pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6445964,
+          36.295071
+        ]
+      },
+      "id": "node/5314541223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5317031958",
+        "amenity": "fast_food",
+        "name": "فست فود",
+        "office": "educational_institution"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6452307,
+          36.2936923
+        ]
+      },
+      "id": "node/5317031958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323226072",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6516742,
+          36.2992488
+        ]
+      },
+      "id": "node/5323226072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323226073",
+        "amenity": "fast_food",
+        "name": "سعید"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6512183,
+          36.2994044
+        ]
+      },
+      "id": "node/5323226073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323255025",
+        "addr:city": "تقاطع امت و مفتح",
+        "amenity": "fast_food",
+        "name": "فست فود مامان جون"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6460658,
+          36.2934676
+        ]
+      },
+      "id": "node/5323255025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323255051",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6482401,
+          36.2996613
+        ]
+      },
+      "id": "node/5323255051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323255075",
+        "amenity": "fast_food",
+        "name": "پیتزا بزرگی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6403027,
+          36.2988435
+        ]
+      },
+      "id": "node/5323255075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323285035",
+        "amenity": "fast_food",
+        "name": "فست فود جناب خان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6459381,
+          36.2937647
+        ]
+      },
+      "id": "node/5323285035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323321834",
+        "amenity": "fast_food",
+        "name": "فست فود"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6476784,
+          36.2913286
+        ]
+      },
+      "id": "node/5323321834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323336635",
+        "amenity": "fast_food",
+        "name": "فست فود"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6372944,
+          36.2970223
+        ]
+      },
+      "id": "node/5323336635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5341202721",
+        "amenity": "fast_food",
+        "name": "پیتزا لیان",
+        "name:en": "Fast food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.486945,
+          36.3382028
+        ]
+      },
+      "id": "node/5341202721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5349109155",
+        "amenity": "fast_food",
+        "name": "فست فود"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5126004,
+          36.3713892
+        ]
+      },
+      "id": "node/5349109155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5349153976",
+        "amenity": "fast_food",
+        "name": "فست فود"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5101749,
+          36.372963
+        ]
+      },
+      "id": "node/5349153976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5349164780",
+        "amenity": "fast_food",
+        "name": "فست فود"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5099855,
+          36.3726965
+        ]
+      },
+      "id": "node/5349164780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350357908",
+        "amenity": "fast_food",
+        "name": "پیتزا بلوط"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5851548,
+          36.3390065
+        ]
+      },
+      "id": "node/5350357908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350357909",
+        "amenity": "fast_food",
+        "name": "پیتزا ژابیز"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5850896,
+          36.3389488
+        ]
+      },
+      "id": "node/5350357909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350586087",
+        "amenity": "fast_food",
+        "name": "ساندویچ سن استین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5883676,
+          36.3376946
+        ]
+      },
+      "id": "node/5350586087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350604568",
+        "amenity": "fast_food",
+        "name": "پیتزا یک ، دو ، سه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5879128,
+          36.3373616
+        ]
+      },
+      "id": "node/5350604568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352209438",
+        "amenity": "fast_food",
+        "name": "وسپا فوت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5645351,
+          36.307723
+        ]
+      },
+      "id": "node/5352209438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352215616",
+        "amenity": "fast_food",
+        "name": "پیتزا ساندویچ آریا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6288028,
+          36.3404918
+        ]
+      },
+      "id": "node/5352215616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352224343",
+        "amenity": "fast_food",
+        "name": "اغذیه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6276849,
+          36.3404621
+        ]
+      },
+      "id": "node/5352224343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5588409022",
+        "amenity": "fast_food",
+        "name": "کروژ",
+        "name:en": "koriuzh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.555846,
+          36.3099944
+        ]
+      },
+      "id": "node/5588409022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5602565121",
+        "amenity": "fast_food",
+        "name": "پیتزا کارینا",
+        "name:en": "Karina pizza kentucky sandwich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5699447,
+          36.2983308
+        ]
+      },
+      "id": "node/5602565121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5682605322",
+        "amenity": "fast_food",
+        "name": "آش و حلیم"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6083571,
+          36.2684258
+        ]
+      },
+      "id": "node/5682605322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5791861080",
+        "amenity": "fast_food",
+        "name": "پیتزا و ساندویچ شب رو",
+        "name:en": "Shabro Fast Food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5310645,
+          36.3385209
+        ]
+      },
+      "id": "node/5791861080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5871416985",
+        "addr:street": "بولوار استقلال",
+        "amenity": "fast_food",
+        "name": "شب اسنک",
+        "name:en": "Shab Snack",
+        "phone": "+985136108375"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5337148,
+          36.3280624
+        ]
+      },
+      "id": "node/5871416985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5932836634",
+        "amenity": "fast_food",
+        "branch": "مشهد",
+        "cuisine": "sandwich",
+        "delivery": "yes",
+        "name": "عطاویچ",
+        "name:en": "Atavich",
+        "outdoor_seating": "no",
+        "phone": "+98 51 3868 7701",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4958431,
+          36.3287031
+        ]
+      },
+      "id": "node/5932836634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5955127393",
+        "addr:street": "Daneshgah st.",
+        "amenity": "fast_food",
+        "name": "فست فود آلونک",
+        "name:en": "Aloonak fast food",
+        "operator": "gholamshahi",
+        "phone": "05138590056"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5916323,
+          36.2927161
+        ]
+      },
+      "id": "node/5955127393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6131310086",
+        "amenity": "fast_food",
+        "name": "فست فود گاجره",
+        "name:en": "Fastfood gajereh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4913416,
+          36.3311367
+        ]
+      },
+      "id": "node/6131310086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6149250485",
+        "addr:street": "بولوار احمدآباد",
+        "amenity": "fast_food",
+        "name": "پادین فود",
+        "name:en": "Padin Food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5837706,
+          36.2928046
+        ]
+      },
+      "id": "node/6149250485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166452906",
+        "addr:housenumber": "2",
+        "addr:street": "امامت ۳۸",
+        "amenity": "fast_food",
+        "name": "فست فود تاپ",
+        "name:en": "Top Fast Food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5358327,
+          36.3313939
+        ]
+      },
+      "id": "node/6166452906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166454187",
+        "addr:street": "۳۱ میرزا کوچک خان",
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "پیتزا ترنج",
+        "name:en": "Toranj Pizza",
+        "phone": "+9851384042000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5323422,
+          36.3288943
+        ]
+      },
+      "id": "node/6166454187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6244034385",
+        "amenity": "fast_food",
+        "name": "پیروزی ۹"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5395802,
+          36.2900932
+        ]
+      },
+      "id": "node/6244034385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6329570028",
+        "addr:city": "مشهد",
+        "addr:housenumber": "740",
+        "addr:street": "بزرگراه وکیل آباد",
+        "amenity": "fast_food",
+        "cuisine": "pizza;italian;firewood;hizomi;پیتزا_هیزمی;هیزمی;پیتزا",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "firewoodpizza پیتزا هیزمی",
+        "operator": "mrebrahimi",
+        "phone": "+985138698901",
+        "takeaway": "yes",
+        "website": "www.pizzahizomi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4969393,
+          36.3283549
+        ]
+      },
+      "id": "node/6329570028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6348856387",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5972335,
+          36.2839361
+        ]
+      },
+      "id": "node/6348856387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6348856388",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5972268,
+          36.2842245
+        ]
+      },
+      "id": "node/6348856388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6348856786",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5972584,
+          36.283906
+        ]
+      },
+      "id": "node/6348856786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6348856787",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5971895,
+          36.2839905
+        ]
+      },
+      "id": "node/6348856787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6348856788",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5971811,
+          36.2840437
+        ]
+      },
+      "id": "node/6348856788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6356197385",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6012323,
+          36.2903647
+        ]
+      },
+      "id": "node/6356197385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6357750085",
+        "amenity": "fast_food",
+        "name:en": "Marmar Sandwich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5996068,
+          36.2866834
+        ]
+      },
+      "id": "node/6357750085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6362264485",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6030525,
+          36.2882482
+        ]
+      },
+      "id": "node/6362264485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6364452815",
+        "addr:city": "مشهد",
+        "addr:postcode": "9184845943",
+        "addr:street": "بولوار شهید کلاهدوز روبروی کلاهدوز 52",
+        "amenity": "fast_food",
+        "cuisine": "burger;sandwich",
+        "drive_through": "no",
+        "level": "0",
+        "name": "ساندویچ فردوسی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5853524,
+          36.3156138
+        ]
+      },
+      "id": "node/6364452815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6498313938",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4691545,
+          36.3794039
+        ]
+      },
+      "id": "node/6498313938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6638919285",
+        "amenity": "fast_food",
+        "name": "فست فود عربی تاجی",
+        "name:en": "Taji Arabic Food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6189135,
+          36.2704069
+        ]
+      },
+      "id": "node/6638919285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6691263486",
+        "addr:street": "انتهای شب بازار؛ روبروی مسجد حاج خاور",
+        "amenity": "fast_food",
+        "name": "فست فود، ساندویچ",
+        "name:en": "Sandwich fast food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.626289,
+          36.2904463
+        ]
+      },
+      "id": "node/6691263486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6703859987",
+        "amenity": "fast_food",
+        "name:ar": "ليالي لبنان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6127423,
+          36.2958938
+        ]
+      },
+      "id": "node/6703859987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6854029466",
+        "amenity": "fast_food",
+        "name": "کنتاکی فراید چیکن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5724445,
+          36.3058017
+        ]
+      },
+      "id": "node/6854029466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909187062",
+        "addr:city": "مشهد",
+        "addr:street": "بزرگراه وکیل آباد",
+        "amenity": "fast_food",
+        "cuisine": "burger;chicken",
+        "name": "بريانكده ژوپين"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4644619,
+          36.3394182
+        ]
+      },
+      "id": "node/6909187062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7068094834",
+        "amenity": "fast_food",
+        "name": "فست فود حيدر",
+        "name:en": "Heydar Fast Food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6049172,
+          36.2718412
+        ]
+      },
+      "id": "node/7068094834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7277749508",
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "پیتزا ویانا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5487872,
+          36.3108069
+        ]
+      },
+      "id": "node/7277749508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7736186514",
+        "amenity": "fast_food",
+        "name": "کافه آسمان شهر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5499472,
+          36.2725942
+        ]
+      },
+      "id": "node/7736186514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7761775697",
+        "addr:city": "mashhad",
+        "amenity": "fast_food",
+        "cuisine": "pizza;chicken",
+        "name": "پیتزا پنیر",
+        "name:en": "pizza paneer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5528398,
+          36.3220238
+        ]
+      },
+      "id": "node/7761775697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8133744229",
+        "addr:city": "مشهد",
+        "addr:housenumber": "8",
+        "addr:street": "هفت تیر ۸",
+        "amenity": "fast_food",
+        "brand": "mactoos",
+        "cuisine": "burger;coffee_shop;sandwich;chicken",
+        "drive_through": "yes",
+        "name": "مکفود",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "operator": "خانی",
+        "phone": "09201231338",
+        "website": "https://mactoos.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4994462,
+          36.3243603
+        ]
+      },
+      "id": "node/8133744229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8395507210",
+        "addr:city": "مشهد",
+        "addr:street": "بزرگراه وکیل آباد",
+        "amenity": "fast_food",
+        "cuisine": "kebab",
+        "name": "کباب ترکی خاتون"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4909736,
+          36.3312279
+        ]
+      },
+      "id": "node/8395507210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8788744805",
+        "amenity": "fast_food",
+        "name": "ساندویچ نسترن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5420489,
+          36.3146012
+        ]
+      },
+      "id": "node/8788744805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8851026556",
+        "amenity": "fast_food",
+        "name": "چهارچوب"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5457698,
+          36.3154909
+        ]
+      },
+      "id": "node/8851026556"
+    }
+  ]
+}

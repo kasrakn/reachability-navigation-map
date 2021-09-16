@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-09-16T05:45:28Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2994086565",
+        "leisure": "sports_centre",
+        "name": "سالن ورزشی شهید کاظمیان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5956579,
+          36.2812025
+        ]
+      },
+      "id": "node/2994086565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3065095484",
+        "leisure": "sports_centre",
+        "name": "مجموعه فرهنگی و ورزشی امیر کبیر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5909523,
+          36.2759559
+        ]
+      },
+      "id": "node/3065095484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5004564721",
+        "access": "yes",
+        "leisure": "sports_centre",
+        "name": "استخر و سونا ثامن الائمه",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5513491,
+          36.3123013
+        ]
+      },
+      "id": "node/5004564721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5322659727",
+        "leisure": "sports_centre",
+        "name": "مجموعه ورزشی پارک تندرستی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.535592,
+          36.2919174
+        ]
+      },
+      "id": "node/5322659727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6215537677",
+        "addr:city": "مشهد",
+        "addr:street": "لادن ۲۲",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "باشگاه برق خراسان",
+        "name:en": "Bargh sports center",
+        "sport": "fitness;karate;boxing;kickboxing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4756367,
+          36.321037
+        ]
+      },
+      "id": "node/6215537677"
+    }
+  ]
+}

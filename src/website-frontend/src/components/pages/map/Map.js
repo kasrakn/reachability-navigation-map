@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from 'prop-types';
 import "leaflet-contextmenu"
 import "leaflet-contextmenu/dist/leaflet.contextmenu.css";
-import { useEffect, useState, useRef, useCallback, useMemo } from "react";
+import { useEffect, useState} from "react";
 import L from "leaflet";
 import {
   MapContainer,
@@ -10,7 +10,6 @@ import {
   Marker,
   Popup,
   useMapEvents,
-  useMap,
 } from "react-leaflet";
 import { LayerGroup, CircleMarker, Polygon, Polyline } from "react-leaflet";
 // import PropTypes from 'prop-types';
@@ -21,29 +20,14 @@ import clsx from "clsx";
 import { alpha, makeStyles, useTheme } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import InputBase from "@material-ui/core/InputBase";
-import MenuList from '@material-ui/core/MenuList';
 import { withStyles } from '@material-ui/core/styles';
 import {
-  Button,
   CircularProgress,
   Container,
   Divider,
-  List,
-  ListItem,
-  ListSubheader,
   Snackbar,
-  Checkbox,
   colors,
-  AccordionSummary,
-  Accordion,
-  AccordionDetails,
-  AccordionActions
 } from "@material-ui/core";
-import Avatar from '@material-ui/core/Avatar'
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import Collapse from '@material-ui/core/Collapse';
-import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import MuiAlert from "@material-ui/lab/Alert";
 import MuiAccordion from '@material-ui/core/Accordion';
 import MuiAccordionSummary from '@material-ui/core/AccordionSummary';
@@ -58,13 +42,6 @@ import { getColor } from "./colors";
 import SearchIcon from "@material-ui/icons/Search";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
-
-import { IoLocationSharp } from "react-icons/io5";
-import { RiGasStationFill } from "react-icons/ri";
-import { Block, ExpandLess, ExpandMore } from "@material-ui/icons";
-import { GiHealthNormal } from 'react-icons/gi'
-import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
-import RestaurantIcon from '@material-ui/icons/Restaurant';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 // components
 import Destination from "./Destination";
@@ -73,6 +50,8 @@ import TabInputs from "./TabInputs";
 import CurrentLocation from './CurrentLocation'
 import IsochroneAccordion from './IsochroneAccordion'
 import Direction from "./Direction";
+import Poi from "./Poi";
+import LocationMarker from "./LocationMarker";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -187,16 +166,6 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     justifyContent: "center",
   },
-  poiList: {
-    width: '100%',
-    backgroundColor: theme.palette.background.paper,
-  },
-  poiListItem: {
-    textAlign: "right"
-  },
-  listCheckbox: {
-    marginLeft: theme.spacing(1),
-  },
   tabCointainer: {
     top: "50px"
   }
@@ -250,85 +219,6 @@ const AccordionDetailsStyled = withStyles((theme) => ({
 }))(MuiAccordionDetails);
 
 export default function Map() {
-  // ===================================================================================
-  function LocationMarker() {
-    const markerRef = useRef(null);
-    
-    const icon = L.icon({
-      iconUrl: "markers/icon/pin.png",
-      iconSize: [35, 65],
-      iconAnchor: [18, 64],
-      shadowUrl: 'markers/shadows/saye.png',
-      shadowSize: [18, 18],
-      shadowAnchor: [9, 11]
-    });
-      
-      // Marker event handler
-    //   const eventHandlers = useMemo(
-    //   (e) => ({
-    //     dragend: () => {
-    //       const marker = markerRef.current;
-
-    //       if (marker != null) {
-    //         setOriginChangable(!originChangable);
-
-    //         // if (originChangable === false) {
-    //         //   setOriginPosition(marker.getLatLng());
-    //         // }
-    //       }
-    //     },
-    //   }),
-    //   []
-    // );
-
-    // Onlick handler
-    const toggleDraggable = useCallback(() => {
-      // setDraggable((d) => !d)
-    }, []);
-
-    return (
-      originPosition.map((marker, ind) => (
-        <Marker
-          draggable={true}
-          position={marker.latlng}
-          ref={markerRef}
-          icon={icon}
-          key={ind}
-          eventHandlers={{
-            dragend: (e) => {
-              marker.latlng = e.target.getLatLng()
-              let newArray = []
-              newArray.push(...originPosition)
-              setOriginPosition(newArray)
-            }
-          }}
-          contextmenu={true}
-          contextmenuWidth={150}
-          contextmenuItems={
-            {
-              text:"انتخاب به عنوان مبدا",
-              icon: "add_location.svg",
-              callback: (e) => {
-                
-              }
-            }
-          }
-        >
-          <Popup minWidth={90}>
-            <span onClick={toggleDraggable}>
-              {markerRef.current !== null ? (
-                `location : ${markerRef.current.getLatLng()}`
-              ) : (
-                <b>Set this marker to your desired place</b>
-              )}
-            </span>
-          </Popup>
-        </Marker>
-      ))
-    );
-  }
-  // ===================================================================================
-
   function LocateView() {
     const map = useMapEvents({
       viewreset	(e) {
@@ -339,7 +229,7 @@ export default function Map() {
           if (newArray[i].changable){
             const latlng = map.getCenter();
             newArray[i].latlng = latlng;
-            fetchReverseGeocode(latlng.lat.toString(), latlng.lng.toString())
+            // fetchReverseGeocode(latlng.lat.toString(), latlng.lng.toString())
             newArray[i].geocode = currentGeocode;
             setCurrentGeocode("")
           }
@@ -409,7 +299,7 @@ export default function Map() {
   const [currentGeocode, setCurrentGeocode] = useState("");
   const [directionCoords, setDirectionCoords] = useState([])
   //Debugging
-  const [checked, setChecked] = React.useState([1]);
+  const [selectedPOIs, setSelectedPOIs] = React.useState([]);
 
   
   // ----------------------------------------------------------------
@@ -443,7 +333,6 @@ export default function Map() {
     setAlertOpen(true)
   }
 
-
   const handleAlertClose = (e, reason) => {
     if (reason === "clickaway") {
       return;
@@ -451,28 +340,9 @@ export default function Map() {
     setAlertOpen(false);
   };
 
-  const handleListItemClick = () => {
-    setNestedOpen(!nestedOpen);
-  };
-
   const handleChange = (panel) => (event, newExpanded) => {
     setExpandedAccordion(newExpanded ? panel : false);
   };
-
-  // const handleToggle = (value) => () => {
-  //   const currentIndex = checked.indexOf(value);
-  //   const newChecked = [...checked];
-
-  //   if (currentIndex === -1) {
-  //     newChecked.push(value);
-  //   } else {
-  //     newChecked.splice(currentIndex, 1);
-  //   }
-
-  //   setChecked(newChecked);
-  // };
-
-  
 
   useEffect(() => {
     if (map !== null) {
@@ -486,13 +356,7 @@ export default function Map() {
         alertUser("به منظور استفاده بهتر از امکانات سایت، به مرورگر خود دسترسی موقعیت مکانی بدهید", "error")
       });
     }
-
-    if (originPosition.length === 1) {
-      setOrigin(originPosition[0])
-    } else {
-      setOrigin(null)
-    }
-  }, [map, originPosition]);
+  }, [map]);
 
   return (
     <div>
@@ -546,7 +410,7 @@ export default function Map() {
         />
         <LocateView />
         <Destination dest={destination} setDest={setDestination}/>
-        <LocationMarker />
+        <LocationMarker originPosition={originPosition} setOriginPosition={setOriginPosition}/>
         {isochroneCoords.map((coord, ind) => (
           <Polygon
             key={ind}
@@ -562,9 +426,10 @@ export default function Map() {
           positions={directionCoords}
           interactive={false}
           pathOptions={{
-            color: colors.blue[500],
-            // width: 100
+            color: colors.blue['A400'],
+            // weight: 3
           }}
+          className="directionLine"
         />
       </MapContainer>
       {/* =================  my location button ==============================*/}
@@ -625,74 +490,28 @@ export default function Map() {
             <AccordionDetailsStyled>
               <Direction 
                 API_KEY={API_KEY}
-                origin={origin}
+                originPosition={originPosition}
                 destination={destination}
                 directionCoords={directionCoords}
                 setDirectionCoords={setDirectionCoords}
                 setLoading={setLoading}
                 alertUser={alertUser}
+                transportation={transportation}
               />
+            </AccordionDetailsStyled>
+          </AccordionStyled>
+          <AccordionStyled square expanded={expandedAccordion === 'panel3'} onChange={handleChange('panel3')}>
+            <AccordionSummaryStyled
+              expandIcon={<ExpandMoreIcon />}
+            >
+            مکان های نقشه
+            </AccordionSummaryStyled>
+            <AccordionDetailsStyled>
+              <Poi />
             </AccordionDetailsStyled>
           </AccordionStyled>
         
         <Divider /> 
-        <List
-          component="nav"
-          aria-labelledby="nested-list-subheader"
-          subheader={
-            <ListSubheader component="div" id="nested-list-subheader">
-              مکان های نقشه
-            </ListSubheader>
-          }
-          className={classes.poiList}
-        >
-          <ListItem button className={classes.poiListItem}>
-            <ListItemAvatar>
-              <Avatar>
-                <RestaurantIcon/>
-              </Avatar>
-            </ListItemAvatar>
-            <ListItemText className={classes.listText} primary="رستوران" />
-            <Checkbox
-              className={classes.listCheckbox}
-              edge="start"
-              // onChange={handleToggle(value)}
-              // checked={checked.indexOf(value) !== -1}
-              // inputProps={{ 'aria-labelledby': labelId }}
-            />
-          </ListItem>
-          <ListItem button className={classes.poiListItem}>
-            <ListItemAvatar>
-              <Avatar>
-                <AccountBalanceIcon />
-              </Avatar>
-            </ListItemAvatar>
-            <ListItemText className={classes.listText} primary="بانک" />
-            <Checkbox
-              className={classes.listCheckbox}
-              edge="start"
-              // onChange={handleToggle(value)}
-              // checked={checked.indexOf(value) !== -1}
-              // inputProps={{ 'aria-labelledby': labelId }}
-            />
-          </ListItem>
-          <ListItem button className={classes.poiListItem} onClick={handleListItemClick}>
-            <ListItemAvatar>
-              <Avatar sx={{ bgcolor: colors.deepOrange[500] }}>
-                <RiGasStationFill/>
-              </Avatar>
-            </ListItemAvatar>
-            <ListItemText className={classes.listText} primary="امکانات شهری" />
-            <Checkbox
-              className={classes.listCheckbox}
-              edge="start"
-              // onChange={handleToggle(value)}
-              // checked={checked.indexOf(value) !== -1}
-              // inputProps={{ 'aria-labelledby': labelId }}
-            />
-            {/* {nestedOpen ? <ExpandLess /> : <ExpandMore />} */}
-          </ListItem>
-        </List>
       </Drawer>
       <Snackbar
         open={alertOpen}

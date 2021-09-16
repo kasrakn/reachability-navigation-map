@@ -1,0 +1,1376 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-09-16T05:13:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/475074072",
+        "amenity": "cafe",
+        "name": "خانه چای",
+        "name:en": "T House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5732712,
+          36.2957716
+        ]
+      },
+      "id": "node/475074072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/475079104",
+        "amenity": "cafe",
+        "name": "حانه چای",
+        "name:en": "T House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5536682,
+          36.3184124
+        ]
+      },
+      "id": "node/475079104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/841764760",
+        "amenity": "cafe",
+        "name": "AX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5617689,
+          36.3114154
+        ]
+      },
+      "id": "node/841764760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/841772837",
+        "amenity": "cafe",
+        "name": "فانوس طلایی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5605994,
+          36.3142683
+        ]
+      },
+      "id": "node/841772837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/841773457",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5529996,
+          36.322391
+        ]
+      },
+      "id": "node/841773457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460095131",
+        "amenity": "cafe",
+        "name": "سنت سرای سندروس"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5143887,
+          36.3467597
+        ]
+      },
+      "id": "node/2460095131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2478638935",
+        "amenity": "cafe",
+        "name": "سنت سرای شن های سفید",
+        "name:en": "White sands Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.52302,
+          36.3298722
+        ]
+      },
+      "id": "node/2478638935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2584916597",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "دهکده",
+        "name:en": "Dehkadeh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5489305,
+          36.3261604
+        ]
+      },
+      "id": "node/2584916597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2914752979",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "تی بگ",
+        "name:en": "Tea bag",
+        "smoking": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5285159,
+          36.3201414
+        ]
+      },
+      "id": "node/2914752979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4214819289",
+        "amenity": "cafe",
+        "name": "کافی شاپ",
+        "name:en": "Coffee shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5293948,
+          36.3306801
+        ]
+      },
+      "id": "node/4214819289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4271044591",
+        "amenity": "cafe",
+        "name": "کافی شاپ",
+        "name:en": "coffee Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4964287,
+          36.3007398
+        ]
+      },
+      "id": "node/4271044591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310437188",
+        "amenity": "cafe",
+        "name": "تراس"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5735617,
+          36.29649
+        ]
+      },
+      "id": "node/4310437188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417554031",
+        "amenity": "cafe",
+        "name": "کافی شاپ",
+        "name:en": "Coffee Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5729782,
+          36.2951802
+        ]
+      },
+      "id": "node/4417554031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4466323202",
+        "amenity": "cafe",
+        "name": "کافه مرمر",
+        "name:en": "Coffee Marmar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5995465,
+          36.2867024
+        ]
+      },
+      "id": "node/4466323202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4467896389",
+        "amenity": "cafe",
+        "name": "کافه دارکوب",
+        "name:en": "Cafe Darkoob"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.582017,
+          36.3003496
+        ]
+      },
+      "id": "node/4467896389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4501896624",
+        "addr:housenumber": "269",
+        "addr:street": "آفرین",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "کافه کتاب تولدی دیگر",
+        "name:en": "cafe renaissance",
+        "opening_hours": "Sa-Th 08:30-23:30",
+        "phone": "05137239102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5767859,
+          36.3083565
+        ]
+      },
+      "id": "node/4501896624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4558103789",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6318884,
+          36.338817
+        ]
+      },
+      "id": "node/4558103789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4590301393",
+        "addr:street": "طالقانى ٢٩",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "کافى شاپ دیدار",
+        "name:en": "Didar Cafe Shop",
+        "opening_hours": "Mo-Su 10:00-23:55"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5703114,
+          36.2887339
+        ]
+      },
+      "id": "node/4590301393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4602048991",
+        "amenity": "cafe",
+        "name:ru": "машат. нахар ийениммз"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6279584,
+          36.274581
+        ]
+      },
+      "id": "node/4602048991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4674564889",
+        "addr:city": "مشهد",
+        "addr:housenumber": "41",
+        "addr:street": "بولوار شهید کلاهدوز",
+        "amenity": "cafe",
+        "name": "پالپ",
+        "name:en": "pulp",
+        "office": "company",
+        "website": "https://www.tcco.ir/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5751769,
+          36.3000437
+        ]
+      },
+      "id": "node/4674564889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4807534821",
+        "addr:street": "فلسطین ١٨",
+        "amenity": "cafe",
+        "name": "شبدیز",
+        "name:en": "shabdiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5619809,
+          36.3073141
+        ]
+      },
+      "id": "node/4807534821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4892145527",
+        "addr:street": "خیابان حامد",
+        "amenity": "cafe",
+        "name": "کافه گالرى رادین",
+        "name:en": "Radin Art Gallery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5454105,
+          36.3163712
+        ]
+      },
+      "id": "node/4892145527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5055555121",
+        "amenity": "cafe",
+        "name": "کافی شاپ بیسکویت",
+        "name:en": "Biscuit cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5386728,
+          36.301047
+        ]
+      },
+      "id": "node/5055555121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5064841241",
+        "addr:city": "Mashhad",
+        "addr:country": "IR",
+        "amenity": "cafe",
+        "name": "شادا کافه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5077257,
+          36.3147805
+        ]
+      },
+      "id": "node/5064841241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5165190521",
+        "addr:street": "بولوار حافظ",
+        "amenity": "cafe",
+        "name": "کافی شاپ مترو",
+        "name:en": "Cafe metro",
+        "opening_hours": "Mo-Su 10:00-00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4944014,
+          36.3286215
+        ]
+      },
+      "id": "node/5165190521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5235302076",
+        "amenity": "cafe",
+        "name": "قهوه بلوط"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5850749,
+          36.3006148
+        ]
+      },
+      "id": "node/5235302076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5239926163",
+        "addr:city": "مشهد",
+        "addr:country": "IR",
+        "amenity": "cafe",
+        "name": "کافه اتحاد",
+        "name:en": "Cafe Etihad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5200993,
+          36.3159375
+        ]
+      },
+      "id": "node/5239926163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5262333102",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5897613,
+          36.2994297
+        ]
+      },
+      "id": "node/5262333102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5262333103",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.58872,
+          36.2997012
+        ]
+      },
+      "id": "node/5262333103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5292896321",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5980942,
+          36.284712
+        ]
+      },
+      "id": "node/5292896321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5300593922",
+        "addr:street": "معلم ۶۴",
+        "amenity": "cafe",
+        "name": "عصر اژدها",
+        "name:en": "Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4840993,
+          36.3384596
+        ]
+      },
+      "id": "node/5300593922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5302973315",
+        "amenity": "cafe",
+        "name": "آبمیوه هندونه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.50421,
+          36.3589429
+        ]
+      },
+      "id": "node/5302973315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5313843033",
+        "amenity": "cafe",
+        "name": "کافی شاپ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4793666,
+          36.3528136
+        ]
+      },
+      "id": "node/5313843033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323268805",
+        "amenity": "cafe",
+        "name": "آبمیوه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6532876,
+          36.2967212
+        ]
+      },
+      "id": "node/5323268805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5349094754",
+        "amenity": "cafe",
+        "name": "آبمیوه فروشی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5128955,
+          36.3715731
+        ]
+      },
+      "id": "node/5349094754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5349696337",
+        "amenity": "cafe",
+        "name": "Abmive Babakhan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6196424,
+          36.3195521
+        ]
+      },
+      "id": "node/5349696337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352263865",
+        "amenity": "cafe",
+        "name": "کافی شاپ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6262538,
+          36.3385181
+        ]
+      },
+      "id": "node/5352263865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5370125325",
+        "addr:street": "هاشمیه ۸۵",
+        "amenity": "cafe",
+        "name": "کافه ۱۸۶۰",
+        "name:en": "1860 Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.486502,
+          36.3009018
+        ]
+      },
+      "id": "node/5370125325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5370125924",
+        "addr:street": "بلوار ملا صدرا",
+        "amenity": "cafe",
+        "name": "کافه مان",
+        "name:en": "Maan Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5724549,
+          36.2927184
+        ]
+      },
+      "id": "node/5370125924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5370125925",
+        "addr:street": "بولوار احمدآباد",
+        "amenity": "cafe",
+        "name": "کافه کاکتوس",
+        "name:en": "Cactus Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5691609,
+          36.2975131
+        ]
+      },
+      "id": "node/5370125925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5370141821",
+        "addr:street": "خیام ۱۰",
+        "amenity": "cafe",
+        "name": "کافه راد",
+        "name:en": "Rad Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5546328,
+          36.311303
+        ]
+      },
+      "id": "node/5370141821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5370153521",
+        "addr:street": "بولوار پیروزی",
+        "amenity": "cafe",
+        "name": "کافه رترو",
+        "name:en": "Retro Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4657608,
+          36.3321441
+        ]
+      },
+      "id": "node/5370153521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5602565021",
+        "amenity": "cafe",
+        "name": "آبمیوه سیب",
+        "name:en": "Apple juice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5703225,
+          36.2982151
+        ]
+      },
+      "id": "node/5602565021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5961356978",
+        "amenity": "cafe",
+        "name": "کافی شاپ طعمی نو"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4878453,
+          36.3540642
+        ]
+      },
+      "id": "node/5961356978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6033488585",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "کافه بهشت",
+        "name:en": "Paradise coffee",
+        "source:name": "map.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5966459,
+          36.2845005
+        ]
+      },
+      "id": "node/6033488585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6066352085",
+        "amenity": "cafe",
+        "cuisine": "cake;coffee_shop",
+        "internet_access": "wlan",
+        "name": "کافه تکسین",
+        "name:en": "Taksin caffe",
+        "name:fr": "Taksin café",
+        "opening_hours": "Mo-Su 08:30-00:00",
+        "source:name": "map.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5623845,
+          36.3112131
+        ]
+      },
+      "id": "node/6066352085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6066370585",
+        "amenity": "cafe",
+        "name": "سیب",
+        "name:en": "Seeb coffee shop",
+        "source:name": "map.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5735316,
+          36.3089938
+        ]
+      },
+      "id": "node/6066370585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6066370685",
+        "amenity": "cafe",
+        "name": "کافه دارک",
+        "name:en": "Dark coffee",
+        "source:name": "map.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5894034,
+          36.3195541
+        ]
+      },
+      "id": "node/6066370685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6067999886",
+        "amenity": "cafe",
+        "name": "کافی شاپ",
+        "name:en": "Coffee shop",
+        "name:fr": "Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5833933,
+          36.3150885
+        ]
+      },
+      "id": "node/6067999886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6067999887",
+        "amenity": "cafe",
+        "name": "کافی شاپ",
+        "name:en": "Coffee shop",
+        "name:fr": "Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5805278,
+          36.309145
+        ]
+      },
+      "id": "node/6067999887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6073777290",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "کافی شاپ",
+        "name:en": "Coffee shop",
+        "name:fr": "Café McKambo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5876721,
+          36.3184312
+        ]
+      },
+      "id": "node/6073777290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6110993485",
+        "addr:street": "بنفشه ۳",
+        "amenity": "cafe",
+        "name": "کافه بلانش",
+        "name:en": "Blanche Cafe",
+        "source:name": "map.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5576082,
+          36.3226842
+        ]
+      },
+      "id": "node/6110993485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6129136785",
+        "amenity": "cafe",
+        "name": "کافی شاپ کلارو",
+        "name:en": "Cofe shop claro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5290325,
+          36.3194184
+        ]
+      },
+      "id": "node/6129136785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6247496485",
+        "amenity": "cafe",
+        "name": "کافی شاپ خانه کوچک",
+        "name:en": "Little house coffeeshop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5050388,
+          36.3146359
+        ]
+      },
+      "id": "node/6247496485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6253478385",
+        "amenity": "cafe",
+        "name": "کاوه گوزن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4645943,
+          36.3324798
+        ]
+      },
+      "id": "node/6253478385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6356214188",
+        "amenity": "cafe",
+        "name:en": "Caffee shop RAZ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6000315,
+          36.2902114
+        ]
+      },
+      "id": "node/6356214188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6357750286",
+        "amenity": "cafe",
+        "name:en": "Station Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5963762,
+          36.2818247
+        ]
+      },
+      "id": "node/6357750286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6447935283",
+        "amenity": "cafe",
+        "name": "ویتانوش"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4965359,
+          36.3214422
+        ]
+      },
+      "id": "node/6447935283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6564427562",
+        "amenity": "cafe",
+        "name": "Souda Cafe Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5547545,
+          36.3113752
+        ]
+      },
+      "id": "node/6564427562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6597374960",
+        "amenity": "cafe",
+        "name": "Torkan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6123381,
+          36.2909147
+        ]
+      },
+      "id": "node/6597374960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6961716898",
+        "amenity": "cafe",
+        "name:en": "Baran Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5782666,
+          36.3048974
+        ]
+      },
+      "id": "node/6961716898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6961716899",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name:en": "Cafe Nabaat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5678593,
+          36.305122
+        ]
+      },
+      "id": "node/6961716899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7056255020",
+        "amenity": "cafe",
+        "name": "شیوخ کافیشاپ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6238432,
+          36.2817623
+        ]
+      },
+      "id": "node/7056255020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7112511035",
+        "amenity": "cafe",
+        "name": "هفت تیر کافی شاپ",
+        "name:en": "Haft Teer Coffee Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4647053,
+          36.369386
+        ]
+      },
+      "id": "node/7112511035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7671113595",
+        "amenity": "cafe",
+        "name:en": "“noon” cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5248237,
+          36.3191516
+        ]
+      },
+      "id": "node/7671113595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7671113596",
+        "amenity": "cafe",
+        "name:en": "“pick” cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4924109,
+          36.3308503
+        ]
+      },
+      "id": "node/7671113596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7671113598",
+        "amenity": "cafe",
+        "name:en": "hononoy donate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5052071,
+          36.3123027
+        ]
+      },
+      "id": "node/7671113598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7671113599",
+        "amenity": "cafe",
+        "name:en": "exir sweet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5457105,
+          36.3122067
+        ]
+      },
+      "id": "node/7671113599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7671113688",
+        "amenity": "cafe",
+        "name:en": "zino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5803891,
+          36.298943
+        ]
+      },
+      "id": "node/7671113688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7671113986",
+        "amenity": "cafe",
+        "name:en": "“mokaab” cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4844704,
+          36.3308362
+        ]
+      },
+      "id": "node/7671113986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7671114086",
+        "amenity": "cafe",
+        "name:en": "barsouk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4842526,
+          36.3309166
+        ]
+      },
+      "id": "node/7671114086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7814596247",
+        "addr:city": "مشهد",
+        "addr:country": "IR",
+        "addr:housenumber": "26",
+        "addr:street": "راهنمایی ۲۰",
+        "amenity": "cafe",
+        "description": "A Board game Cafe. یک کافه بردگیم",
+        "name": "Token Cafe",
+        "name:fa": "کافه توکن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5699326,
+          36.3039157
+        ]
+      },
+      "id": "node/7814596247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8022367999",
+        "addr:city": "شهر مشهد",
+        "addr:street": "بزرگراه وکیل آباد",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "no",
+        "level": "10",
+        "name": "کافه آو",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "opening_hours:covid19": "open",
+        "payment:cards": "yes",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4904327,
+          36.3314034
+        ]
+      },
+      "id": "node/8022367999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8114377040",
+        "amenity": "cafe",
+        "name": "کافه کارن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6333166,
+          36.2355624
+        ]
+      },
+      "id": "node/8114377040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8364670522",
+        "addr:city": "Mashhad",
+        "addr:housenumber": "95",
+        "addr:street": "صارمی ۲۳",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;burger;sandwich",
+        "internet_access": "no",
+        "name": "Dalahoo Cafe",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "09156990300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5077763,
+          36.3172337
+        ]
+      },
+      "id": "node/8364670522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8751339252",
+        "amenity": "cafe",
+        "contact:instagram": "https://www.instagram.com/wood_coffee_/",
+        "name": "Wood Coffee",
+        "phone": "+98 915 307 0397; +98 933 915 7743; +98 513 663 9932"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5186787,
+          36.3523204
+        ]
+      },
+      "id": "node/8751339252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8770154438",
+        "amenity": "cafe",
+        "name": "کافه رژیمی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5532792,
+          36.3223645
+        ]
+      },
+      "id": "node/8770154438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8849576475",
+        "amenity": "cafe",
+        "name": "رستوران لذیذ الماس"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5677164,
+          36.3052177
+        ]
+      },
+      "id": "node/8849576475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8926716117",
+        "amenity": "cafe",
+        "name": "Grandez cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5457848,
+          36.3236668
+        ]
+      },
+      "id": "node/8926716117"
+    }
+  ]
+}

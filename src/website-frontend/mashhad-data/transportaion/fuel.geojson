@@ -1,0 +1,376 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-09-16T05:32:05Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/264625292",
+        "amenity": "fuel",
+        "name": "پمپ بنزین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6803664,
+          36.2604619
+        ]
+      },
+      "id": "node/264625292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/286499684",
+        "amenity": "fuel",
+        "name": "پمپ بنزین میدان تلویزیون"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5581399,
+          36.2880721
+        ]
+      },
+      "id": "node/286499684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/650210458",
+        "amenity": "fuel",
+        "name": "پمپ بنزین نامجو"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5758177,
+          36.2711983
+        ]
+      },
+      "id": "node/650210458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/666819476",
+        "amenity": "fuel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6376668,
+          36.3814212
+        ]
+      },
+      "id": "node/666819476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/667327174",
+        "addr:street": "خیابان طلوع",
+        "amenity": "fuel",
+        "name": "پمب بنزین",
+        "operator": "Indipend. 128"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6459031,
+          36.3071903
+        ]
+      },
+      "id": "node/667327174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/875819758",
+        "amenity": "fuel",
+        "name": "پمپ گاز"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4928131,
+          36.3264688
+        ]
+      },
+      "id": "node/875819758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/985613713",
+        "amenity": "fuel",
+        "fuel:cng": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5091915,
+          36.3458905
+        ]
+      },
+      "id": "node/985613713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1243748971",
+        "addr:street": "سرخس ۲",
+        "amenity": "fuel",
+        "fuel:cng": "yes",
+        "name": "جایگاه سوخت گاز طبیعی وحدت",
+        "name:en": "CNG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6272896,
+          36.2815124
+        ]
+      },
+      "id": "node/1243748971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2184577437",
+        "amenity": "fuel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6549535,
+          36.3404078
+        ]
+      },
+      "id": "node/2184577437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2559090259",
+        "amenity": "fuel",
+        "brand": "Independent",
+        "name": "جایگاه اختصاصی ۱۶۵"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5832278,
+          36.3335996
+        ]
+      },
+      "id": "node/2559090259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2563730918",
+        "addr:city": "مشهد",
+        "amenity": "fuel",
+        "fuel:cng": "yes",
+        "fuel:diesel": "no",
+        "name": "جایگاه گاز طبیعی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5548067,
+          36.3582324
+        ]
+      },
+      "id": "node/2563730918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3179633986",
+        "amenity": "fuel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5909502,
+          36.3183832
+        ]
+      },
+      "id": "node/3179633986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3390327987",
+        "amenity": "fuel",
+        "name": "جایگاه CNG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.55794,
+          36.2871095
+        ]
+      },
+      "id": "node/3390327987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3420876793",
+        "amenity": "fuel",
+        "fuel:octane_91": "yes",
+        "fuel:octane_95": "yes",
+        "name": "پمپ بنزین",
+        "name:en": "Petrol Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6078028,
+          36.2688644
+        ]
+      },
+      "id": "node/3420876793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3737110700",
+        "addr:city": "مشهد",
+        "amenity": "fuel",
+        "fuel:cng": "yes",
+        "name": "جایگاه سی ان جی",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5011317,
+          36.3965001
+        ]
+      },
+      "id": "node/3737110700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4528145098",
+        "amenity": "fuel",
+        "name": "پمپ بنزین جاده شاندیز",
+        "name:en": "Gas Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4167466,
+          36.3765993
+        ]
+      },
+      "id": "node/4528145098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5522275691",
+        "amenity": "fuel",
+        "fuel:benzin": "yes",
+        "fuel:بنزین": "yes",
+        "name": "پمپ بنزین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4102305,
+          36.3244391
+        ]
+      },
+      "id": "node/5522275691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5695447968",
+        "amenity": "fuel",
+        "name": "پمپ بنزین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6955222,
+          36.2691328
+        ]
+      },
+      "id": "node/5695447968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6577321285",
+        "amenity": "fuel",
+        "name": "گاز مایع"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5926418,
+          36.2341631
+        ]
+      },
+      "id": "node/6577321285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8115506867",
+        "amenity": "fuel",
+        "name": "پمپ بنزین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6481788,
+          36.2626978
+        ]
+      },
+      "id": "node/8115506867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8124042025",
+        "amenity": "fuel",
+        "name": "جایگاه CNG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.654443,
+          36.2656839
+        ]
+      },
+      "id": "node/8124042025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8813890217",
+        "amenity": "fuel",
+        "name": "پمپ بنزین حافظ",
+        "name:en": "hafez gas station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4879484,
+          36.3216828
+        ]
+      },
+      "id": "node/8813890217"
+    }
+  ]
+}

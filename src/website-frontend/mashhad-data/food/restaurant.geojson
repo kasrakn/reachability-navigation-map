@@ -1,0 +1,3239 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-09-16T05:09:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/667325419",
+        "addr:street": "شهید کلانتری",
+        "amenity": "restaurant",
+        "cuisine": "kebab;chicken;asian;seafood",
+        "name": "معین درباری",
+        "name:en": "Moin Darbari Restaurant",
+        "phone": "051 3878 5248",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.543371,
+          36.297534
+        ]
+      },
+      "id": "node/667325419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/670076274",
+        "amenity": "restaurant",
+        "cuisine": "kebab",
+        "name": "رستوران پسران کریم",
+        "name:en": "Karim's Sons Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5597158,
+          36.3121681
+        ]
+      },
+      "id": "node/670076274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/670076280",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "رستوران ایران ایتالیا",
+        "name:en": "Iran-Italia Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5619812,
+          36.311378
+        ]
+      },
+      "id": "node/670076280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/691948360",
+        "amenity": "restaurant",
+        "name": "رستوران کوهسنگی",
+        "name:en": "Koohsangi",
+        "name:fa": "رستوران کوهسنگی جبل النور"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5616517,
+          36.2826397
+        ]
+      },
+      "id": "node/691948360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1792111174",
+        "amenity": "restaurant",
+        "cuisine": "turkish",
+        "name": "استانبول",
+        "name:en": "Istanbul"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5097878,
+          36.3151351
+        ]
+      },
+      "id": "node/1792111174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1792111200",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "میلان",
+        "name:en": "Milan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5507315,
+          36.318364
+        ]
+      },
+      "id": "node/1792111200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1792111217",
+        "amenity": "restaurant",
+        "name": "رستوران کلبه",
+        "name:en": "Kolbeh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.509411,
+          36.315352
+        ]
+      },
+      "id": "node/1792111217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2183190617",
+        "amenity": "restaurant",
+        "name": "رستوران گل سرخ هتل ثامن",
+        "name:en": "Rose"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4409161,
+          36.3413947
+        ]
+      },
+      "id": "node/2183190617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2341194735",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "آشکده یاران گناباد",
+        "name:en": "Ash Kadeh Yarane Gonabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5012689,
+          36.3369579
+        ]
+      },
+      "id": "node/2341194735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2427123702",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "فارد فود",
+        "name:en": "Fared Food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5253323,
+          36.3224266
+        ]
+      },
+      "id": "node/2427123702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2427124554",
+        "amenity": "restaurant",
+        "cuisine": "kebab",
+        "name": "رستوران درویش"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.580234,
+          36.2893143
+        ]
+      },
+      "id": "node/2427124554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2446884535",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "رستوران رضایی",
+        "name:en": "Rezaee Resaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5787522,
+          36.3053655
+        ]
+      },
+      "id": "node/2446884535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2627770478",
+        "amenity": "restaurant",
+        "name": "کترینگ آق بابا",
+        "name:en": "Agh Baba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4655411,
+          36.334531
+        ]
+      },
+      "id": "node/2627770478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2634897868",
+        "amenity": "restaurant",
+        "name": "کباب شاندیز",
+        "name:en": "Shandiz Kebab",
+        "phone": "09153136556"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4809245,
+          36.3151819
+        ]
+      },
+      "id": "node/2634897868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2681922262",
+        "addr:city": "Mashhad",
+        "addr:housename": "کلبه محبت",
+        "addr:street": "وکیل آباد ۳۵",
+        "amenity": "restaurant",
+        "capacity": "40",
+        "cuisine": "غذاهای_گیاهی",
+        "diet:vegetarian": "yes",
+        "name": "کلبه محبت",
+        "name:en": "loving hunt",
+        "phone": "+98-51-38690334"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4996539,
+          36.3293828
+        ]
+      },
+      "id": "node/2681922262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2900622531",
+        "amenity": "restaurant",
+        "name": "رستوران لاله مشهد",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.624817,
+          36.2965511
+        ]
+      },
+      "id": "node/2900622531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3413951313",
+        "amenity": "restaurant",
+        "name": "رستوران پاسارگاد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5880581,
+          36.2690427
+        ]
+      },
+      "id": "node/3413951313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3719599195",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4349003,
+          36.3366606
+        ]
+      },
+      "id": "node/3719599195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729341692",
+        "amenity": "restaurant",
+        "name": "هزار دستان",
+        "name:en": "Hezardastan traditional teahouse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5989398,
+          36.2919808
+        ]
+      },
+      "id": "node/3729341692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750584436",
+        "amenity": "restaurant",
+        "name": "أبو الباچه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6077315,
+          36.2792577
+        ]
+      },
+      "id": "node/3750584436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3815945759",
+        "amenity": "restaurant",
+        "name": "غذای زارع"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4858009,
+          36.356788
+        ]
+      },
+      "id": "node/3815945759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3842463966",
+        "amenity": "restaurant",
+        "cuisine": "coffee_shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.642447,
+          36.3245312
+        ]
+      },
+      "id": "node/3842463966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3854040116",
+        "amenity": "restaurant",
+        "name": "رستوران سراب"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5980927,
+          36.2957991
+        ]
+      },
+      "id": "node/3854040116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903707364",
+        "addr:street": "شهید نواب صفوی",
+        "amenity": "restaurant",
+        "name": "رستوران شهرما"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.619327,
+          36.2852662
+        ]
+      },
+      "id": "node/3903707364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903707365",
+        "amenity": "restaurant",
+        "name": "کبابی حاج محمود"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6192483,
+          36.2853639
+        ]
+      },
+      "id": "node/3903707365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903707367",
+        "amenity": "restaurant",
+        "name": "رستوران سعادت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6195879,
+          36.2847512
+        ]
+      },
+      "id": "node/3903707367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3946843858",
+        "amenity": "restaurant",
+        "cuisine": "coffee_shop",
+        "name:ar": "كوفي شوب"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6058316,
+          36.2985811
+        ]
+      },
+      "id": "node/3946843858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4149124489",
+        "amenity": "restaurant",
+        "cuisine": "coffee_shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5863917,
+          36.2914501
+        ]
+      },
+      "id": "node/4149124489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4199830896",
+        "amenity": "restaurant",
+        "name": "رستوران طلائیه",
+        "name:en": "Talaeeye Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4770228,
+          36.3358641
+        ]
+      },
+      "id": "node/4199830896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310418951",
+        "amenity": "restaurant",
+        "name": "کباب پارس"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5418251,
+          36.3241308
+        ]
+      },
+      "id": "node/4310418951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310437203",
+        "amenity": "restaurant",
+        "name": "رستوران احسان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5738017,
+          36.2965633
+        ]
+      },
+      "id": "node/4310437203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310437490",
+        "amenity": "restaurant",
+        "name": "رستوران نارمک",
+        "name:en": "Narmak Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.574225,
+          36.29631
+        ]
+      },
+      "id": "node/4310437490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310437642",
+        "amenity": "restaurant",
+        "name": "رستوران مدائن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5757479,
+          36.295275
+        ]
+      },
+      "id": "node/4310437642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4337948892",
+        "amenity": "restaurant",
+        "cuisine": "persian",
+        "description": "كیفیت غذای عالی برنج عالی فضا معمولی رو به خوب",
+        "name": "رستوران و کترینگ ریخته گرزاده",
+        "name:en": "Rikhtegar zadeh catering"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5200119,
+          36.3220718
+        ]
+      },
+      "id": "node/4337948892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4347461110",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "رستوران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6206666,
+          36.2729648
+        ]
+      },
+      "id": "node/4347461110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4347461115",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "رستوران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6197411,
+          36.273543
+        ]
+      },
+      "id": "node/4347461115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4367702490",
+        "amenity": "restaurant",
+        "cuisine": "pasta;persian;pizza;seafood;italian",
+        "name": "رستوران دامون",
+        "name:en": "Damoon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4290125,
+          36.3379482
+        ]
+      },
+      "id": "node/4367702490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4411341490",
+        "addr:street": "خاقانی ۴",
+        "amenity": "restaurant",
+        "name": "رستوران سنتی کلبه دنج",
+        "name:en": "Kolbe-Denj Traditional Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5427449,
+          36.2943328
+        ]
+      },
+      "id": "node/4411341490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417475300",
+        "amenity": "restaurant",
+        "name": "کباب رضوی",
+        "phone": "38782338"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5319417,
+          36.2995033
+        ]
+      },
+      "id": "node/4417475300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417553649",
+        "amenity": "restaurant",
+        "name": "طباخی کوثر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5604424,
+          36.2926627
+        ]
+      },
+      "id": "node/4417553649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417553828",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "delivery": "yes",
+        "name": "کترینگ صدرا",
+        "phone": "38467203-5",
+        "smoking": "no",
+        "takeaway": "only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5724789,
+          36.2949479
+        ]
+      },
+      "id": "node/4417553828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417954355",
+        "amenity": "restaurant",
+        "name": "آشپزخانه نیاوران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5496683,
+          36.3252228
+        ]
+      },
+      "id": "node/4417954355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4428117342",
+        "amenity": "restaurant",
+        "cuisine": "kebab",
+        "name": "رویال طلایی",
+        "name:en": "Golden Royal",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5419062,
+          36.3154075
+        ]
+      },
+      "id": "node/4428117342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4428117356",
+        "amenity": "restaurant",
+        "cuisine": "kebab",
+        "name": "راستگو",
+        "name:en": "Raastgoo Restaurant",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5121148,
+          36.3245908
+        ]
+      },
+      "id": "node/4428117356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4458066169",
+        "amenity": "restaurant",
+        "name": "تالار و رستوران عابدین زاده"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6211074,
+          36.3038831
+        ]
+      },
+      "id": "node/4458066169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4466460991",
+        "amenity": "restaurant",
+        "phone": "8527777"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5935621,
+          36.2831517
+        ]
+      },
+      "id": "node/4466460991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4467726601",
+        "amenity": "restaurant",
+        "name": "کمال الملک",
+        "name:en": "Kamal kok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5971033,
+          36.2829096
+        ]
+      },
+      "id": "node/4467726601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4493981693",
+        "amenity": "restaurant",
+        "name": "مرکز آموزشی و رفاهی فرهنگیان امام سجاد (ع)",
+        "name:en": "Imam Sajad Educational and Recreational Center of Teachers",
+        "operator": "آموزش و پرورش",
+        "phone": "05136077790",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5444656,
+          36.3213665
+        ]
+      },
+      "id": "node/4493981693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4536994089",
+        "addr:street": "ملک آباد ۱، نبش قدس ۲، تالار معلم",
+        "amenity": "restaurant",
+        "name": "مرکز آموزشی و رفاهی فرهنگیان ناحیه ۳ خانه معلم",
+        "phone": "05137683050",
+        "phone_1": "05137682963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.560059,
+          36.3034889
+        ]
+      },
+      "id": "node/4536994089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4536994090",
+        "addr:street": "فارغ التحصیل ۱۰",
+        "amenity": "restaurant",
+        "name": "مرکز آموزشی و رفاهی فرهنگیان، خانه معلم",
+        "phone": "35010055"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4697855,
+          36.3411318
+        ]
+      },
+      "id": "node/4536994090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4586999396",
+        "amenity": "restaurant",
+        "name": "رستوران رویای سبز",
+        "name:en": "Roya sabz Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5941056,
+          36.2941903
+        ]
+      },
+      "id": "node/4586999396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4587009189",
+        "addr:housenumber": "68",
+        "addr:postcode": "91646",
+        "addr:street": "امام رضا ۵۸",
+        "amenity": "restaurant",
+        "name": "آشپزخانه رسول",
+        "name:en": "Rasool kitchen",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "00985133415550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5996915,
+          36.2641367
+        ]
+      },
+      "id": "node/4587009189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4587009190",
+        "amenity": "restaurant",
+        "branch": "آلتون",
+        "cuisine": "kebab;persian",
+        "name": "پسران کریم"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.596977,
+          36.2957363
+        ]
+      },
+      "id": "node/4587009190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4598473354",
+        "amenity": "restaurant",
+        "name": "رستوران آقاجون"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.488436,
+          36.3571297
+        ]
+      },
+      "id": "node/4598473354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4616054589",
+        "amenity": "restaurant",
+        "name": "رستوران عبدالهی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.510749,
+          36.3591148
+        ]
+      },
+      "id": "node/4616054589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4616669989",
+        "amenity": "restaurant",
+        "name": "رستوران رضا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5787111,
+          36.3059799
+        ]
+      },
+      "id": "node/4616669989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4634547673",
+        "amenity": "restaurant",
+        "name": "ربانی",
+        "name:en": "Rabani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6117366,
+          36.2773144
+        ]
+      },
+      "id": "node/4634547673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4634560098",
+        "amenity": "restaurant",
+        "name": "رستوران ارغوان",
+        "name:en": "Arghavan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5736025,
+          36.3082409
+        ]
+      },
+      "id": "node/4634560098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4648062293",
+        "amenity": "restaurant",
+        "name": "رستوران پردیس",
+        "name:en": "Paradise Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5173742,
+          36.3585106
+        ]
+      },
+      "id": "node/4648062293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4671903199",
+        "amenity": "restaurant",
+        "cuisine": "persian",
+        "name": "کباب شهرما",
+        "name:en": "kabab shahrema",
+        "phone": "+985138406027"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5764315,
+          36.3020291
+        ]
+      },
+      "id": "node/4671903199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4724496793",
+        "amenity": "restaurant",
+        "name:ar": "ولاية علي"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6024238,
+          36.2745566
+        ]
+      },
+      "id": "node/4724496793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4724518189",
+        "amenity": "restaurant",
+        "name:ar": "الصادق"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6055086,
+          36.275426
+        ]
+      },
+      "id": "node/4724518189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4724522189",
+        "amenity": "restaurant",
+        "name:ar": "ولايت علي"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6032562,
+          36.2749176
+        ]
+      },
+      "id": "node/4724522189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4736784244",
+        "amenity": "restaurant",
+        "name": "رستوران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6248816,
+          36.2813611
+        ]
+      },
+      "id": "node/4736784244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4739530717",
+        "amenity": "restaurant",
+        "name": "رستوران ارشاد",
+        "name:en": "Ershad Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4502582,
+          36.3499799
+        ]
+      },
+      "id": "node/4739530717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4757538922",
+        "addr:housenumber": "5133422165",
+        "addr:street": "فداییان اسلام ۲۱،بین عرفانی ۱و۳",
+        "amenity": "restaurant",
+        "name": "کبابی امید",
+        "name:en": "Omid Kebab",
+        "opening_hours": "Mo-Su 11:00-12:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6129665,
+          36.262467
+        ]
+      },
+      "id": "node/4757538922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4758768421",
+        "addr:street": "ارشاد",
+        "amenity": "restaurant",
+        "name": "کته کبابی حسن رشتی",
+        "name:en": "Kate kababi hassan rashtii",
+        "opening_hours": "Mo-Su 15:00-23:00",
+        "phone": "05138831080",
+        "website": "http://www.instegram.com/kate_kababi_hassanrashtii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5211036,
+          36.3195995
+        ]
+      },
+      "id": "node/4758768421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4791565122",
+        "addr:street": "بزرگراه میثاق،شهرک غرب،بلوار مجیدیه، مجیدیه ۱۷.۱ پلاک ۱۲ ساختمان پاژ",
+        "amenity": "restaurant",
+        "name": "آشپزخانه و کترینگ پاژ",
+        "phone": "05135131852"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.47317,
+          36.3649742
+        ]
+      },
+      "id": "node/4791565122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4797190927",
+        "addr:street": "فرامرز عباسی ۲۱",
+        "amenity": "restaurant",
+        "cuisine": "kebab",
+        "name": "ضیافت نور",
+        "name:en": "Ziafat Noor",
+        "phone": "05136110600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.55051,
+          36.3340947
+        ]
+      },
+      "id": "node/4797190927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4807513436",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6134004,
+          36.2842801
+        ]
+      },
+      "id": "node/4807513436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4826662746",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.630353,
+          36.2797819
+        ]
+      },
+      "id": "node/4826662746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4892208121",
+        "addr:street": "ملاصدرا ۱۹",
+        "amenity": "restaurant",
+        "name": "رستوران ایتالیایى لیو",
+        "name:en": "Lio Resturant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5720214,
+          36.2911692
+        ]
+      },
+      "id": "node/4892208121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4905144222",
+        "addr:street": "بین امام رضا ۲۱و۲۳",
+        "amenity": "restaurant",
+        "branch": "طرقبه",
+        "contact:phone": "+985135591334",
+        "name": "رستوران و تالار الماس",
+        "name:en": "Almas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4299418,
+          36.3342835
+        ]
+      },
+      "id": "node/4905144222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4915018706",
+        "addr:city": "مشهد",
+        "addr:street": "دعبل خزائی",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "delivery": "yes",
+        "name": "رستوران، کبابی و حلیم قائم",
+        "name:en": "Qaem",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5490247,
+          36.2916368
+        ]
+      },
+      "id": "node/4915018706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4948814522",
+        "addr:street": "خیابان فرهاد",
+        "amenity": "restaurant",
+        "name": "کافه غذا",
+        "name:en": "Cafe Ghaza",
+        "phone": "05137643693"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5617652,
+          36.3117958
+        ]
+      },
+      "id": "node/4948814522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4993488122",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5249843,
+          36.3411995
+        ]
+      },
+      "id": "node/4993488122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4993488133",
+        "amenity": "restaurant",
+        "name": "رستوران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5369945,
+          36.3370342
+        ]
+      },
+      "id": "node/4993488133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5004362607",
+        "amenity": "restaurant",
+        "name": "رستوران سولو",
+        "name:en": "Solo Restaurant",
+        "opening_hours": "Mo-Su 08:00-24:00",
+        "phone": "051 3838 8838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5071514,
+          36.311087
+        ]
+      },
+      "id": "node/5004362607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5004364512",
+        "amenity": "restaurant",
+        "name": "جگر دادلی",
+        "name:en": "Dadly"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5075334,
+          36.3117542
+        ]
+      },
+      "id": "node/5004364512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5006304324",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6078808,
+          36.2784464
+        ]
+      },
+      "id": "node/5006304324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5008645021",
+        "addr:street": "امام رضا ۲۱",
+        "amenity": "restaurant",
+        "name:ar": "مطعم نسيم لبنان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6058967,
+          36.2760724
+        ]
+      },
+      "id": "node/5008645021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5031012021",
+        "addr:street": "روگذر طبرسی",
+        "amenity": "restaurant",
+        "name": "رستوران طبرسی",
+        "name:ar": "مطعم طبرسي 7",
+        "name:en": "Tepresi restaurant 7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6211768,
+          36.2929299
+        ]
+      },
+      "id": "node/5031012021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041313522",
+        "amenity": "restaurant",
+        "cuisine": "persian",
+        "internet_access": "wlan",
+        "name": "Terrasse Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5330039,
+          36.3213965
+        ]
+      },
+      "id": "node/5041313522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5072953523",
+        "amenity": "restaurant",
+        "name": "رستوران صبا",
+        "name:ar": "رستوران صبا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.611583,
+          36.2951459
+        ]
+      },
+      "id": "node/5072953523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5072973121",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4103113,
+          36.3212848
+        ]
+      },
+      "id": "node/5072973121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5107788849",
+        "addr:street": "بولوار بهار",
+        "amenity": "restaurant",
+        "name": "چرب وچلی",
+        "name:ar": "چرب وچلي خیلي خوب",
+        "name:en": "Charbo Chelii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6000035,
+          36.2766959
+        ]
+      },
+      "id": "node/5107788849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5122006621",
+        "addr:housenumber": "5",
+        "addr:street": "بولوار شهید کاوه",
+        "amenity": "restaurant",
+        "cuisine": "persian",
+        "delivery": "yes",
+        "internet_access": "wlan",
+        "name": "نان داغ کباب داغ امید رضاشهر",
+        "name:en": "Omid Restaurant",
+        "opening_hours": "Mo-Su 10:00-00:00",
+        "operator": "میرجلیلی",
+        "outdoor_seating": "no",
+        "phone": "05138797988",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5500401,
+          36.2847432
+        ]
+      },
+      "id": "node/5122006621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5163197521",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "جگرکی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4983135,
+          36.3523142
+        ]
+      },
+      "id": "node/5163197521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5183135722",
+        "amenity": "restaurant",
+        "delivery": "yes",
+        "name": "رستوران مادرجون",
+        "name:en": "Madar Joon Restaurant",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4862245,
+          36.3800879
+        ]
+      },
+      "id": "node/5183135722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5203104417",
+        "amenity": "restaurant",
+        "name": "سدروس",
+        "name:en": "Sadrous Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5457506,
+          36.2886679
+        ]
+      },
+      "id": "node/5203104417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5207760223",
+        "addr:street": "رودکی ۱۹- بهشتی ۴۰",
+        "amenity": "restaurant",
+        "name": "رستوران و غذای آماده مهدی",
+        "name:en": "Mahdi Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5684695,
+          36.2782543
+        ]
+      },
+      "id": "node/5207760223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5235302074",
+        "amenity": "restaurant",
+        "name": "غذای مهرگان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5850429,
+          36.3009048
+        ]
+      },
+      "id": "node/5235302074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5262333183",
+        "amenity": "restaurant",
+        "name": "غذای فرنگی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5902561,
+          36.2977797
+        ]
+      },
+      "id": "node/5262333183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5302973319",
+        "amenity": "restaurant",
+        "name": "رستوران مایسا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5055973,
+          36.3638599
+        ]
+      },
+      "id": "node/5302973319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5302973431",
+        "amenity": "restaurant",
+        "name": "رستوران و کترینگ خاتم"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5097942,
+          36.3561851
+        ]
+      },
+      "id": "node/5302973431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5308847054",
+        "amenity": "restaurant",
+        "name": "رستورن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5928242,
+          36.3004635
+        ]
+      },
+      "id": "node/5308847054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5311797300",
+        "amenity": "restaurant",
+        "name": "رستوران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.656545,
+          36.2648244
+        ]
+      },
+      "id": "node/5311797300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323255077",
+        "amenity": "restaurant",
+        "name": "ghasr abooreyhan۱"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6385755,
+          36.2973631
+        ]
+      },
+      "id": "node/5323255077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323255078",
+        "amenity": "restaurant",
+        "name": "رستوران درویشی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6385118,
+          36.2977397
+        ]
+      },
+      "id": "node/5323255078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323257595",
+        "amenity": "restaurant",
+        "name": "رستوران خسروی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.589715,
+          36.3373702
+        ]
+      },
+      "id": "node/5323257595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323269092",
+        "amenity": "restaurant",
+        "name": "رستوران رضوی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6408241,
+          36.2992089
+        ]
+      },
+      "id": "node/5323269092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323313098",
+        "amenity": "restaurant",
+        "name": "رستوران رضوی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6401468,
+          36.2983329
+        ]
+      },
+      "id": "node/5323313098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323326597",
+        "amenity": "restaurant",
+        "name": "رستوران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6479049,
+          36.2911232
+        ]
+      },
+      "id": "node/5323326597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323444325",
+        "amenity": "restaurant",
+        "cuisine": "kebab",
+        "name": "کباب سرا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6136486,
+          36.309988
+        ]
+      },
+      "id": "node/5323444325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323444342",
+        "amenity": "restaurant",
+        "name": "اغذیه دانیال"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6354642,
+          36.3136595
+        ]
+      },
+      "id": "node/5323444342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323444361",
+        "amenity": "restaurant",
+        "name": "رستوران میلاد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6388842,
+          36.3158254
+        ]
+      },
+      "id": "node/5323444361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323444362",
+        "addr:city": "مشهد",
+        "addr:street": "بولوار گاز",
+        "amenity": "restaurant",
+        "name": "رستوران میثم"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6317861,
+          36.3149944
+        ]
+      },
+      "id": "node/5323444362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323444388",
+        "amenity": "restaurant",
+        "name": "رستوران اطمینان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6151911,
+          36.3100497
+        ]
+      },
+      "id": "node/5323444388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5324240578",
+        "amenity": "restaurant",
+        "name": "رستوران سازگار"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6618955,
+          36.2685392
+        ]
+      },
+      "id": "node/5324240578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5330998233",
+        "amenity": "restaurant",
+        "name": "زیتون",
+        "name:en": "Zeytoon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5563257,
+          36.3058096
+        ]
+      },
+      "id": "node/5330998233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5331005421",
+        "amenity": "restaurant",
+        "name": "رستوران سیلوانا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5550626,
+          36.3060716
+        ]
+      },
+      "id": "node/5331005421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5331636989",
+        "addr:city": "مشهد",
+        "addr:country": "IR",
+        "addr:street": "نبش سنائی ٢١",
+        "amenity": "restaurant",
+        "description": "با رزرو قبلي وفقط جهت مجالس",
+        "name": "مجموعه غذایی و پذیرایی شیدائی",
+        "phone": "+985137277325 ; +985137277472"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5983876,
+          36.3030311
+        ]
+      },
+      "id": "node/5331636989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5337743414",
+        "amenity": "restaurant",
+        "name": "نسیم لبنان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5894135,
+          36.2956733
+        ]
+      },
+      "id": "node/5337743414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5349645880",
+        "amenity": "restaurant",
+        "name": "کبابی زیتون",
+        "name:en": "Zeytoon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6278511,
+          36.3165306
+        ]
+      },
+      "id": "node/5349645880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350314548",
+        "amenity": "restaurant",
+        "name": "پیتزا گپ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5868161,
+          36.3396909
+        ]
+      },
+      "id": "node/5350314548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350357910",
+        "amenity": "restaurant",
+        "name": "کباب و حلیم ملک"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5859689,
+          36.3396965
+        ]
+      },
+      "id": "node/5350357910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350371946",
+        "amenity": "restaurant",
+        "name": "حلیم نیشابوری خیام"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.584505,
+          36.3387874
+        ]
+      },
+      "id": "node/5350371946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350536173",
+        "amenity": "restaurant",
+        "name": "کباب مخصوص عبداالهی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5866098,
+          36.3379361
+        ]
+      },
+      "id": "node/5350536173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352131963",
+        "amenity": "restaurant",
+        "name": "رستوران نارنجی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4878415,
+          36.3541628
+        ]
+      },
+      "id": "node/5352131963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352190616",
+        "amenity": "restaurant",
+        "cuisine": "kebab",
+        "delivery": "yes",
+        "opening_hours": "Sa-Tu 09:00-21:00",
+        "outdoor_seating": "no",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5076687,
+          36.337598
+        ]
+      },
+      "id": "node/5352190616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352210969",
+        "amenity": "restaurant",
+        "cuisine": "kebab",
+        "name": "کبابی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6284054,
+          36.3406662
+        ]
+      },
+      "id": "node/5352210969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352310725",
+        "amenity": "restaurant",
+        "cuisine": "sandwich",
+        "delivery": "yes",
+        "name": "ساندویچ فرهنگ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5053465,
+          36.3351795
+        ]
+      },
+      "id": "node/5352310725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352313215",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "فست فود سلام پیتزا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5055659,
+          36.3352779
+        ]
+      },
+      "id": "node/5352313215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352322484",
+        "amenity": "restaurant",
+        "delivery": "yes",
+        "name": "رستوران نورالقایم",
+        "name:en": "Noor Qaem Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5062422,
+          36.3353481
+        ]
+      },
+      "id": "node/5352322484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352327781",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "پیتزا پاتیلو",
+        "name:en": "Patilo pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5047818,
+          36.3339108
+        ]
+      },
+      "id": "node/5352327781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5469424522",
+        "addr:street": "امام رضا ۲۵",
+        "amenity": "restaurant",
+        "name": "رستوران سنتی شبستان",
+        "phone": "09361112382"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4272286,
+          36.3340101
+        ]
+      },
+      "id": "node/5469424522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5481963526",
+        "addr:street": "نواب صفوی ۲",
+        "amenity": "restaurant",
+        "name": "مضيف الامام الرضا",
+        "name:ar": "مضيف الامام الرضا عليه السلام"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6191292,
+          36.2868468
+        ]
+      },
+      "id": "node/5481963526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5530432022",
+        "amenity": "restaurant",
+        "name": "باغ زیتون",
+        "name:en": "Olive Garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5532801,
+          36.3223841
+        ]
+      },
+      "id": "node/5530432022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5582899422",
+        "addr:street": "شیخ صدوق ۱۲",
+        "amenity": "restaurant",
+        "name": "غذای آماده ممتاز",
+        "name:en": "momtaz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6346036,
+          36.3039201
+        ]
+      },
+      "id": "node/5582899422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5582899621",
+        "addr:street": "شیخ صدوق ۱۵",
+        "amenity": "restaurant",
+        "name": "رستوران غفوریان",
+        "name:en": "ghafourian restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6345221,
+          36.305141
+        ]
+      },
+      "id": "node/5582899621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5582899921",
+        "addr:street": "ابوذر غربی ۱۴",
+        "amenity": "restaurant",
+        "name": "پرند",
+        "name:en": "parand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.628777,
+          36.3088054
+        ]
+      },
+      "id": "node/5582899921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5695447964",
+        "addr:street": "هوشیار",
+        "amenity": "restaurant",
+        "name": "رستوران روژه",
+        "name:en": "Roje Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5562263,
+          36.3084963
+        ]
+      },
+      "id": "node/5695447964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5701919621",
+        "amenity": "restaurant",
+        "name": "امیدنو",
+        "name:en": "Omidno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6014429,
+          36.2901882
+        ]
+      },
+      "id": "node/5701919621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5704477421",
+        "amenity": "restaurant",
+        "name": "کترینگ و رستوران گلبرگ",
+        "name:en": "restaurant Golbarg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5964073,
+          36.2818504
+        ]
+      },
+      "id": "node/5704477421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5775842453",
+        "amenity": "restaurant",
+        "name:ar": "مطعم ابن الرضا فلافل"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6136313,
+          36.2842346
+        ]
+      },
+      "id": "node/5775842453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5779839463",
+        "addr:street": "Shandiz Road-Samen Aeme 7",
+        "amenity": "restaurant",
+        "name": "رستوران ‌تی‌رکس",
+        "name:en": "T-Rex Restaurant",
+        "phone": "05135593305"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.435936,
+          36.3557173
+        ]
+      },
+      "id": "node/5779839463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5779839559",
+        "amenity": "restaurant",
+        "name": "هالیدیز",
+        "name:en": "Holidays"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5110003,
+          36.3204886
+        ]
+      },
+      "id": "node/5779839559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5791836622",
+        "amenity": "restaurant",
+        "name": "کباب عارف",
+        "name:en": "Aref Kebab"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5315789,
+          36.3385076
+        ]
+      },
+      "id": "node/5791836622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5841361185",
+        "amenity": "restaurant",
+        "name": "مهمان خانه حضرت رضا (ع)",
+        "name:ar": "مضيف الامام الرضا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6167892,
+          36.2876892
+        ]
+      },
+      "id": "node/5841361185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5848010485",
+        "amenity": "restaurant",
+        "name": "مطعم عراقی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6086791,
+          36.2784642
+        ]
+      },
+      "id": "node/5848010485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5881318385",
+        "amenity": "restaurant",
+        "name": "رستوران قصر عتیق",
+        "name:en": "Qasre Atiq Restaurant",
+        "phone": "05132228882"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6129009,
+          36.2947892
+        ]
+      },
+      "id": "node/5881318385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5940439998",
+        "amenity": "restaurant",
+        "name": "کبابی بناب اصلی",
+        "name:en": "kababi banab"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5167451,
+          36.3324437
+        ]
+      },
+      "id": "node/5940439998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6016863787",
+        "amenity": "restaurant",
+        "name": "رستوران بهشت",
+        "name:en": "Bahasht Resturant",
+        "source:name": "map.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6119056,
+          36.2823018
+        ]
+      },
+      "id": "node/6016863787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6016869285",
+        "addr:street": "امام رضا ۲",
+        "amenity": "restaurant",
+        "name": "رستوران کریم",
+        "name:en": "Kareem Restaurant",
+        "source:name": "map.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6115245,
+          36.2824385
+        ]
+      },
+      "id": "node/6016869285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6030362485",
+        "addr:street": "فدائیان اسلام ۱۸",
+        "amenity": "restaurant",
+        "name": "سفارشی",
+        "name:en": "Sefareshi",
+        "opening_hours": "24/7",
+        "phone": "00985133493060"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6159644,
+          36.2649011
+        ]
+      },
+      "id": "node/6030362485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6120462904",
+        "amenity": "restaurant",
+        "name": "مطعم دامون"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4303099,
+          36.3376921
+        ]
+      },
+      "id": "node/6120462904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6133442885",
+        "amenity": "restaurant",
+        "name": "مجموعه ورزشی و آموزشی نفت مشهد",
+        "name:en": "NIOC Training & Sport Complex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5665142,
+          36.2834001
+        ]
+      },
+      "id": "node/6133442885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166453009",
+        "addr:street": "بولوار ثامن",
+        "amenity": "restaurant",
+        "name": "رستوران رضایی",
+        "name:en": "Rezaee Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6109816,
+          36.2307774
+        ]
+      },
+      "id": "node/6166453009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6269880901",
+        "amenity": "restaurant",
+        "name:ar": "مطعم اقاج باشي"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4964989,
+          36.3292536
+        ]
+      },
+      "id": "node/6269880901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6346931685",
+        "amenity": "restaurant",
+        "name": "کباب سنگی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5019181,
+          36.3572684
+        ]
+      },
+      "id": "node/6346931685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6356214589",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6006596,
+          36.289942
+        ]
+      },
+      "id": "node/6356214589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6364515374",
+        "amenity": "restaurant",
+        "name": "تالار آرزو"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5846239,
+          36.3180517
+        ]
+      },
+      "id": "node/6364515374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6374484085",
+        "amenity": "restaurant",
+        "name": "ملک شاهان",
+        "name:en": "Malek Shahan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5913607,
+          36.290903
+        ]
+      },
+      "id": "node/6374484085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6374511386",
+        "amenity": "restaurant",
+        "name": "پسران کریم",
+        "name:en": "Pesaran Karim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5939375,
+          36.2940815
+        ]
+      },
+      "id": "node/6374511386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6404787085",
+        "amenity": "restaurant",
+        "name": "ابوالفضل ترکه",
+        "name:en": "abolfazl torkeh restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6192378,
+          36.2733706
+        ]
+      },
+      "id": "node/6404787085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6436927485",
+        "amenity": "restaurant",
+        "name:ar": "مطعم كباب فيروز"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5332009,
+          36.2934151
+        ]
+      },
+      "id": "node/6436927485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6534528286",
+        "amenity": "restaurant",
+        "name:en": "مطعم الصادق"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6054271,
+          36.2755229
+        ]
+      },
+      "id": "node/6534528286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6602303037",
+        "addr:street": "کشاورز 1",
+        "amenity": "restaurant",
+        "name": "آشپزخانه دلپذیر",
+        "phone": "05136909335"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5773838,
+          36.3521089
+        ]
+      },
+      "id": "node/6602303037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6689946285",
+        "amenity": "restaurant",
+        "name:ar": "مطعم ليالي لبنان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5240087,
+          36.3208941
+        ]
+      },
+      "id": "node/6689946285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6693559085",
+        "addr:street": "امامت ۱۴",
+        "amenity": "restaurant",
+        "cuisine": "pizza;persian;breakfast",
+        "internet_access": "wlan",
+        "name": "صبحانه",
+        "name:ar": "مطعم الفطور"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5339335,
+          36.3242815
+        ]
+      },
+      "id": "node/6693559085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6710227585",
+        "amenity": "restaurant",
+        "name:ar": "مطعم عراقي"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6116678,
+          36.2827608
+        ]
+      },
+      "id": "node/6710227585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6711808187",
+        "amenity": "restaurant",
+        "name:ar": "المطعم التركي"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5730709,
+          36.2965552
+        ]
+      },
+      "id": "node/6711808187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6720800388",
+        "amenity": "restaurant",
+        "name": "مطعم معين درباري"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5972504,
+          36.2875948
+        ]
+      },
+      "id": "node/6720800388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6726535885",
+        "addr:housenumber": "2",
+        "addr:postcode": "91536",
+        "addr:street": "چمن ۷۱",
+        "amenity": "restaurant",
+        "cuisine": "persian",
+        "email": "kababtayyeb@gmail.com",
+        "internet_access": "wlan",
+        "name": "کباب طیب",
+        "name:en": "Kabab Tayyeb",
+        "opening_hours": "Mo-Su 11:00-01:00",
+        "phone": "00985133666551"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6309941,
+          36.2764697
+        ]
+      },
+      "id": "node/6726535885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6744086985",
+        "amenity": "restaurant",
+        "name": "امير",
+        "name:en": "Amir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4991596,
+          36.3253401
+        ]
+      },
+      "id": "node/6744086985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6813014985",
+        "amenity": "restaurant",
+        "name": "مطعم الفرات"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6131456,
+          36.2957441
+        ]
+      },
+      "id": "node/6813014985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6867166209",
+        "amenity": "restaurant",
+        "delivery": "no",
+        "name": "تریا وزنی خوابگاه فجر",
+        "smoking": "no",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5280772,
+          36.3030173
+        ]
+      },
+      "id": "node/6867166209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6964197485",
+        "amenity": "restaurant",
+        "cuisine": "local"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5931355,
+          36.2619714
+        ]
+      },
+      "id": "node/6964197485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7317183218",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5531714,
+          36.3224033
+        ]
+      },
+      "id": "node/7317183218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7366543008",
+        "amenity": "restaurant",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "name": "کترینگ و غذای آماده نارون",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5786549,
+          36.2849515
+        ]
+      },
+      "id": "node/7366543008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7474663762",
+        "addr:street": "کبابی سید یوسف بلوار شریعتی نبش شریعتی ۵۰",
+        "amenity": "restaurant",
+        "description": "کبابی سید یوسف",
+        "name": "کبابی سید یوسف",
+        "opening_hours": "Mo-Su 09:00-12:00",
+        "phone": "+989905647144"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.514659,
+          36.3516718
+        ]
+      },
+      "id": "node/7474663762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7970591096",
+        "addr:city": "مشهد",
+        "addr:housenumber": "74",
+        "addr:street": "سلمان فارسی غربی - فلسطین 19",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "pizza;burger;italian;kebab;chicken;asian;international;steak_house;coffee_shop;fish_and_chips;seafood",
+        "delivery": "yes",
+        "name": "رستوران لذیذ (الماس)",
+        "name:en": "laziz restaurant",
+        "opening_hours": "Sa-Fr 08:00-23:00",
+        "opening_hours:covid19": "open",
+        "outdoor_seating": "yes",
+        "phone": "+985138405280",
+        "website": "lazizalmas.ir",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5677116,
+          36.3052094
+        ]
+      },
+      "id": "node/7970591096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7994103563",
+        "amenity": "restaurant",
+        "name": "باغ سرای بهشت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4434941,
+          36.4383672
+        ]
+      },
+      "id": "node/7994103563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7994182715",
+        "amenity": "restaurant",
+        "name": "رستوران نیکنام"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4127631,
+          36.4314584
+        ]
+      },
+      "id": "node/7994182715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7994191307",
+        "amenity": "restaurant",
+        "name": "باغ سرای میزبان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.470233,
+          36.4115513
+        ]
+      },
+      "id": "node/7994191307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7996764082",
+        "amenity": "restaurant",
+        "name": "تالار تیراژه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4335652,
+          36.3570188
+        ]
+      },
+      "id": "node/7996764082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7996797585",
+        "amenity": "restaurant",
+        "name": "تالار یلدا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4275848,
+          36.3608397
+        ]
+      },
+      "id": "node/7996797585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7996797594",
+        "amenity": "restaurant",
+        "name": "تالار ایرن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4275761,
+          36.3605697
+        ]
+      },
+      "id": "node/7996797594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7996797595",
+        "amenity": "restaurant",
+        "name": "تالار قصر مرسده"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4330779,
+          36.357237
+        ]
+      },
+      "id": "node/7996797595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7996800209",
+        "amenity": "restaurant",
+        "name": "رویای مدرن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4147589,
+          36.3739542
+        ]
+      },
+      "id": "node/7996800209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8173021519",
+        "amenity": "restaurant",
+        "name:ar": "فلافل جيد مشهد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5856454,
+          36.2907991
+        ]
+      },
+      "id": "node/8173021519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8173021520",
+        "amenity": "restaurant",
+        "name:ar": "مطعم دياز"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6014522,
+          36.2715859
+        ]
+      },
+      "id": "node/8173021520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8454030528",
+        "amenity": "restaurant",
+        "name": "جگری چرب و چیلی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5327073,
+          36.293027
+        ]
+      },
+      "id": "node/8454030528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8480124719",
+        "amenity": "restaurant",
+        "name:ar": "الان، بوفيه مفتوح"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5091885,
+          36.326522
+        ]
+      },
+      "id": "node/8480124719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8734767771",
+        "amenity": "restaurant",
+        "diet:halal": "yes",
+        "name": "رستوران شکوهی",
+        "opening_hours:covid19": "open"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6636181,
+          36.454837
+        ]
+      },
+      "id": "node/8734767771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8814477559",
+        "amenity": "restaurant",
+        "craft": "caterer",
+        "name": "کترینگ و غذای آماده نارون",
+        "name:en": "Narvan catering",
+        "phone": "+98 51 38431094; +98 51 3847 6322"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5786176,
+          36.2849169
+        ]
+      },
+      "id": "node/8814477559"
+    }
+  ]
+}

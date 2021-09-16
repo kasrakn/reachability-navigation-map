@@ -1,0 +1,121 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-09-16T05:24:11Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626935230",
+        "amenity": "university"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6077904,
+          36.2928107
+        ]
+      },
+      "id": "node/626935230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/649201566",
+        "amenity": "university",
+        "name": "دانشگاه آزاد علوم پایه",
+        "name:en": "Azad University"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5724595,
+          36.3062437
+        ]
+      },
+      "id": "node/649201566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/650593032",
+        "amenity": "university",
+        "name": "موسسه آموزش عالی غیرانتفاعی تابران ۱"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5450151,
+          36.3154725
+        ]
+      },
+      "id": "node/650593032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3874510934",
+        "amenity": "university",
+        "name": "مدرسه علمیه نواب"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6136977,
+          36.2912175
+        ]
+      },
+      "id": "node/3874510934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352321529",
+        "amenity": "university",
+        "name": "موسسه آموزش عالی پارسوا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5058839,
+          36.3351417
+        ]
+      },
+      "id": "node/5352321529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352330652",
+        "amenity": "university",
+        "name": "موسسه آموزش عالی شرفا",
+        "name:en": "Sharafa Institute of Higher Education"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5047274,
+          36.3336027
+        ]
+      },
+      "id": "node/5352330652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8081635125",
+        "amenity": "university",
+        "name": "دانشگاه علمی کاربردی واحد بازرگانی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4566452,
+          36.3380819
+        ]
+      },
+      "id": "node/8081635125"
+    }
+  ]
+}

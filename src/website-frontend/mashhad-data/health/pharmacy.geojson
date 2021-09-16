@@ -1,0 +1,2861 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-09-16T05:07:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/475079108",
+        "amenity": "pharmacy",
+        "name": "هلال احمر",
+        "name:en": "Helal-Ahmar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.551943,
+          36.3190901
+        ]
+      },
+      "id": "node/475079108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626927528",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه مرکزی امام رضا",
+        "name:en": "Imam Reza Central pharmacy",
+        "opening_hours": "24/7",
+        "phone": "+98 511 8541011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5921997,
+          36.2881923
+        ]
+      },
+      "id": "node/626927528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/651567764",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر بهداد",
+        "name:en": "Dr. Behada drugstore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.526783,
+          36.31998
+        ]
+      },
+      "id": "node/651567764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/651567772",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر انصاری",
+        "name:en": "Dr. Ansari Drugstore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.52233,
+          36.32142
+        ]
+      },
+      "id": "node/651567772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/658405577",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر هادیزاده",
+        "name:en": "Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5719142,
+          36.2826029
+        ]
+      },
+      "id": "node/658405577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/658405601",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر رامیار اسلامی",
+        "name:en": "Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.573936,
+          36.2832649
+        ]
+      },
+      "id": "node/658405601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/667297578",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر جهانشاهی",
+        "name:en": "Dr. Jahanshahi drugstore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5769596,
+          36.2940423
+        ]
+      },
+      "id": "node/667297578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/667297579",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر نصیری",
+        "name:en": "Dr. Nasiri drugstore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5761277,
+          36.2944914
+        ]
+      },
+      "id": "node/667297579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/668994186",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر رحمانی",
+        "name:en": "Dr. Rahmani Drugstore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5957142,
+          36.306759
+        ]
+      },
+      "id": "node/668994186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/676994790",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر موسوی",
+        "name:en": "Dr.Mousavi Drugstore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5089552,
+          36.3679445
+        ]
+      },
+      "id": "node/676994790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/677097431",
+        "addr:city": "مشهد",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر کمالی",
+        "name:en": "Dr. Kamali Drugstore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5693317,
+          36.2971283
+        ]
+      },
+      "id": "node/677097431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1219647700",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه روشن",
+        "name:en": "Roshan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5952624,
+          36.2718283
+        ]
+      },
+      "id": "node/1219647700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1290365303",
+        "amenity": "pharmacy",
+        "name": "داروخانه",
+        "name:en": "Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.484706,
+          36.3331946
+        ]
+      },
+      "id": "node/1290365303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1750032582",
+        "amenity": "pharmacy",
+        "dispensing": "no",
+        "name": "داروخانه شبانه روزی دکتر عماد حقی",
+        "name:en": "Dr. Emad Haqi drugstore",
+        "opening_hours": "24/7",
+        "phone": "+98 511 8763043"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5479134,
+          36.2851845
+        ]
+      },
+      "id": "node/1750032582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1750032583",
+        "amenity": "pharmacy",
+        "dispensing": "no",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر نافعی",
+        "name:en": "Dr. Nafe'ee drugstore",
+        "opening_hours": "24/7",
+        "phone": "+98 511 8828261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5132901,
+          36.3046433
+        ]
+      },
+      "id": "node/1750032583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1750032585",
+        "amenity": "pharmacy",
+        "dispensing": "no",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر نظری تولایی",
+        "name:en": "Dr. Nazari drugstore",
+        "opening_hours": "24/7",
+        "phone": "+98 5118834289"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5114549,
+          36.3237463
+        ]
+      },
+      "id": "node/1750032585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1750032586",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر پیروز",
+        "name:en": "Dr. Pirooz pharmacy",
+        "opening_hours": "24/7",
+        "phone": "+98 511 8412228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5779354,
+          36.2875189
+        ]
+      },
+      "id": "node/1750032586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1750032587",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر سبزی",
+        "name:en": "Dr. Sabzi pharmacy",
+        "opening_hours": "24/7",
+        "phone": "+98 511 3856013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6044696,
+          36.2404382
+        ]
+      },
+      "id": "node/1750032587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1750032606",
+        "amenity": "pharmacy",
+        "name": "داروخانه هلال احمر",
+        "name:en": "Red Crescent pharmacy",
+        "opening_hours": "24/7",
+        "phone": "+98 511 8552442-3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5977902,
+          36.2848129
+        ]
+      },
+      "id": "node/1750032606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2133038628",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر میرمعصومی",
+        "name:en": "Dr. Mirmasoumi Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6245518,
+          36.2810957
+        ]
+      },
+      "id": "node/2133038628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2163525542",
+        "addr:postcode": "9136953115",
+        "addr:street": "امام خمینی",
+        "amenity": "pharmacy",
+        "designation": "Pharmacy",
+        "dispensing": "yes",
+        "int_name": "Dr. Mirdamadi Pharmacy",
+        "name": "داروخانه دکتر میردامادی",
+        "old_name": "Nrou Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6007565,
+          36.2889093
+        ]
+      },
+      "id": "node/2163525542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2278118131",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر مقدم"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4777731,
+          36.3164568
+        ]
+      },
+      "id": "node/2278118131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2278118689",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه شبانه‌روزی دکتر شیرازی",
+        "name:en": "24H Dr. Shahbazi Pharmacy",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4836562,
+          36.3150514
+        ]
+      },
+      "id": "node/2278118689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2318590042",
+        "amenity": "pharmacy",
+        "dispensing": "no",
+        "name": "داروخانه دکتر امیرى",
+        "name:en": "Dr. Amiri Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5770653,
+          36.3024564
+        ]
+      },
+      "id": "node/2318590042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2427123690",
+        "amenity": "pharmacy",
+        "dispensing": "no",
+        "name": "داروخانه دکتر شهنواز",
+        "name:en": "Dr. Shahnavaz drugstore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5429877,
+          36.2881839
+        ]
+      },
+      "id": "node/2427123690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2427124547",
+        "amenity": "pharmacy",
+        "dispensing": "no",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر شفیعی نیک",
+        "name:en": "Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5830843,
+          36.2899008
+        ]
+      },
+      "id": "node/2427124547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2559089838",
+        "amenity": "pharmacy",
+        "dispensing": "no",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5573096,
+          36.3251208
+        ]
+      },
+      "id": "node/2559089838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2559090260",
+        "amenity": "pharmacy",
+        "dispensing": "no",
+        "name": "داروخانه دکتر دادرس مقدم"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5533044,
+          36.3248473
+        ]
+      },
+      "id": "node/2559090260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2559090261",
+        "amenity": "pharmacy",
+        "dispensing": "no",
+        "healthcare": "pharmacy",
+        "name": "داروخانه کوهسنگی",
+        "name:en": "Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5796545,
+          36.2891045
+        ]
+      },
+      "id": "node/2559090261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2627748726",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر نوذری"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4695605,
+          36.3309021
+        ]
+      },
+      "id": "node/2627748726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2627748730",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.473474,
+          36.3291037
+        ]
+      },
+      "id": "node/2627748730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2990257267",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه اطمینان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5900606,
+          36.2714151
+        ]
+      },
+      "id": "node/2990257267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2990257269",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر هدایتفر",
+        "name:en": "Hedayat far"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5885482,
+          36.2697652
+        ]
+      },
+      "id": "node/2990257269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2990670289",
+        "addr:housenumber": "میثاق 31",
+        "addr:street": "بلوار میثاق",
+        "amenity": "pharmacy",
+        "name": "داروخانه رضوانی",
+        "name:en": "Rezvani Drag store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4905487,
+          36.3642727
+        ]
+      },
+      "id": "node/2990670289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2991942592",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر دانشخواه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.593729,
+          36.2879459
+        ]
+      },
+      "id": "node/2991942592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2991942595",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر ثابت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.593575,
+          36.2884901
+        ]
+      },
+      "id": "node/2991942595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2991944384",
+        "amenity": "pharmacy",
+        "name": "داروخانه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5933638,
+          36.2890381
+        ]
+      },
+      "id": "node/2991944384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2994117415",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه غفاریان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6096105,
+          36.2812843
+        ]
+      },
+      "id": "node/2994117415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2994384289",
+        "amenity": "pharmacy",
+        "name": "داروخانه الله یاری"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6051018,
+          36.2759081
+        ]
+      },
+      "id": "node/2994384289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059454271",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر کاظمی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5928952,
+          36.2766747
+        ]
+      },
+      "id": "node/3059454271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059454284",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر مقربی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5894368,
+          36.2925235
+        ]
+      },
+      "id": "node/3059454284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059454478",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر مجتهدی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5971544,
+          36.2841934
+        ]
+      },
+      "id": "node/3059454478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3071566097",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر شیرزاده"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5959227,
+          36.2920824
+        ]
+      },
+      "id": "node/3071566097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3074635618",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر کیانی فر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5696374,
+          36.3002639
+        ]
+      },
+      "id": "node/3074635618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3077927633",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6096833,
+          36.2941931
+        ]
+      },
+      "id": "node/3077927633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3413951312",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه شبانه‌روز ی دکتر بهزاد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5881584,
+          36.2692116
+        ]
+      },
+      "id": "node/3413951312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3423102689",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر علیپور"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5963392,
+          36.2656243
+        ]
+      },
+      "id": "node/3423102689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750584435",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "دکتر فراستی نیک"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6048648,
+          36.2749152
+        ]
+      },
+      "id": "node/3750584435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3751781534",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر دهستانی",
+        "name:en": "Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5832078,
+          36.2889484
+        ]
+      },
+      "id": "node/3751781534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3751782112",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر محسنی رضوی",
+        "name:en": "Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5835511,
+          36.2883365
+        ]
+      },
+      "id": "node/3751782112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3884564372",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر بهرامی",
+        "name:en": "Dr.Bahrami Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5922581,
+          36.2899127
+        ]
+      },
+      "id": "node/3884564372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903707359",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6212052,
+          36.2840393
+        ]
+      },
+      "id": "node/3903707359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903707400",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6301445,
+          36.2801329
+        ]
+      },
+      "id": "node/3903707400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903707410",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر احراری"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.632221,
+          36.2797007
+        ]
+      },
+      "id": "node/3903707410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3923303468",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر ژیانی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5938616,
+          36.2904303
+        ]
+      },
+      "id": "node/3923303468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3945066711",
+        "addr:street": "شهید نواب صفوی",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6201366,
+          36.2845265
+        ]
+      },
+      "id": "node/3945066711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3953049716",
+        "addr:street": "سناباد",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه شبانه روز ی دکتر میرزایی",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5845336,
+          36.2998965
+        ]
+      },
+      "id": "node/3953049716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3953049717",
+        "amenity": "pharmacy",
+        "name": "داروخانه شبانه روزی شهرداری",
+        "name:en": "Pharmacy",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.581376,
+          36.2944882
+        ]
+      },
+      "id": "node/3953049717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3953050629",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر فرج زاده"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5838118,
+          36.2927547
+        ]
+      },
+      "id": "node/3953050629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3953050630",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر منوری"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5821209,
+          36.2933265
+        ]
+      },
+      "id": "node/3953050630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3953050631",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر بهادری",
+        "name:en": "Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.581685,
+          36.2951177
+        ]
+      },
+      "id": "node/3953050631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3953051065",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه شبانه روزی",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5845144,
+          36.2925258
+        ]
+      },
+      "id": "node/3953051065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4135141018",
+        "amenity": "pharmacy",
+        "name": "داروخانه شبانه‌روزی دکتر فراهی",
+        "name:en": "Farahi Drugstore",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5204124,
+          36.3510796
+        ]
+      },
+      "id": "node/4135141018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4147824789",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر محبوبه جعفری",
+        "name:en": "Jafari Drugstore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5215018,
+          36.3510522
+        ]
+      },
+      "id": "node/4147824789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4147824889",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر صائب"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.520996,
+          36.3513623
+        ]
+      },
+      "id": "node/4147824889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4147824989",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر زهره جعفری"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5185307,
+          36.3590485
+        ]
+      },
+      "id": "node/4147824989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4147825289",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر میرخزیمه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5029087,
+          36.3575203
+        ]
+      },
+      "id": "node/4147825289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4147825290",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر محمدیان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4942475,
+          36.3603297
+        ]
+      },
+      "id": "node/4147825290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4147825389",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر وحیدی منش"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5137928,
+          36.3705752
+        ]
+      },
+      "id": "node/4147825389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4189153855",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.592794,
+          36.2894034
+        ]
+      },
+      "id": "node/4189153855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4210890089",
+        "addr:street": "چهارراه راه آهن عبادی ۵۵",
+        "amenity": "pharmacy",
+        "name": "داروخانه دامپزشکی دکتر اخلاقی",
+        "name:en": "Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6142611,
+          36.3111201
+        ]
+      },
+      "id": "node/4210890089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4235441394",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه شبانه‌روزی دکتر بنی اسد",
+        "name:en": "Pharmacy",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5178787,
+          36.3315619
+        ]
+      },
+      "id": "node/4235441394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4235469690",
+        "amenity": "pharmacy",
+        "name": "داروخانه شبانه‌روزی دکتر بابازاده",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.536437,
+          36.3307481
+        ]
+      },
+      "id": "node/4235469690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4235478789",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر مولوی",
+        "name:en": "Dr.Molavi Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5171923,
+          36.3317857
+        ]
+      },
+      "id": "node/4235478789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4263342736",
+        "amenity": "pharmacy",
+        "name": "داروخانه شبانه‌روزی دکتر صادقیان",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5287248,
+          36.362983
+        ]
+      },
+      "id": "node/4263342736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4263353894",
+        "amenity": "pharmacy",
+        "name": "داروخانه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6769711,
+          36.2624969
+        ]
+      },
+      "id": "node/4263353894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4305792887",
+        "amenity": "pharmacy",
+        "name": "داروخانه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4729443,
+          36.3609561
+        ]
+      },
+      "id": "node/4305792887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4305805665",
+        "amenity": "pharmacy",
+        "name": "داروخانه شبانه روزی دکتر مهرافشان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.488678,
+          36.3572561
+        ]
+      },
+      "id": "node/4305805665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4309464096",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر نوذری",
+        "name:en": "Dr.Nozari Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4702328,
+          36.330583
+        ]
+      },
+      "id": "node/4309464096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310456030",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر تقوی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5789117,
+          36.2945483
+        ]
+      },
+      "id": "node/4310456030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310468013",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر کلاهی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.579185,
+          36.2939483
+        ]
+      },
+      "id": "node/4310468013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310472980",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر اکبری"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5798614,
+          36.2936784
+        ]
+      },
+      "id": "node/4310472980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310473782",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر تقی آبادی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5804567,
+          36.2935233
+        ]
+      },
+      "id": "node/4310473782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310474331",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه رحیمی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5851162,
+          36.2922569
+        ]
+      },
+      "id": "node/4310474331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4347364067",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه",
+        "name:en": "Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6207957,
+          36.2659542
+        ]
+      },
+      "id": "node/4347364067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4358581942",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر افشین",
+        "name:en": "Dr.Afshin Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5648444,
+          36.2839625
+        ]
+      },
+      "id": "node/4358581942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4364633390",
+        "addr:housenumber": "120",
+        "addr:postcode": "9187157954",
+        "addr:street": "بولوار جلال آل احمد",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر پیشاهنگ",
+        "name:en": "Dr. Pishahang drugstore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.531689,
+          36.3383759
+        ]
+      },
+      "id": "node/4364633390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4364633393",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر نازنین نامجو"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5361138,
+          36.3275874
+        ]
+      },
+      "id": "node/4364633393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4364711893",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر شاهرضایی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5356354,
+          36.3291182
+        ]
+      },
+      "id": "node/4364711893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4364711894",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر گلشن",
+        "name:en": "Dr. Golshan's Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5361535,
+          36.3321831
+        ]
+      },
+      "id": "node/4364711894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4364711895",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر اطاری",
+        "name:en": "Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5340918,
+          36.3257409
+        ]
+      },
+      "id": "node/4364711895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4364713989",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر محمد پناه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5330962,
+          36.3576937
+        ]
+      },
+      "id": "node/4364713989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4364713992",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر عطار",
+        "name:en": "Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5306721,
+          36.3274785
+        ]
+      },
+      "id": "node/4364713992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4364714089",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر قصبه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5265096,
+          36.356754
+        ]
+      },
+      "id": "node/4364714089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4364715091",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر نجارزاده",
+        "name:en": "Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5007247,
+          36.3367348
+        ]
+      },
+      "id": "node/4364715091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4364715491",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر طلاساز"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5279954,
+          36.3277479
+        ]
+      },
+      "id": "node/4364715491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4364737289",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر عسگری"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5363561,
+          36.3275443
+        ]
+      },
+      "id": "node/4364737289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417954363",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر مدرس‌زاده"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5496585,
+          36.3254605
+        ]
+      },
+      "id": "node/4417954363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4422402593",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر عطاران",
+        "name:en": "Dr.Attaran Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5402342,
+          36.2894426
+        ]
+      },
+      "id": "node/4422402593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4428117341",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکنر زارعی",
+        "name:en": "Dr. Zarei drugstore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5070193,
+          36.3261642
+        ]
+      },
+      "id": "node/4428117341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4447759391",
+        "addr:street": "میدان هنرستان",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر مستوفی",
+        "name:en": "Dr.Mostoufi Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.500915,
+          36.313403
+        ]
+      },
+      "id": "node/4447759391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4499948189",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5790064,
+          36.2940753
+        ]
+      },
+      "id": "node/4499948189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4536143591",
+        "addr:street": "بولوار شریعتی",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر آیت اللهی",
+        "name:en": "Dr. Ayatollahi pharmacy",
+        "opening_hours": "Sa-Th 08:00-13:00, 16:00-22:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5033646,
+          36.3518686
+        ]
+      },
+      "id": "node/4536143591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4555434189",
+        "addr:street": "رسالت ۴۰",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر اکبریان",
+        "name:en": "Dr. َAkbarian drugstore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6371633,
+          36.3123288
+        ]
+      },
+      "id": "node/4555434189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4741087434",
+        "addr:street": "میدان لادن - بلوار پیروزی",
+        "amenity": "pharmacy",
+        "description": "تزریقات",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر شهپر",
+        "name:en": "Dr.Shahpar Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4735769,
+          36.3296871
+        ]
+      },
+      "id": "node/4741087434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4839015423",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر مدهوشی",
+        "name:en": "Dr Madhooshi Pharmacy",
+        "opening_hours": "24/7",
+        "phone": "05138937575"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.502962,
+          36.3273156
+        ]
+      },
+      "id": "node/4839015423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5002063126",
+        "addr:street": "میدان بیت المقدس",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه صندلیه",
+        "name:en": "sandaliyeh Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6115849,
+          36.2829839
+        ]
+      },
+      "id": "node/5002063126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5062372922",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر منتظمی",
+        "name:en": "Dr. Montazemi pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5052973,
+          36.3098528
+        ]
+      },
+      "id": "node/5062372922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5081333208",
+        "amenity": "pharmacy",
+        "name": "داروخانه شبانه‌روزی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6390912,
+          36.3009027
+        ]
+      },
+      "id": "node/5081333208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5104410022",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر شعبانی",
+        "name:en": "Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5890778,
+          36.3419385
+        ]
+      },
+      "id": "node/5104410022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5107129325",
+        "addr:street": "بلوار صیاد شیرازی",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر روحبخش"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.476692,
+          36.3127157
+        ]
+      },
+      "id": "node/5107129325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5111251021",
+        "addr:street": "جهان آرا",
+        "amenity": "pharmacy",
+        "name": "داروخانه توحید",
+        "name:en": "Tohid pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5754212,
+          36.2763072
+        ]
+      },
+      "id": "node/5111251021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5155656162",
+        "addr:street": "بولوار شریعتی",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر کوهرخی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.498743,
+          36.3523069
+        ]
+      },
+      "id": "node/5155656162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5165190321",
+        "addr:street": "بولوار پیروزی",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه شبانه روزی دکتر حاتمی",
+        "name:en": "Dr. Hatami Pharmacy",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4805662,
+          36.3259706
+        ]
+      },
+      "id": "node/5165190321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5235302083",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه شبانه روزی دکتر عابدزاده"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5805054,
+          36.3024978
+        ]
+      },
+      "id": "node/5235302083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5254203429",
+        "addr:street": "خیابان دستغیب ۱۹",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر قشمشم",
+        "name:en": "Dr. Ghashamsham Pharmacy",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5668358,
+          36.310521
+        ]
+      },
+      "id": "node/5254203429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5300619121",
+        "addr:street": "بلوار معلم",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4859671,
+          36.3383572
+        ]
+      },
+      "id": "node/5300619121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5311743248",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4758951,
+          36.3745158
+        ]
+      },
+      "id": "node/5311743248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5313843029",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکترطیرانی",
+        "name:en": "Dr.Tayarani Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4829285,
+          36.3583306
+        ]
+      },
+      "id": "node/5313843029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5321394857",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "name": "داروخانه دکتر عساکره",
+        "name:en": "Dr.Asakereh Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5648653,
+          36.2906978
+        ]
+      },
+      "id": "node/5321394857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5322626574",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر تهرانی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6628906,
+          36.2624425
+        ]
+      },
+      "id": "node/5322626574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323255056",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6503382,
+          36.2991704
+        ]
+      },
+      "id": "node/5323255056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323255084",
+        "amenity": "pharmacy",
+        "name": "داروخانه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6349408,
+          36.2998219
+        ]
+      },
+      "id": "node/5323255084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323255087",
+        "amenity": "pharmacy",
+        "name": "داروخانه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6465886,
+          36.300227
+        ]
+      },
+      "id": "node/5323255087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5341201621",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر مولودی",
+        "name:en": "Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4865416,
+          36.3380115
+        ]
+      },
+      "id": "node/5341201621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346652722",
+        "addr:street": "عارف ۵",
+        "amenity": "pharmacy",
+        "name": "داروخانه گرایلو"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5775804,
+          36.2922804
+        ]
+      },
+      "id": "node/5346652722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350586091",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر اکملی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5881905,
+          36.3376838
+        ]
+      },
+      "id": "node/5350586091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352106521",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "داروخانه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5612027,
+          36.2926487
+        ]
+      },
+      "id": "node/5352106521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352149091",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه آرش"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5658719,
+          36.3057559
+        ]
+      },
+      "id": "node/5352149091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352222520",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه شبانه روزی",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6286623,
+          36.339856
+        ]
+      },
+      "id": "node/5352222520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5354236284",
+        "amenity": "pharmacy",
+        "name": "داروخانه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6502231,
+          36.2806264
+        ]
+      },
+      "id": "node/5354236284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5365643615",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر شاهدضیائی",
+        "name:en": "Dr.ziaee Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5356759,
+          36.3291696
+        ]
+      },
+      "id": "node/5365643615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5440604821",
+        "addr:housenumber": "49",
+        "addr:street": "کوثر ۵",
+        "amenity": "pharmacy",
+        "email": "alreda122@gmail.com",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر دانایی",
+        "name:en": "Dr.danaee pharmacy",
+        "phone": "+985138824213"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5211954,
+          36.3171647
+        ]
+      },
+      "id": "node/5440604821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5463056383",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر صفاری",
+        "name:en": "Dr.safari Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4916803,
+          36.3578413
+        ]
+      },
+      "id": "node/5463056383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5574642421",
+        "addr:street": "بزرگمهر شمالی",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه مدیکال",
+        "name:en": "Medical pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5516403,
+          36.3183159
+        ]
+      },
+      "id": "node/5574642421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5574642621",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر ایزدیار",
+        "name:en": "Dr.izadyar pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.550927,
+          36.3187744
+        ]
+      },
+      "id": "node/5574642621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5593722225",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر صفرنژاد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5042888,
+          36.3593574
+        ]
+      },
+      "id": "node/5593722225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5602556921",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر پیشقدم",
+        "name:en": "Doctor pishghadam pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5713501,
+          36.2979004
+        ]
+      },
+      "id": "node/5602556921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5602590621",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر ماجدی",
+        "name:en": "Dr majedi pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5704817,
+          36.3021423
+        ]
+      },
+      "id": "node/5602590621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5608852676",
+        "addr:city": "مشهد",
+        "addr:street": "بوستان",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4689138,
+          36.3616933
+        ]
+      },
+      "id": "node/5608852676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5608858425",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4748801,
+          36.3621588
+        ]
+      },
+      "id": "node/5608858425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5767448754",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "خراسان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6108728,
+          36.2820357
+        ]
+      },
+      "id": "node/5767448754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5767457454",
+        "amenity": "pharmacy",
+        "name": "دکتر افسانه موسوی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6083337,
+          36.2786842
+        ]
+      },
+      "id": "node/5767457454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5767458653",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "دکتر لطیفی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5990523,
+          36.2671249
+        ]
+      },
+      "id": "node/5767458653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5767459553",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "دکتر فراستی",
+        "name:en": "Dr.Ferasati"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6046222,
+          36.2747366
+        ]
+      },
+      "id": "node/5767459553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5787395986",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر فاطمه سلطانی",
+        "name:en": "Dr.Soltani Pharmacy",
+        "phone": "05138583419"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6071012,
+          36.2783081
+        ]
+      },
+      "id": "node/5787395986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5992930185",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name:ar": "صدلية ام ميساء الاهواز"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6092059,
+          36.2862596
+        ]
+      },
+      "id": "node/5992930185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6120149985",
+        "addr:street": "کامیاب ۹",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر غیوری فر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6136232,
+          36.3143613
+        ]
+      },
+      "id": "node/6120149985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6206286186",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر انصاریان",
+        "name:en": "Ansarian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6343133,
+          36.3060486
+        ]
+      },
+      "id": "node/6206286186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6280455285",
+        "addr:street": "۲۲ بهمن ۴",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر خباز",
+        "name:en": "Dr. Khabaz pharmacy",
+        "operator": "dr.khabaz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6105325,
+          36.340234
+        ]
+      },
+      "id": "node/6280455285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6360741187",
+        "amenity": "pharmacy",
+        "name": "داروخانه شبانه روزی دکتر فرهادی",
+        "name:en": "Dr Farhadi drugstore",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6085289,
+          36.2885727
+        ]
+      },
+      "id": "node/6360741187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6360753185",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6094077,
+          36.28692
+        ]
+      },
+      "id": "node/6360753185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6534382985",
+        "amenity": "pharmacy",
+        "name": "صيدليه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6072494,
+          36.278314
+        ]
+      },
+      "id": "node/6534382985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271482742",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر عطاران",
+        "name:en": "Dr. Attaran drugstore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6378647,
+          36.3133313
+        ]
+      },
+      "id": "node/7271482742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271482743",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر منبتی",
+        "name:en": "Dr. Monabati drugstore",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6381892,
+          36.3151435
+        ]
+      },
+      "id": "node/7271482743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7326461465",
+        "amenity": "pharmacy",
+        "dispensing": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6068221,
+          36.2906971
+        ]
+      },
+      "id": "node/7326461465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7366543009",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "name": "داروخانه دکتر رنگ ساز"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.578726,
+          36.2849688
+        ]
+      },
+      "id": "node/7366543009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8040662779",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6676055,
+          36.320048
+        ]
+      },
+      "id": "node/8040662779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8080058418",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه سودآوری"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6143973,
+          36.3007711
+        ]
+      },
+      "id": "node/8080058418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8230629517",
+        "addr:street": "بولوار دلاوران",
+        "amenity": "pharmacy",
+        "name": "داروخانه دکتر حائری",
+        "name:en": "Haeri's drugstore",
+        "opening_hours": "24/7",
+        "phone": "05138230838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5107665,
+          36.2880214
+        ]
+      },
+      "id": "node/8230629517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8372269820",
+        "addr:housenumber": "414",
+        "addr:street": "بولوار فردوسی",
+        "amenity": "pharmacy",
+        "email": "drkazemi.bahram@gmail.com",
+        "name": "داروخانه دكتر بهرام كاظمي",
+        "name:en": "Pharmacy",
+        "opening_hours": "Sa 09:30-11:00, 12:00-14:00; Su-Th 16:30-22:00",
+        "phone": "37677700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5543155,
+          36.3248868
+        ]
+      },
+      "id": "node/8372269820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8898041105",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر جعفری نژاد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6528491,
+          36.2971877
+        ]
+      },
+      "id": "node/8898041105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9022450803",
+        "addr:city": "شهر مشهد",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "yes",
+        "healthcare": "pharmacy",
+        "name": "Dr. Haghkhah Pharmacy",
+        "name:fa": "داروخانه دکتر حق خواه",
+        "opening_hours": "su-we 09:00-22:00",
+        "opening_hours:covid19": "open",
+        "phone": "+98 5135149176",
+        "website": "https://drhaghkhah.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4961141,
+          36.3520333
+        ]
+      },
+      "id": "node/9022450803"
+    }
+  ]
+}

@@ -1,0 +1,2272 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-09-16T05:23:09Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/266219155",
+        "amenity": "school",
+        "name": "هنرستان فنی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5218189,
+          36.3202436
+        ]
+      },
+      "id": "node/266219155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/645591519",
+        "amenity": "school",
+        "name": "دبیرستان حکمت",
+        "name:en": "Hekmat Highschool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5907277,
+          36.2922621
+        ]
+      },
+      "id": "node/645591519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/649217699",
+        "amenity": "school",
+        "name": "پروین اعتصامی",
+        "name:en": "Parvin Etesami High-school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.576015,
+          36.3037673
+        ]
+      },
+      "id": "node/649217699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/892274583",
+        "amenity": "school",
+        "name": "دبیرستان نصر",
+        "name:en": "Nasr High School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4325606,
+          36.3772588
+        ]
+      },
+      "id": "node/892274583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1566661391",
+        "amenity": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5227002,
+          36.3174929
+        ]
+      },
+      "id": "node/1566661391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2615131100",
+        "amenity": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5997795,
+          36.3003445
+        ]
+      },
+      "id": "node/2615131100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2756437123",
+        "amenity": "school",
+        "name": "دبستان شهدای راه آهن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5096041,
+          36.3576647
+        ]
+      },
+      "id": "node/2756437123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2889050204",
+        "amenity": "school",
+        "name": "آموزشگاه دیتاسنترشرق",
+        "name:en": "\"East Data Center\" Scool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.567888,
+          36.2922144
+        ]
+      },
+      "id": "node/2889050204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2990880433",
+        "amenity": "school",
+        "name": "دبیرستان دخترانه گل نرگس"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5989805,
+          36.2706241
+        ]
+      },
+      "id": "node/2990880433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2991942589",
+        "amenity": "school",
+        "name": "دبیرستان مبین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5926838,
+          36.2859022
+        ]
+      },
+      "id": "node/2991942589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3079738050",
+        "amenity": "school",
+        "name": "مرکز آموزش روزانه معلولین ذهنی زیر ۱۴ سال آرامش"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.599103,
+          36.2774184
+        ]
+      },
+      "id": "node/3079738050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3260501755",
+        "amenity": "school",
+        "name": "مرکز آموزشی خصوصی کم توانان ذهنی روان پویا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5938623,
+          36.3018616
+        ]
+      },
+      "id": "node/3260501755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3260508485",
+        "amenity": "school",
+        "name": "مرکز جامع توانبخشی معلولان ذهنی رشد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5358975,
+          36.2931743
+        ]
+      },
+      "id": "node/3260508485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3260509871",
+        "amenity": "school",
+        "name": "مرکز جامع توانبخشی معلولان ذهنی روان کودک"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5679548,
+          36.2760534
+        ]
+      },
+      "id": "node/3260509871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3261948890",
+        "amenity": "school",
+        "name": "دبستان آیات",
+        "name:en": "Ayat School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5023306,
+          36.3710164
+        ]
+      },
+      "id": "node/3261948890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3261949231",
+        "amenity": "school",
+        "name": "مؤسسه توانبخشی ولیعصر (عج) - مرکز روزانه آموزشی ذهنی نگین عصر",
+        "url": "www.vrf.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5570234,
+          36.3167656
+        ]
+      },
+      "id": "node/3261949231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3261949238",
+        "amenity": "school",
+        "name": "مرکز توانبخشی معلولان ذهنی مهرآوران",
+        "name:en": "Zehn Avaran Helply center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5017625,
+          36.3709246
+        ]
+      },
+      "id": "node/3261949238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3261949666",
+        "amenity": "school",
+        "name": "مرکز توانبخشی معلولان ذهنی هدایت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5204304,
+          36.34905
+        ]
+      },
+      "id": "node/3261949666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3261949670",
+        "amenity": "school",
+        "name": "دبیرستان عبدالحسین قفلی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5115051,
+          36.3647164
+        ]
+      },
+      "id": "node/3261949670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3374407976",
+        "amenity": "school",
+        "name": "دبیرستان و مرکز پیش‌دانشگاهی پسرانه ۱ سما",
+        "name:en": "SAMA1 Highschool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.575687,
+          36.3096789
+        ]
+      },
+      "id": "node/3374407976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3416910403",
+        "amenity": "school",
+        "name": "دبیرستان توحید"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6063668,
+          36.2608823
+        ]
+      },
+      "id": "node/3416910403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3881862898",
+        "amenity": "school",
+        "name": "دبستان و پیش‌دبستان زهراء مرضیه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5896815,
+          36.2753299
+        ]
+      },
+      "id": "node/3881862898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3920599380",
+        "amenity": "school",
+        "name": "دبیرستان دخترانه هفتم تیر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5906827,
+          36.2653887
+        ]
+      },
+      "id": "node/3920599380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3923301722",
+        "amenity": "school",
+        "name": "دبستان ریحانه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5915837,
+          36.2828913
+        ]
+      },
+      "id": "node/3923301722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3923303467",
+        "amenity": "school",
+        "name": "دبیرستان دخترانه هیئت امنایی آزادگان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5942798,
+          36.2903234
+        ]
+      },
+      "id": "node/3923303467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3936277736",
+        "amenity": "school",
+        "name": "هنرستان محمودیه ۵"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6283472,
+          36.2797211
+        ]
+      },
+      "id": "node/3936277736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3936277737",
+        "amenity": "school",
+        "name": "هنرستان تختی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6290197,
+          36.280203
+        ]
+      },
+      "id": "node/3936277737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3936277738",
+        "amenity": "school",
+        "name": "دبستان عبداللهیان",
+        "name:en": "Abdullahian High school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6284546,
+          36.28038
+        ]
+      },
+      "id": "node/3936277738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3936277739",
+        "amenity": "school",
+        "name": "هنرستان شهید احمدی روشن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6278335,
+          36.2805456
+        ]
+      },
+      "id": "node/3936277739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3936277740",
+        "amenity": "school",
+        "name": "دبیرستان شاهد مهدی هاشمی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.62767,
+          36.2805494
+        ]
+      },
+      "id": "node/3936277740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3953051066",
+        "amenity": "school",
+        "name": "دبیرستان پسرانه شهید دلشاد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5812532,
+          36.2946659
+        ]
+      },
+      "id": "node/3953051066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4016129431",
+        "amenity": "school",
+        "name": "دبستان افضل زاده نائینی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5932092,
+          36.276373
+        ]
+      },
+      "id": "node/4016129431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4108451000",
+        "addr:street": "بوستان",
+        "amenity": "school",
+        "name": "مدرسه راهنمایی دخترانه نیایش"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4763271,
+          36.3601067
+        ]
+      },
+      "id": "node/4108451000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4143453893",
+        "addr:street": "غدیر + وکیل آباد ۶۱",
+        "amenity": "school",
+        "name": "دانشگاه اسرار",
+        "name:en": "Asrar university",
+        "opening_hours": "Sa-Th 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.478975,
+          36.3364842
+        ]
+      },
+      "id": "node/4143453893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4335331199",
+        "addr:city": "مشهد",
+        "amenity": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5779006,
+          36.2967114
+        ]
+      },
+      "id": "node/4335331199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4401317792",
+        "addr:street": "کوهسنگی ١٥",
+        "amenity": "school",
+        "name": "مدرسه عالی مطهری",
+        "name:en": "motahari school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5712553,
+          36.2881572
+        ]
+      },
+      "id": "node/4401317792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4410968389",
+        "addr:street": "پاستور ۱۸",
+        "amenity": "school",
+        "name": "دبستان شهید سالیانی",
+        "name:en": "Saliyani school",
+        "phone": "05138412045"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.583551,
+          36.2986336
+        ]
+      },
+      "id": "node/4410968389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4411187496",
+        "amenity": "school",
+        "name": "دبستان بکوائی بزاز"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5855759,
+          36.2928357
+        ]
+      },
+      "id": "node/4411187496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417514631",
+        "addr:city": "مشهد",
+        "addr:street": "بولوار رضوی",
+        "amenity": "school",
+        "fee": "yes",
+        "name": "پیش دبستانی و دبستان رضوی",
+        "name:en": "Razavi School&primary School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5458684,
+          36.2922162
+        ]
+      },
+      "id": "node/4417514631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417528354",
+        "amenity": "school",
+        "name": "دبیرستان بهشت",
+        "name:en": "Behesht High School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5431982,
+          36.2875347
+        ]
+      },
+      "id": "node/4417528354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417531225",
+        "amenity": "school",
+        "name": "دبستان بهشت",
+        "name:en": "Primary School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5370697,
+          36.2911936
+        ]
+      },
+      "id": "node/4417531225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417552438",
+        "amenity": "school",
+        "name": "دبیرستان خوارزمی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.563776,
+          36.2925024
+        ]
+      },
+      "id": "node/4417552438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417552439",
+        "amenity": "school",
+        "name": "دبیرستان نصر نوین",
+        "name:en": "Nasr Novin Highschool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5635742,
+          36.2925374
+        ]
+      },
+      "id": "node/4417552439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417552460",
+        "amenity": "school",
+        "name": "دبیرستان دکتر هشترودی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5674432,
+          36.2918349
+        ]
+      },
+      "id": "node/4417552460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417554022",
+        "amenity": "school",
+        "name": "پیش دبستانی و دبستان نور هدایت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5724312,
+          36.294953
+        ]
+      },
+      "id": "node/4417554022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417554554",
+        "amenity": "school",
+        "name": "دبیرستان علوی تهران",
+        "name:en": "Tehran Alavi High School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5725859,
+          36.2959369
+        ]
+      },
+      "id": "node/4417554554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417954358",
+        "amenity": "school",
+        "name": "مجتمع آموزشی علامه طباطبایی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5542869,
+          36.3247743
+        ]
+      },
+      "id": "node/4417954358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417954377",
+        "amenity": "school",
+        "name": "دبیرستان غیر دولتی دخترانه علم آموز"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5494973,
+          36.325499
+        ]
+      },
+      "id": "node/4417954377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4422402293",
+        "amenity": "school",
+        "name": "دبستان پسرانه توحید"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4740763,
+          36.3418896
+        ]
+      },
+      "id": "node/4422402293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4494606290",
+        "addr:street": "سناباد",
+        "amenity": "school",
+        "name": "تربیت معلم شهید کامیاب",
+        "name:en": "Tarbiyat moalem shahid kamyab"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5855349,
+          36.300812
+        ]
+      },
+      "id": "node/4494606290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4536966391",
+        "addr:street": "نبش ملک آباد ۱",
+        "amenity": "school",
+        "name": "دبیرستان خیلج فارس، پارکینگ تالار معلم",
+        "name:en": "Persian Gulf High School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5596407,
+          36.3028722
+        ]
+      },
+      "id": "node/4536966391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4687830297",
+        "amenity": "school",
+        "name": "دبیرستان نور حیات طیبه",
+        "name:en": "Light of good deed life highschool",
+        "opening_hours": "Mo-Su 07:20-01:20",
+        "phone": "+98 51 3882 3407"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.513381,
+          36.3041883
+        ]
+      },
+      "id": "node/4687830297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4715284191",
+        "addr:street": "روبروی ابن سینا ۱۰",
+        "amenity": "school",
+        "name": "هنرستان مهندس میلانی",
+        "name:en": "School of Art of Milani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5872935,
+          36.2965781
+        ]
+      },
+      "id": "node/4715284191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4755817321",
+        "addr:street": "بولوار هفت تیر",
+        "amenity": "school",
+        "name": "مجتمع آموزشی و پرورشی دخترانه کوثر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4891084,
+          36.3138863
+        ]
+      },
+      "id": "node/4755817321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4755817322",
+        "addr:street": "نرسیده به هفتم تیر ۳۶",
+        "amenity": "school",
+        "name": "دبستان شاهد پسرانه استاد شهریار"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4889197,
+          36.3131513
+        ]
+      },
+      "id": "node/4755817322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4755817522",
+        "addr:street": "بولوار هفت تیر",
+        "amenity": "school",
+        "name": "هنرستان فنی و حرفه ای دخترانه نشاط",
+        "operator": "رشته تخصصی تربیت بدنی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4891659,
+          36.3133633
+        ]
+      },
+      "id": "node/4755817522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4756570221",
+        "amenity": "school",
+        "name": "مدرسه ارض اقدس"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5954913,
+          36.2810002
+        ]
+      },
+      "id": "node/4756570221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4783995423",
+        "amenity": "school",
+        "name": "دبیرستان نیمه اول یاوران اسلام"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6383797,
+          36.3351453
+        ]
+      },
+      "id": "node/4783995423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4783996521",
+        "amenity": "school",
+        "name": "کارودانش پژوهش"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6389815,
+          36.3346945
+        ]
+      },
+      "id": "node/4783996521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4872512022",
+        "amenity": "school",
+        "name": "دبیرستان دخترانه دلجو"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5470512,
+          36.279219
+        ]
+      },
+      "id": "node/4872512022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4872529521",
+        "amenity": "school",
+        "name": "دبیرستان ملاصدرا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5475102,
+          36.2792955
+        ]
+      },
+      "id": "node/4872529521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4872529621",
+        "amenity": "school",
+        "name": "دبیرستان غنچه و غیرتیش"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5471507,
+          36.2787174
+        ]
+      },
+      "id": "node/4872529621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4926066521",
+        "amenity": "school",
+        "name": "مدرسه جدید یارن",
+        "name:en": "Yaren Yeni okul"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5626649,
+          36.3051018
+        ]
+      },
+      "id": "node/4926066521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4984644921",
+        "addr:street": "میدان حر",
+        "amenity": "school",
+        "name": "پیش دبستانی و مهد قرآنی خاتم الانبیا",
+        "phone": "05138828706"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5120571,
+          36.304884
+        ]
+      },
+      "id": "node/4984644921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5002506223",
+        "amenity": "school",
+        "name:ar": "مدرسة آية آلله العظمى السيد الخوئي (قدس سره)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6081216,
+          36.2930918
+        ]
+      },
+      "id": "node/5002506223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5036468921",
+        "addr:city": "مشهد",
+        "addr:street": "بولوار خاقانی",
+        "amenity": "school",
+        "name": "دبیرستان نمونه دولتی دانیال"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5386714,
+          36.2921337
+        ]
+      },
+      "id": "node/5036468921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5036491421",
+        "addr:street": "اندیشه ۲۷",
+        "amenity": "school",
+        "name": "دبستان شهید رجایی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.529942,
+          36.3618796
+        ]
+      },
+      "id": "node/5036491421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5111250623",
+        "addr:street": "بهشتی ۵۹",
+        "amenity": "school",
+        "name": "مدرسه عبدالله نژاد",
+        "name:en": "Abdollahnejad school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5633209,
+          36.2796737
+        ]
+      },
+      "id": "node/5111250623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5111250624",
+        "addr:street": "بهشتی ۵۹",
+        "amenity": "school",
+        "name": "مدرسه هاشمی نژاد",
+        "name:en": "Hasheminejad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5629547,
+          36.2796295
+        ]
+      },
+      "id": "node/5111250624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5111250922",
+        "addr:street": "کوهسنگی ۳۴",
+        "amenity": "school",
+        "name": "مدرسه الغدیر",
+        "name:en": "Alghadir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5626297,
+          36.2809885
+        ]
+      },
+      "id": "node/5111250922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5140711324",
+        "addr:housenumber": "051 3869 3773",
+        "addr:street": "صارمی ۳۳",
+        "amenity": "school",
+        "name": "دانشگاه علوم و فنون هوایی مشهد",
+        "name:en": "Aviation University of Mashhad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4995793,
+          36.3217528
+        ]
+      },
+      "id": "node/5140711324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5235302078",
+        "amenity": "school",
+        "name": "دبیرستان مریم"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5854045,
+          36.3004899
+        ]
+      },
+      "id": "node/5235302078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5256491368",
+        "amenity": "school",
+        "name": "حوزه علمیه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.586391,
+          36.2968057
+        ]
+      },
+      "id": "node/5256491368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258149049",
+        "amenity": "school",
+        "name": "دبیرستان علوی تهران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5759885,
+          36.2971632
+        ]
+      },
+      "id": "node/5258149049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258149050",
+        "addr:city": "مشهد",
+        "amenity": "school",
+        "name": "دبیرستان امام الحسین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5768897,
+          36.2961688
+        ]
+      },
+      "id": "node/5258149050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258149051",
+        "amenity": "school",
+        "name": "دبیرستان کیان مهر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5820683,
+          36.2948346
+        ]
+      },
+      "id": "node/5258149051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258149055",
+        "amenity": "school",
+        "name": "دبیرستان مطهری"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5695275,
+          36.2901183
+        ]
+      },
+      "id": "node/5258149055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258149056",
+        "amenity": "school",
+        "name": "دبیرستان غیر انتفاع پسرانه کاوش"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5674961,
+          36.2891622
+        ]
+      },
+      "id": "node/5258149056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258149057",
+        "amenity": "school",
+        "name": "دبیرستان دکتر هشترودی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5671038,
+          36.2876113
+        ]
+      },
+      "id": "node/5258149057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258149058",
+        "amenity": "school",
+        "name": "دبیرستان پسرانه شاهد مرحوم نجفی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5651237,
+          36.2877243
+        ]
+      },
+      "id": "node/5258149058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258149059",
+        "addr:city": "مشهد",
+        "amenity": "school",
+        "name": "دبیرستان دخترانه کاوش",
+        "name:en": "Kavosh Girls Highschool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5691459,
+          36.2965724
+        ]
+      },
+      "id": "node/5258149059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258218033",
+        "amenity": "school",
+        "name": "دبیرستان علوی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5723355,
+          36.2958821
+        ]
+      },
+      "id": "node/5258218033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258218034",
+        "amenity": "school",
+        "name": "هنرستان دخترانه کیمیا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5721689,
+          36.2990309
+        ]
+      },
+      "id": "node/5258218034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258218040",
+        "amenity": "school",
+        "name": "دبیرستان شهید بخارایی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5719819,
+          36.2994896
+        ]
+      },
+      "id": "node/5258218040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258218041",
+        "amenity": "school",
+        "name": "هنرستان خوش بیان",
+        "name:en": "Khosh Bayan Technical school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5698515,
+          36.3033034
+        ]
+      },
+      "id": "node/5258218041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258218042",
+        "amenity": "school",
+        "name": "دبیرستان نسیم رحمت",
+        "name:en": "Nasim Rahmat Highschool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5684002,
+          36.3027759
+        ]
+      },
+      "id": "node/5258218042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258218043",
+        "amenity": "school",
+        "name": "دبیرستان کیان",
+        "name:en": "Kian Highschool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5669976,
+          36.3035688
+        ]
+      },
+      "id": "node/5258218043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258218046",
+        "amenity": "school",
+        "name": "دبیرستان ستارگان هما"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5775597,
+          36.3042961
+        ]
+      },
+      "id": "node/5258218046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258218047",
+        "amenity": "school",
+        "name": "دبیرستان پسرانه امام حسین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5846824,
+          36.2986115
+        ]
+      },
+      "id": "node/5258218047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258218048",
+        "amenity": "school",
+        "name": "دبیرستان شهید مدنی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5862395,
+          36.2991095
+        ]
+      },
+      "id": "node/5258218048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258218049",
+        "amenity": "school",
+        "name": "دبیرستان نوربخش"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5866785,
+          36.3022648
+        ]
+      },
+      "id": "node/5258218049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258218062",
+        "amenity": "school",
+        "name": "دبیرستان نصر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5848938,
+          36.2938866
+        ]
+      },
+      "id": "node/5258218062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5268385496",
+        "amenity": "school",
+        "name": "پیش دبستانی و دبستان دخترانه سما ۸",
+        "name:en": "Sama 8 school complex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4654533,
+          36.3420873
+        ]
+      },
+      "id": "node/5268385496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5289187709",
+        "amenity": "school",
+        "name": "رحمت",
+        "name:en": "Rahmat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5614132,
+          36.3050287
+        ]
+      },
+      "id": "node/5289187709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306944004",
+        "amenity": "school",
+        "name": "دبستان دیانت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5862714,
+          36.3028079
+        ]
+      },
+      "id": "node/5306944004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323444329",
+        "amenity": "school",
+        "name": "دبیرستان دخترانه نشاط"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6133429,
+          36.309274
+        ]
+      },
+      "id": "node/5323444329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323444355",
+        "amenity": "school",
+        "female": "yes",
+        "name": "مدرسه دخترانه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6336233,
+          36.3141544
+        ]
+      },
+      "id": "node/5323444355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323444370",
+        "amenity": "school",
+        "name": "دبیرستان دخترانه تدین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6338568,
+          36.3078127
+        ]
+      },
+      "id": "node/5323444370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5325431253",
+        "amenity": "school",
+        "name": "دبیرستان نمونه دولتی امام علی (ع)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5855343,
+          36.3250226
+        ]
+      },
+      "id": "node/5325431253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5337744825",
+        "amenity": "school",
+        "name": "دبیرستان متقیان میلانی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5881196,
+          36.2956985
+        ]
+      },
+      "id": "node/5337744825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346667923",
+        "addr:street": "مهران",
+        "amenity": "school",
+        "name": "دبیرستان شاهد فاطمیه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5982913,
+          36.282247
+        ]
+      },
+      "id": "node/5346667923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352231249",
+        "amenity": "school",
+        "name": "مدرسه ابتدایی دخترانه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6265226,
+          36.3408525
+        ]
+      },
+      "id": "node/5352231249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5520333931",
+        "amenity": "school",
+        "name": "دبیرستان شمس شریعت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6739087,
+          36.3987855
+        ]
+      },
+      "id": "node/5520333931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5871417685",
+        "addr:housenumber": "37",
+        "addr:street": "امامت ۳۸",
+        "amenity": "school",
+        "email": "merajeandishe2.3@gmail.com",
+        "name": "آموزشگاه زبان انگلیسی معراج اندیشهٔ ۲",
+        "name:en": "Meraje Andishe 2 English School",
+        "operator": "Harati Moqadam",
+        "phone": "+985136097300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5341793,
+          36.3318559
+        ]
+      },
+      "id": "node/5871417685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166882787",
+        "addr:housenumber": "1",
+        "addr:street": "بولوار سپهبد قرنی",
+        "amenity": "school",
+        "name": "شهید هاشمی نژاد یک",
+        "name:en": "Hashemi nejad1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5791805,
+          36.3206423
+        ]
+      },
+      "id": "node/6166882787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6359920885",
+        "addr:street": "وحدت ۱۹ سمت راست",
+        "amenity": "school",
+        "name": "حاج رضا مقدم",
+        "name:en": "Haj Reza Moghaddam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6281521,
+          36.286531
+        ]
+      },
+      "id": "node/6359920885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6586661685",
+        "addr:street": "هنرستان ۱۹",
+        "amenity": "school",
+        "name": "دبیرستان هدف",
+        "name:en": "Hadaf Highschool",
+        "phone": "05138683822"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4998642,
+          36.3180301
+        ]
+      },
+      "id": "node/6586661685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6807672185",
+        "amenity": "school",
+        "name": "دبیرستان دخترانه بعثت",
+        "name:en": "Besat Girls Highschool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4740938,
+          36.3362186
+        ]
+      },
+      "id": "node/6807672185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6879765368",
+        "amenity": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6891718,
+          36.2618992
+        ]
+      },
+      "id": "node/6879765368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6887586685",
+        "addr:street": "۱ شیخ صدوق",
+        "amenity": "school",
+        "name": "حوزه علمیه",
+        "name:en": "seminary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6423889,
+          36.305544
+        ]
+      },
+      "id": "node/6887586685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7008437669",
+        "addr:city": "مشهد",
+        "addr:housenumber": "214",
+        "addr:street": "معاد ۱۶",
+        "amenity": "school",
+        "denomination": "shia",
+        "name": "موسسه فرهنگی هنری شهر بهشت",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5209582,
+          36.3267041
+        ]
+      },
+      "id": "node/7008437669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7023358013",
+        "addr:city": "مشهد",
+        "addr:housenumber": "95",
+        "addr:street": "فلسطین 19",
+        "amenity": "school",
+        "description": "آموزشگاه سنجش پارسیان برگزارکننده دوره های تخصصی و کاربردی فنی و مهندسی، ایمنی و بهداشت و مدیریتی زیر نظر سازمان فنی و حرفه ای کشور",
+        "name": "آموزشگاه سنجش پارسیان",
+        "name:en": "SanjeshParsian Institute",
+        "opening_hours": "شنبه تا پنجشنبه ساعت 8:00 الی 20:00",
+        "phone": "+985138443310",
+        "website": "https://sanjeshparsian.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5668552,
+          36.3056299
+        ]
+      },
+      "id": "node/7023358013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7671113591",
+        "amenity": "school",
+        "name": "دارلفنون",
+        "name:fa": "دارلفنون"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5083483,
+          36.3239036
+        ]
+      },
+      "id": "node/7671113591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8080036088",
+        "amenity": "school",
+        "name": "هنرستان سینا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6159599,
+          36.3000757
+        ]
+      },
+      "id": "node/8080036088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8080036090",
+        "amenity": "school",
+        "name": "دبیرستان جمال فرید زاده"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6155332,
+          36.299201
+        ]
+      },
+      "id": "node/8080036090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8080058417",
+        "amenity": "school",
+        "name": "دبستان ایوب نصیرزاده"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6150183,
+          36.2999994
+        ]
+      },
+      "id": "node/8080058417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8080058419",
+        "amenity": "school",
+        "name": "مدرسه شاهد شیخ انصاری"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6147676,
+          36.3002436
+        ]
+      },
+      "id": "node/8080058419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8104181871",
+        "amenity": "school",
+        "name": "دبستان دخترانه دولتی یاس نبی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5857452,
+          36.3197665
+        ]
+      },
+      "id": "node/8104181871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8104181897",
+        "amenity": "school",
+        "name": "دبیرستان دخترانه فرهنگ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5860937,
+          36.319557
+        ]
+      },
+      "id": "node/8104181897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8104192199",
+        "amenity": "school",
+        "name": "مرکز آموزش فنی حرفه ای پیشرفته ارم"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5806153,
+          36.3183548
+        ]
+      },
+      "id": "node/8104192199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8112536624",
+        "amenity": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5480572,
+          36.3365976
+        ]
+      },
+      "id": "node/8112536624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8112536625",
+        "amenity": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5478249,
+          36.3361442
+        ]
+      },
+      "id": "node/8112536625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8117453225",
+        "amenity": "school",
+        "name": "دبیرستان پسرانه آیت الله طالقانی دوره دوم."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6074258,
+          36.2880231
+        ]
+      },
+      "id": "node/8117453225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8150579757",
+        "amenity": "school",
+        "name": "دبیرستان ترابی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6665243,
+          36.3012065
+        ]
+      },
+      "id": "node/8150579757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8150579765",
+        "amenity": "school",
+        "name": "دبستان شاهد رحیمی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6664418,
+          36.3033766
+        ]
+      },
+      "id": "node/8150579765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8150579769",
+        "amenity": "school",
+        "name": "مدرسه حضرت خدیجه"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6674777,
+          36.3039041
+        ]
+      },
+      "id": "node/8150579769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8150579770",
+        "amenity": "school",
+        "name": "هنرستان خیامی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6667755,
+          36.3037864
+        ]
+      },
+      "id": "node/8150579770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8150579779",
+        "amenity": "school",
+        "name": "هنرستان الزهرا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6679719,
+          36.3031291
+        ]
+      },
+      "id": "node/8150579779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8746772672",
+        "amenity": "school",
+        "contact:instagram": "https://www.instagram.com/meftah_ghaem/",
+        "email": "info@meftah-ed.ir",
+        "name": "دبستان دخترانه مفتاح شماره یک",
+        "phone": "+98 376 531 61; +98 376 166 63",
+        "website": "http://meftah-ed.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5526043,
+          36.3273339
+        ]
+      },
+      "id": "node/8746772672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8851028699",
+        "amenity": "school",
+        "name": "دبستان دخترانه پویندگان رسالت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5454208,
+          36.3157967
+        ]
+      },
+      "id": "node/8851028699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8851830536",
+        "addr:city": "مشهد",
+        "addr:housenumber": "هنرستان دیانت",
+        "addr:street": "انتهای امام رضا 66",
+        "amenity": "school",
+        "name": "هنرستان کارو دانش دخترانه دیانت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5992541,
+          36.260447
+        ]
+      },
+      "id": "node/8851830536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897776095",
+        "addr:city": "مشهد",
+        "addr:street": "علامه طباطبایی 23",
+        "amenity": "school",
+        "grades": "10-12",
+        "name": "دبیرستان جماران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6532027,
+          36.2961966
+        ]
+      },
+      "id": "node/8897776095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897776096",
+        "addr:city": "مشهد",
+        "addr:street": "طباطبایی ۲۳ + نبوت ۳۸",
+        "amenity": "school",
+        "grades": "7-9",
+        "name": "دبیرستان خواجه نصیرالدین طوسی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6526018,
+          36.2958854
+        ]
+      },
+      "id": "node/8897776096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8898041101",
+        "amenity": "school",
+        "name": "دبستان پسرانه شهید خطیبی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6519054,
+          36.295431
+        ]
+      },
+      "id": "node/8898041101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8898632896",
+        "amenity": "school",
+        "grades": "1-6",
+        "name": "دبستان دخترانه ۲۲ بهمن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6505464,
+          36.2933379
+        ]
+      },
+      "id": "node/8898632896"
+    }
+  ]
+}
