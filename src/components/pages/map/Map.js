@@ -49,6 +49,7 @@ import Poi from "./Poi";
 import LocationMarker from "./LocationMarker";
 import PoiMarkers from "./PoiMarkers"
 
+require('dotenv').config()
 
 const useStyles = makeStyles((theme) => ({
   hide: {
@@ -167,7 +168,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const API_KEY = "5b3ce3597851110001cf6248ef4f468a3bbe4724ae286a8e3d9f1497"
+const API_KEY = process.env.REACT_APP_ORS_API_KEY
 const center = [36.456636, 15.46875];
 const drawerWidth = 410;
 
