@@ -78,7 +78,10 @@ export default function Direction({
         <Container className={classes.drawerBody} style={{display: "block"}}>
             <div>
               {originPosition.map((point) => (
-                <div className="directionElement">
+                <div 
+                  className="directionElement"
+                  key={point.id}
+                >
                   <TripOriginIcon fontSize="small" style={{color: colors.green[500]}}/>
                   <div className="directionElementText">
                   {originPosition.length === 0  || point.latlng.lat === undefined || point.latlng.lng === undefined
