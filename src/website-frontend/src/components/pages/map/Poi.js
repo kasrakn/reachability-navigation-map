@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     },
 
 }))
-export default function Poi({}) {
+export default function Poi({selectedPOIs, setSelectedPOIs}) {
     const classes = useStyles()
     const [places, setPlaces] = useState([])
 
@@ -101,6 +101,21 @@ export default function Poi({}) {
         }
     ]
 
+    const fetchPoi = async() => {
+        let items = []
+        selectedPOIs.map((poi) => {
+            const response = fetch(
+                `../../../../mashhad-data/${poi}.geojson`, 
+                {
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    }
+                }
+            );
+            items.push(await response.json())
+        })
+    }
 
       // const handleToggle = (value) => () => {
       //   const currentIndex = checked.indexOf(value);
