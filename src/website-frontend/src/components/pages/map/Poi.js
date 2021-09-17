@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { makeStyles } from '@material-ui/core'
 import { Avatar, Checkbox, colors, List, ListItem, ListItemAvatar, ListItemText, ListSubheader } from '@material-ui/core'
 import React from 'react'
@@ -14,6 +14,7 @@ import SchoolIcon from '@material-ui/icons/School';
 import { CgGym } from 'react-icons/cg'
 import SportsBasketballIcon from '@material-ui/icons/SportsBasketball';
 import LocalParkingIcon from '@material-ui/icons/LocalParking';
+// Data
 
 const useStyles = makeStyles((theme) => ({
     poiList: {
@@ -30,42 +31,49 @@ const useStyles = makeStyles((theme) => ({
 }))
 export default function Poi({selectedPOIs, setSelectedPOIs}) {
     const classes = useStyles()
-    const [places, setPlaces] = useState([])
+    const [items, setItems] = useState([])
+    const [checked, setChecked] = React.useState([]);
 
     const placesArray = [
         {
             id: 1,
             name: "رستوران",
+            source: "restaurant",
             icon: <RestaurantIcon />,
             color: colors.amber[500]
         }, 
         {
             id: 2, 
             name: "بانک",
+            source: "bank",
             icon: <AccountBalanceIcon/>,
             color: colors.red[600]
         },
         {
             id: 3,
             name: "ATM",
+            source: "atm",
             icon: <AtmIcon/>,
             color: colors.green[500]
         },
         {
             id: 4,
             name: "پمپ بزنین",
+            source: "fuel",
             icon: <RiGasStationFill />,
             color: colors.blue[500]
         },
         {
             id: 5,
             name: "مراکز درمانی",
+            source: "hospital",
             icon: <GiHealthNormal/>,
             color: colors.red[500]
         }, 
         {
             id: 6,
             name: "داروخانه",
+            source: "pharmacy",
             icon: <LocalPharmacyIcon/>,
             color: colors.purple[500]
         },
@@ -73,62 +81,83 @@ export default function Poi({selectedPOIs, setSelectedPOIs}) {
             id: 7,
             name: "مدرسه",
             icon: <FaSchool/>,
+            source: "school",
             color: colors.orange[500]
         },
         {
             id: 8,
             name: "دانشگاه",
+            source: "university",
             icon: <SchoolIcon/>,
             color: colors.green[700]
         },
         {
             id: 9,
             name: "باشگاه ورزشی",
+            source: "fitness_center",
             icon: <CgGym/>,
             color: colors.brown[500]
         },
         {
             id: 10,
             name: "مراکز ورزشی",
+            source: "sport_center",
             icon: <SportsBasketballIcon/>,
             color: colors.pink[500]
         },
         {
             id: 11,
             name: "پارکینگ",
+            source: "parking",
             icon: <LocalParkingIcon/>,
             color: colors.blue[700]
         }
     ]
 
-    const fetchPoi = async() => {
+    const fetchPoi = async (poi) => {
         let items = []
-        selectedPOIs.map((poi) => {
-            const response = fetch(
-                `../../../../mashhad-data/${poi}.geojson`, 
-                {
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Accept': 'application/json'
-                    }
+        const response = await fetch(
+            `../../../../mashhad-data/${placesArray[poi - 1].source}.geojson`, 
+            {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
                 }
-            );
-            items.push(await response.json())
+            }
+        );
+        const thisItem = await response.json()
+        console.log("this item: ", thisItem)
+        setItems([...items, thisItem])
+    }
+
+    const findPOIs = () => {
+        selectedPOIs.forEach((poi) => {
+            fetchPoi(poi)
         })
     }
 
-      // const handleToggle = (value) => () => {
-      //   const currentIndex = checked.indexOf(value);
-      //   const newChecked = [...checked];
+    const handleToggle = (value) => () => {
+        const currentIndex = selectedPOIs.indexOf(value);
+        const newChecked = [...selectedPOIs];
     
-      //   if (currentIndex === -1) {
-      //     newChecked.push(value);
-      //   } else {
-      //     newChecked.splice(currentIndex, 1);
-      //   }
+        if (currentIndex === -1) {
+          newChecked.push(value);
+        } else {
+          newChecked.splice(currentIndex, 1);
+        }
     
-      //   setChecked(newChecked);
-      // };
+        setSelectedPOIs(newChecked);
+
+        // debug
+        console.log("newChecked: ", newChecked)
+        console.log("selectedPOIs, ", selectedPOIs)
+    };
+
+
+    useEffect(() => {
+        findPOIs()
+    }, [selectedPOIs])
+
       
     return (
         <List
@@ -141,10 +170,11 @@ export default function Poi({selectedPOIs, setSelectedPOIs}) {
             }
             className={classes.poiList}
         >
-        {placesArray.map((cat) => (
+        {placesArray.map((cat, ind) => (
             <ListItem 
                 key={cat.id}
-                className={classes.poiListItem}>
+                className={classes.poiListItem}
+            >
                 <ListItemAvatar>
                     <Avatar style={{backgroundColor: cat.color}}>
                         {cat.icon}
@@ -154,9 +184,9 @@ export default function Poi({selectedPOIs, setSelectedPOIs}) {
                 <Checkbox
                     className={classes.listCheckbox}
                     edge="start"
-                    // onChange={handleToggle(value)}
-                    // checked={checked.indexOf(value) !== -1}
-                    // inputProps={{ 'aria-labelledby': labelId }}
+                    // onChange={handleToggle(cat.id)}
+                    // checked={selectedPOIs.indexOf(cat.id) !== -1}
+                    // inputProps={{ 'aria-labelledby': cat.id }}
                 />
             </ListItem>
         ))}

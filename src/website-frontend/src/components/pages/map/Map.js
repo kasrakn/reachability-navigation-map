@@ -505,7 +505,10 @@ export default function Map() {
             مکان های نقشه
             </AccordionSummaryStyled>
             <AccordionDetailsStyled>
-              <Poi />
+              <Poi 
+                selectedPOIs={selectedPOIs}
+                setSelectedPOIs={setSelectedPOIs}
+              />
             </AccordionDetailsStyled>
           </AccordionStyled>
         
