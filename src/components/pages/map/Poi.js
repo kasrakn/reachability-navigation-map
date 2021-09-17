@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { makeStyles } from '@material-ui/core'
 import { Avatar, Checkbox, colors, List, ListItem, ListItemAvatar, ListItemText, ListSubheader } from '@material-ui/core'
 import React from 'react'
@@ -29,10 +29,8 @@ const useStyles = makeStyles((theme) => ({
     },
 
 }))
-export default function Poi({selectedPOIs, setSelectedPOIs}) {
+export default function Poi({selectedPOIs, setSelectedPOIs, poiMarkers, setPoiMarkers}) {
     const classes = useStyles()
-    const [items, setItems] = useState([])
-    const [checked, setChecked] = React.useState([]);
 
     const placesArray = [
         {
@@ -40,108 +38,126 @@ export default function Poi({selectedPOIs, setSelectedPOIs}) {
             name: "رستوران",
             source: "restaurant",
             icon: <RestaurantIcon />,
-            color: colors.amber[500]
+            color: colors.amber[500],
+            marker: "markers/poi/RES.png"
         }, 
         {
             id: 2, 
             name: "بانک",
             source: "bank",
             icon: <AccountBalanceIcon/>,
-            color: colors.red[600]
+            color: colors.red[600],
+            marker: "markers/poi/BANK.png"
         },
         {
             id: 3,
             name: "ATM",
             source: "atm",
             icon: <AtmIcon/>,
-            color: colors.green[500]
+            color: colors.green[500],
+            marker: "markers/poi/ATM.png"
         },
         {
             id: 4,
             name: "پمپ بزنین",
             source: "fuel",
             icon: <RiGasStationFill />,
-            color: colors.blue[500]
+            color: colors.blue[500],
+            marker: "markers/poi/gas.png"
         },
         {
             id: 5,
             name: "مراکز درمانی",
-            source: "hospital",
+            source: "clinics",
             icon: <GiHealthNormal/>,
-            color: colors.red[500]
+            color: colors.red[500],
+            marker: "markers/poi/HOS-CLIN.png"
         }, 
         {
             id: 6,
             name: "داروخانه",
             source: "pharmacy",
             icon: <LocalPharmacyIcon/>,
-            color: colors.purple[500]
+            color: colors.purple[500],
+            marker: "markers/poi/PHAR.png"
         },
         {
             id: 7,
             name: "مدرسه",
             icon: <FaSchool/>,
             source: "school",
-            color: colors.orange[500]
+            color: colors.orange[500],
+            marker: "markers/poi/SCH.png"
         },
         {
             id: 8,
             name: "دانشگاه",
             source: "university",
             icon: <SchoolIcon/>,
-            color: colors.green[700]
+            color: colors.green[700],
+            marker: "markers/poi/UNI.png"
         },
         {
             id: 9,
             name: "باشگاه ورزشی",
             source: "fitness_center",
             icon: <CgGym/>,
-            color: colors.brown[500]
+            color: colors.brown[500],
+            marker: "markers/poi/GYM.png"
         },
         {
             id: 10,
             name: "مراکز ورزشی",
             source: "sport_center",
             icon: <SportsBasketballIcon/>,
-            color: colors.pink[500]
+            color: colors.pink[500],
+            marker: "markers/poi/SPORT.png"
         },
         {
             id: 11,
             name: "پارکینگ",
             source: "parking",
             icon: <LocalParkingIcon/>,
-            color: colors.blue[700]
+            color: colors.blue[700],
+            marker: "markers/poi/PARK.png"
         }
     ]
 
-    const fetchPoi = async (poi) => {
-        let items = []
-        const response = await fetch(
-            `../../../../mashhad-data/${placesArray[poi - 1].source}.geojson`, 
-            {
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                }
-            }
-        );
+    const fetchPoi = async (poi_id) => {
+        const uri = `http://localhost:5000/${placesArray[poi_id - 1].source}`
+        const marker = placesArray[poi_id - 1].marker
+
+        console.log("uri: ", uri)
+
+        const response = await fetch(uri);
         const thisItem = await response.json()
+
+        const newObj = {
+            marker: marker,
+            features: thisItem[0].features
+        }
         console.log("this item: ", thisItem)
-        setItems([...items, thisItem])
+        let newArray = []
+        newArray.push(...poiMarkers)
+        newArray.push(newObj)
+        setPoiMarkers(newArray)
     }
 
     const findPOIs = () => {
-        selectedPOIs.forEach((poi) => {
-            fetchPoi(poi)
+        setPoiMarkers([])
+        selectedPOIs.forEach((poi_id) => {
+            fetchPoi(poi_id)
         })
     }
 
     const handleToggle = (value) => () => {
+        console.log("the id: ", value)
         const currentIndex = selectedPOIs.indexOf(value);
         const newChecked = [...selectedPOIs];
     
         if (currentIndex === -1) {
           newChecked.push(value);
+          console.log("not in the selectedPOIs")
         } else {
           newChecked.splice(currentIndex, 1);
         }
@@ -149,8 +165,7 @@ export default function Poi({selectedPOIs, setSelectedPOIs}) {
         setSelectedPOIs(newChecked);
 
         // debug
-        console.log("newChecked: ", newChecked)
-        console.log("selectedPOIs, ", selectedPOIs)
+        console.log("markers:  ", poiMarkers)
     };
 
 
@@ -184,9 +199,9 @@ export default function Poi({selectedPOIs, setSelectedPOIs}) {
                 <Checkbox
                     className={classes.listCheckbox}
                     edge="start"
-                    // onChange={handleToggle(cat.id)}
-                    // checked={selectedPOIs.indexOf(cat.id) !== -1}
-                    // inputProps={{ 'aria-labelledby': cat.id }}
+                    onChange={handleToggle(cat.id)}
+                    checked={selectedPOIs.indexOf(cat.id) !== -1}
+                    inputProps={{ 'aria-labelledby': cat.id }}
                 />
             </ListItem>
         ))}

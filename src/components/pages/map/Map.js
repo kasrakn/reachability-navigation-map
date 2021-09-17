@@ -2,12 +2,9 @@ import React from "react";
 import "leaflet-contextmenu"
 import "leaflet-contextmenu/dist/leaflet.contextmenu.css";
 import { useEffect, useState} from "react";
-import L from "leaflet";
 import {
   MapContainer,
   TileLayer,
-  Marker,
-  Popup,
   useMapEvents,
 } from "react-leaflet";
 import { LayerGroup, CircleMarker, Polygon, Polyline } from "react-leaflet";
@@ -16,12 +13,11 @@ import { LayerGroup, CircleMarker, Polygon, Polyline } from "react-leaflet";
 // import { Link } from 'react-router-dom'
 // material ui components
 import clsx from "clsx";
-import { alpha, makeStyles, useTheme } from "@material-ui/core/styles";
+import { alpha, makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import InputBase from "@material-ui/core/InputBase";
 import { withStyles } from '@material-ui/core/styles';
 import {
-  CircularProgress,
   Container,
   Divider,
   Snackbar,
@@ -51,6 +47,7 @@ import IsochroneAccordion from './IsochroneAccordion'
 import Direction from "./Direction";
 import Poi from "./Poi";
 import LocationMarker from "./LocationMarker";
+import PoiMarkers from "./PoiMarkers"
 
 
 const useStyles = makeStyles((theme) => ({
@@ -260,7 +257,6 @@ export default function Map() {
     );
   } // ----------- end of LocationView funciton
   const classes = useStyles();
-  const theme = useTheme();
 
   const [map, setMap] = useState(null);
   const [open, setOpen] = React.useState(false);
@@ -269,10 +265,6 @@ export default function Map() {
   const [alertOpen, setAlertOpen] = React.useState(false);
   const [alertMessage, setAlertMessage] = React.useState("");
   const [alertSeverity, setAlertSeverity] = useState("warning")
-
-
-  // const [poiAlertOpen, setPoiAlertOpen] = useState(false)
-  const [nestedOpen, setNestedOpen] = React.useState(true);
 
   const [loading, setLoading] = useState(false);
   const [timeInput, setTimeInput] = useState("");
@@ -298,7 +290,7 @@ export default function Map() {
   const [directionCoords, setDirectionCoords] = useState([])
   //Debugging
   const [selectedPOIs, setSelectedPOIs] = React.useState([]);
-
+  const [poiMarkers, setPoiMarkers] = useState([])
   
   // ----------------------------------------------------------------
 
@@ -420,6 +412,10 @@ export default function Map() {
           />
         ))}
 
+        <PoiMarkers
+          poiMarkers={poiMarkers}
+        />
+
         <Polyline
           positions={directionCoords}
           interactive={false}
@@ -508,6 +504,8 @@ export default function Map() {
               <Poi 
                 selectedPOIs={selectedPOIs}
                 setSelectedPOIs={setSelectedPOIs}
+                poiMarkers={poiMarkers}
+                setPoiMarkers={setPoiMarkers}
               />
             </AccordionDetailsStyled>
           </AccordionStyled>
