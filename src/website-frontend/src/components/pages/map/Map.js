@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from 'prop-types';
 import "leaflet-contextmenu"
 import "leaflet-contextmenu/dist/leaflet.contextmenu.css";
 import { useEffect, useState} from "react";
@@ -292,7 +291,6 @@ export default function Map() {
   }]);
   
   const [destination, setDestination] = useState(null)
-  const [origin, setOrigin] = useState(null)
   
   const [isochrone, setIsochrone] = useState(null);
   const [isochroneCoords, setIsochroneCoords] = useState([]);
