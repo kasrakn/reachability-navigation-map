@@ -1,4 +1,57 @@
-# Getting Started with Create React App
+# **Map of Reachability and Navigations**
+
+## 💡 **Motivation**
+
+Today, with the development of technology and computer science, a new topic has emerged called smart cities, the primary purpose of which is to expand urban facilities for the general public and create and optimally distribute these resources throughout the city. Technologies such as the Internet of Things, artificial intelligence, as well as satellite systems all provide researchers and engineers with many opportunities to use these facilities to create tools that help city managers achieve the goal of creating a smart city. N.
+In this project, we are in the process of creating a tool that, with the help of an online map system, will help to allocate     and distribute resources in the city. Calculating and plotting scientifically called Isochrone will show the areas covered in terms of time and distance from one or more specific points on the map. Also, by examining the accessible routes, we show how, having several points in the city, you can cross them consecutively to reach a destination point. Using these facilities makes it possible to decide on the construction of urban facilities and routes with more information about the current situation of the places.
+
+<br>
+
+## **Project Overview**
+This project is consisted of some features to prepare the needed tool for the purpose explained above. 
+
+1. Isochrones
+2. Navigation
+3. POI
+   
+<br>
+
+## Isochrones
+Isochrone maps, also known as travel time maps, are maps that show all reachable locations within a specified limit by a specified mode of transport. They are most used to depict travel times, such as drawing a 30-minute travel time perimeter around a start location, and 1 km travel distance around the start location.
+
+Isochrone part of the program is a tool that shows the covered area around a specific point or location. For example, the areas around a particular hospital in the center of the Newyork city could be accessed within 30 minutes. One of the purposes of the isochrone in this application is to show all the areas under cover of a specific time/distance from an objective, such as hospitals or green areas. We can have these Isochrones for multiple objectives. All the areas that are not accessible to such facilities within the specified time/distance can be recognized by analyzing the coverage of Isochrones. The figure 1 indicates this purpose.
+
+<img src="public/images/multi-isochrone.png" alt="Figure1-Multi-Isochrone">
+<p style="text-align: center"><b>Figure 1 -</b> Multiple Isochrones showing the covered areas.</p>
+
+<br>
+
+## Navigation
+Today navigation systems are very popular in so many cases. This project utilizes it to recognize the current paths through multiple points and show the possibility of optimizing them.
+
+<img src="public/images/navigation-poi.png">
+<p style="text-align: center"><b>Figure 2 -</b> Multi point navigation + POI</p>
+
+## POI (Points of Interest)
+POI is a term used in cartography (and therefore in reference to maps or geodatasets) for the choice to represent a particular feature using an icon that occupies a particular point, such as hostpitals, restaurants, parks and etc.
+
+<img src="public/images/isochrone-poi.png">
+<p style="text-align: center"><b>Figure 3 -</b> POI</p>
+
+## **Demo**
+The gifs below shows the explained components of the app.
+
+<br>
+
+<img src="public/gifs/isochrone.gif">
+<p style="text-align: center"><b>Figure 4 -</b> Isochrone demo</p>
+
+<br>
+
+<img src="public/gifs/navigation.gif">
+<p style="text-align: center"><b>Figure 5 -</b> Multi-point Navigation demo</p>
+
+# How it works?
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
