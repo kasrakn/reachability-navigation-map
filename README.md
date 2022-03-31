@@ -8,7 +8,7 @@ In this project, we are in the process of creating a tool that, with the help of
 <br>
 
 ## **Project Overview**
-This project is consisted of some features to prepare the needed tool for the purpose explained above. 
+This project is consisted of three main features to prepare the needed tool for the purpose explained above. 
 
 1. Isochrones
 2. Navigation
